@@ -1,0 +1,8 @@
+{
+  "publication_name": "Small-Team Agent Field Notes",
+  "topic": "Agent tools and frameworks for real-world AI applications",
+  "audience": "AI application developers at small teams who build and maintain production software with limited time for infrastructure and evaluation",
+  "central_question": "Which recently released agent tools and frameworks are ready for real-world use by small teams, and what should developers test before adopting them?",
+  "scope": "Focus on agent frameworks, tool calling, orchestration, evaluation, reliability, security, deployment, cost, and developer workflow. Prefer evidence from the preceding 30 days.",
+  "exclusions": "Exclude generic AI announcements without a concrete implication for building or operating agent applications; do not treat demos or vendor benchmarks as proof of production readiness."
+}

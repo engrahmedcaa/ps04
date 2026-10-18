@@ -1,0 +1,5372 @@
+[
+  {
+    "segment_id": "podcast-0001",
+    "start_seconds": 0.0,
+    "end_seconds": 7.400000095367432,
+    "text": "Welcome to the Practical AI Podcast, where we break down the real-world applications"
+  },
+  {
+    "segment_id": "podcast-0002",
+    "start_seconds": 7.400000095367432,
+    "end_seconds": 12.960000038146973,
+    "text": "of artificial intelligence and how it's shaping the way we live, work, and create."
+  },
+  {
+    "segment_id": "podcast-0003",
+    "start_seconds": 12.960000038146973,
+    "end_seconds": 18.799999237060547,
+    "text": "Our goal is to help make AI technology practical, productive, and accessible to everyone."
+  },
+  {
+    "segment_id": "podcast-0004",
+    "start_seconds": 18.799999237060547,
+    "end_seconds": 22.68000030517578,
+    "text": "Whether you're a developer, business leader, or just curious about the tech behind the"
+  },
+  {
+    "segment_id": "podcast-0005",
+    "start_seconds": 22.68000030517578,
+    "end_seconds": 25.0,
+    "text": "buzz, you're in the right place."
+  },
+  {
+    "segment_id": "podcast-0006",
+    "start_seconds": 25.0,
+    "end_seconds": 29.440000534057617,
+    "text": "Be sure to connect with us on LinkedIn, X, or BlueSky to stay up-to-date with episode"
+  },
+  {
+    "segment_id": "podcast-0007",
+    "start_seconds": 29.440000534057617,
+    "end_seconds": 33.0,
+    "text": "drops, behind-the-scenes content, and AI insights."
+  },
+  {
+    "segment_id": "podcast-0008",
+    "start_seconds": 33.0,
+    "end_seconds": 35.0,
+    "text": "You can learn more at practicalai.fm."
+  },
+  {
+    "segment_id": "podcast-0009",
+    "start_seconds": 35.0,
+    "end_seconds": 42.0,
+    "text": "Now, on to the show."
+  },
+  {
+    "segment_id": "podcast-0010",
+    "start_seconds": 42.0,
+    "end_seconds": 45.279998779296875,
+    "text": "Welcome to another episode of the Practical AI Podcast."
+  },
+  {
+    "segment_id": "podcast-0011",
+    "start_seconds": 45.279998779296875,
+    "end_seconds": 46.720001220703125,
+    "text": "This is Daniel Witenak."
+  },
+  {
+    "segment_id": "podcast-0012",
+    "start_seconds": 46.720001220703125,
+    "end_seconds": 52.08000183105469,
+    "text": "I am CEO at Prediction Guard, and I'm joined, as always, by my co-host, Chris Benson, who"
+  },
+  {
+    "segment_id": "podcast-0013",
+    "start_seconds": 52.08000183105469,
+    "end_seconds": 55.20000076293945,
+    "text": "is a principal AI and autonomy research engineer."
+  },
+  {
+    "segment_id": "podcast-0014",
+    "start_seconds": 55.20000076293945,
+    "end_seconds": 56.20000076293945,
+    "text": "How you doing, Chris?"
+  },
+  {
+    "segment_id": "podcast-0015",
+    "start_seconds": 56.20000076293945,
+    "end_seconds": 57.20000076293945,
+    "text": "Hey, doing good today, Daniel."
+  },
+  {
+    "segment_id": "podcast-0016",
+    "start_seconds": 57.20000076293945,
+    "end_seconds": 58.20000076293945,
+    "text": "How's it going?"
+  },
+  {
+    "segment_id": "podcast-0017",
+    "start_seconds": 58.20000076293945,
+    "end_seconds": 59.7599983215332,
+    "text": "It's going great."
+  },
+  {
+    "segment_id": "podcast-0018",
+    "start_seconds": 59.7599983215332,
+    "end_seconds": 62.52000045776367,
+    "text": "You know, the story continues."
+  },
+  {
+    "segment_id": "podcast-0019",
+    "start_seconds": 62.52000045776367,
+    "end_seconds": 68.80000305175781,
+    "text": "There's ups and downs along the way, and, you know, very, very blessed overall, and"
+  },
+  {
+    "segment_id": "podcast-0020",
+    "start_seconds": 68.80000305175781,
+    "end_seconds": 73.83999633789062,
+    "text": "really blessed today to have an episode that I've been looking forward to recording for"
+  },
+  {
+    "segment_id": "podcast-0021",
+    "start_seconds": 73.83999633789062,
+    "end_seconds": 75.5199966430664,
+    "text": "some time."
+  },
+  {
+    "segment_id": "podcast-0022",
+    "start_seconds": 75.5199966430664,
+    "end_seconds": 81.72000122070312,
+    "text": "Back in part of our journey as a company, we were going through an accelerator program"
+  },
+  {
+    "segment_id": "podcast-0023",
+    "start_seconds": 82.36000061035156,
+    "end_seconds": 87.23999786376953,
+    "text": "with Intel called Intel Ignite, and through that program, met our guest today, Reid Frerichs,"
+  },
+  {
+    "segment_id": "podcast-0024",
+    "start_seconds": 87.23999786376953,
+    "end_seconds": 89.80000305175781,
+    "text": "who is a lot of things."
+  },
+  {
+    "segment_id": "podcast-0025",
+    "start_seconds": 89.80000305175781,
+    "end_seconds": 95.63999938964844,
+    "text": "He's doing so much amazing, amazing stuff in his journey, from a new podcast that he"
+  },
+  {
+    "segment_id": "podcast-0026",
+    "start_seconds": 95.63999938964844,
+    "end_seconds": 97.63999938964844,
+    "text": "has out, Inner Story."
+  },
+  {
+    "segment_id": "podcast-0027",
+    "start_seconds": 97.63999938964844,
+    "end_seconds": 103.76000213623047,
+    "text": "He does leadership coaching, is involved with MIT and startups and all sorts of things,"
+  },
+  {
+    "segment_id": "podcast-0028",
+    "start_seconds": 103.76000213623047,
+    "end_seconds": 108.08000183105469,
+    "text": "and has kind of a background in acting and in media."
+  },
+  {
+    "segment_id": "podcast-0029",
+    "start_seconds": 108.08000183105469,
+    "end_seconds": 109.4000015258789,
+    "text": "So welcome to the show, Reid."
+  },
+  {
+    "segment_id": "podcast-0030",
+    "start_seconds": 109.4000015258789,
+    "end_seconds": 110.5199966430664,
+    "text": "It's great to have you here."
+  },
+  {
+    "segment_id": "podcast-0031",
+    "start_seconds": 110.5199966430664,
+    "end_seconds": 112.19999694824219,
+    "text": "Thank you so much, Daniel and Chris."
+  },
+  {
+    "segment_id": "podcast-0032",
+    "start_seconds": 112.19999694824219,
+    "end_seconds": 113.19999694824219,
+    "text": "Appreciate it."
+  },
+  {
+    "segment_id": "podcast-0033",
+    "start_seconds": 113.19999694824219,
+    "end_seconds": 114.19999694824219,
+    "text": "Yeah."
+  },
+  {
+    "segment_id": "podcast-0034",
+    "start_seconds": 114.19999694824219,
+    "end_seconds": 115.19999694824219,
+    "text": "Yeah."
+  },
+  {
+    "segment_id": "podcast-0035",
+    "start_seconds": 115.19999694824219,
+    "end_seconds": 121.12000274658203,
+    "text": "And obviously, that's, you know, I love your story because you've flexed into all of these"
+  },
+  {
+    "segment_id": "podcast-0036",
+    "start_seconds": 121.12000274658203,
+    "end_seconds": 122.12000274658203,
+    "text": "things."
+  },
+  {
+    "segment_id": "podcast-0037",
+    "start_seconds": 122.12000274658203,
+    "end_seconds": 123.4800033569336,
+    "text": "You're always being creative."
+  },
+  {
+    "segment_id": "podcast-0038",
+    "start_seconds": 123.4800033569336,
+    "end_seconds": 130.44000244140625,
+    "text": "I think in our experience together, I've appreciated so much how you've helped me think about,"
+  },
+  {
+    "segment_id": "podcast-0039",
+    "start_seconds": 130.44000244140625,
+    "end_seconds": 135.0,
+    "text": "you know, my own journey as an entrepreneur, the story of our company."
+  },
+  {
+    "segment_id": "podcast-0040",
+    "start_seconds": 135.0,
+    "end_seconds": 140.16000366210938,
+    "text": "Now I know, you know, you're thinking about topics, of course, related to AI, like everyone"
+  },
+  {
+    "segment_id": "podcast-0041",
+    "start_seconds": 140.16000366210938,
+    "end_seconds": 146.24000549316406,
+    "text": "is, and what our unique role is, you know, as humans in that, but we'll get into all"
+  },
+  {
+    "segment_id": "podcast-0042",
+    "start_seconds": 146.24000549316406,
+    "end_seconds": 147.24000549316406,
+    "text": "of that."
+  },
+  {
+    "segment_id": "podcast-0043",
+    "start_seconds": 147.24000549316406,
+    "end_seconds": 151.36000061035156,
+    "text": "But I'm wondering if you could just share a little bit of your story with us and kind"
+  },
+  {
+    "segment_id": "podcast-0044",
+    "start_seconds": 151.36000061035156,
+    "end_seconds": 155.32000732421875,
+    "text": "of at a high level, how you ended up where you're at."
+  },
+  {
+    "segment_id": "podcast-0045",
+    "start_seconds": 155.32000732421875,
+    "end_seconds": 156.32000732421875,
+    "text": "Well, thank you."
+  },
+  {
+    "segment_id": "podcast-0046",
+    "start_seconds": 156.32000732421875,
+    "end_seconds": 163.32000732421875,
+    "text": "I find myself sharing this story much more, and the best way to frame it is it is a windy"
+  },
+  {
+    "segment_id": "podcast-0047",
+    "start_seconds": 163.32000732421875,
+    "end_seconds": 168.36000061035156,
+    "text": "path because it, you know, I look back and you think like, you're always like taking"
+  },
+  {
+    "segment_id": "podcast-0048",
+    "start_seconds": 168.36000061035156,
+    "end_seconds": 170.60000610351562,
+    "text": "like inventory, like, is this all working?"
+  },
+  {
+    "segment_id": "podcast-0049",
+    "start_seconds": 170.60000610351562,
+    "end_seconds": 172.75999450683594,
+    "text": "Like, is this my story really making sense?"
+  },
+  {
+    "segment_id": "podcast-0050",
+    "start_seconds": 172.75999450683594,
+    "end_seconds": 173.75999450683594,
+    "text": "Like, who am I?"
+  },
+  {
+    "segment_id": "podcast-0051",
+    "start_seconds": 173.75999450683594,
+    "end_seconds": 177.0,
+    "text": "Like, how many times did you ask these questions to yourself over time?"
+  },
+  {
+    "segment_id": "podcast-0052",
+    "start_seconds": 177.0,
+    "end_seconds": 182.16000366210938,
+    "text": "But actually, it wasn't until that Intel program, I was so, I shared this last month at a Harvard"
+  },
+  {
+    "segment_id": "podcast-0053",
+    "start_seconds": 182.16000366210938,
+    "end_seconds": 187.0,
+    "text": "class we were teaching, basically, I was so nervous in that program when I first started"
+  },
+  {
+    "segment_id": "podcast-0054",
+    "start_seconds": 187.0,
+    "end_seconds": 192.0,
+    "text": "because it was so much about deep tech and engineers and AI was starting to really come"
+  },
+  {
+    "segment_id": "podcast-0055",
+    "start_seconds": 192.0399932861328,
+    "end_seconds": 193.0399932861328,
+    "text": "up."
+  },
+  {
+    "segment_id": "podcast-0056",
+    "start_seconds": 193.0399932861328,
+    "end_seconds": 195.0399932861328,
+    "text": "And I was going, Oh, my God, like, what am I doing here?"
+  },
+  {
+    "segment_id": "podcast-0057",
+    "start_seconds": 195.0399932861328,
+    "end_seconds": 200.83999633789062,
+    "text": "You know, I graduated at UT in business, and I went off and had a acting career for a little"
+  },
+  {
+    "segment_id": "podcast-0058",
+    "start_seconds": 200.83999633789062,
+    "end_seconds": 203.9199981689453,
+    "text": "while and then got into producing and media and startups."
+  },
+  {
+    "segment_id": "podcast-0059",
+    "start_seconds": 203.9199981689453,
+    "end_seconds": 206.9600067138672,
+    "text": "And I was kind of just trying to figure out, like, you know, what am I doing around these"
+  },
+  {
+    "segment_id": "podcast-0060",
+    "start_seconds": 206.9600067138672,
+    "end_seconds": 209.75999450683594,
+    "text": "really smart people like, like yourself, Daniel?"
+  },
+  {
+    "segment_id": "podcast-0061",
+    "start_seconds": 209.75999450683594,
+    "end_seconds": 213.8800048828125,
+    "text": "I mean, it's like, you know, a lot of half the room was PhDs."
+  },
+  {
+    "segment_id": "podcast-0062",
+    "start_seconds": 213.8800048828125,
+    "end_seconds": 216.47999572753906,
+    "text": "And then we started talking and introducing ourselves."
+  },
+  {
+    "segment_id": "podcast-0063",
+    "start_seconds": 216.47999572753906,
+    "end_seconds": 217.75999450683594,
+    "text": "And I started seeing pitches."
+  },
+  {
+    "segment_id": "podcast-0064",
+    "start_seconds": 217.75999450683594,
+    "end_seconds": 221.27999877929688,
+    "text": "I was I was running deal flow when I first started at Intel."
+  },
+  {
+    "segment_id": "podcast-0065",
+    "start_seconds": 221.52000427246094,
+    "end_seconds": 223.27999877929688,
+    "text": "So I got to see a ton of pitches."
+  },
+  {
+    "segment_id": "podcast-0066",
+    "start_seconds": 223.27999877929688,
+    "end_seconds": 227.63999938964844,
+    "text": "I mean, we saw, you know, pretty much most of the top companies going in the US would"
+  },
+  {
+    "segment_id": "podcast-0067",
+    "start_seconds": 227.63999938964844,
+    "end_seconds": 229.32000732421875,
+    "text": "come through at some point and we'd meet them."
+  },
+  {
+    "segment_id": "podcast-0068",
+    "start_seconds": 229.32000732421875,
+    "end_seconds": 233.1999969482422,
+    "text": "And in the one thing I kind of came away with one, I think I can help with story."
+  },
+  {
+    "segment_id": "podcast-0069",
+    "start_seconds": 233.1999969482422,
+    "end_seconds": 237.0800018310547,
+    "text": "Maybe I can help out a little here, started thinking of their their pitch a little bit"
+  },
+  {
+    "segment_id": "podcast-0070",
+    "start_seconds": 237.0800018310547,
+    "end_seconds": 238.1999969482422,
+    "text": "like almost like a movie."
+  },
+  {
+    "segment_id": "podcast-0071",
+    "start_seconds": 238.1999969482422,
+    "end_seconds": 239.9600067138672,
+    "text": "And I thought, gosh, you know, maybe."
+  },
+  {
+    "segment_id": "podcast-0072",
+    "start_seconds": 240.0,
+    "end_seconds": 241.03999996185303,
+    "text": "I can contribute here."
+  },
+  {
+    "segment_id": "podcast-0073",
+    "start_seconds": 241.03999996185303,
+    "end_seconds": 243.5199999809265,
+    "text": "So that kind of at least allowed me"
+  },
+  {
+    "segment_id": "podcast-0074",
+    "start_seconds": 243.5199999809265,
+    "end_seconds": 245.6399998664856,
+    "text": "sort of the lane in to this world."
+  },
+  {
+    "segment_id": "podcast-0075",
+    "start_seconds": 245.6399998664856,
+    "end_seconds": 246.88000011444092,
+    "text": "And then once you get into it,"
+  },
+  {
+    "segment_id": "podcast-0076",
+    "start_seconds": 246.88000011444092,
+    "end_seconds": 248.47999954223633,
+    "text": "you start to realize like,"
+  },
+  {
+    "segment_id": "podcast-0077",
+    "start_seconds": 248.47999954223633,
+    "end_seconds": 249.60000038146973,
+    "text": "there's just so much to it"
+  },
+  {
+    "segment_id": "podcast-0078",
+    "start_seconds": 249.60000038146973,
+    "end_seconds": 252.96000003814697,
+    "text": "because founders are just becoming leaders"
+  },
+  {
+    "segment_id": "podcast-0079",
+    "start_seconds": 252.96000003814697,
+    "end_seconds": 254.11999988555908,
+    "text": "and they're always becoming."
+  },
+  {
+    "segment_id": "podcast-0080",
+    "start_seconds": 254.11999988555908,
+    "end_seconds": 256.92000007629395,
+    "text": "You're constantly learning and adapting, especially now."
+  },
+  {
+    "segment_id": "podcast-0081",
+    "start_seconds": 256.92000007629395,
+    "end_seconds": 258.8400001525879,
+    "text": "So that really, you know,"
+  },
+  {
+    "segment_id": "podcast-0082",
+    "start_seconds": 258.8400001525879,
+    "end_seconds": 261.13999938964844,
+    "text": "was sort of the ignition for me"
+  },
+  {
+    "segment_id": "podcast-0083",
+    "start_seconds": 261.13999938964844,
+    "end_seconds": 263.6000003814697,
+    "text": "to really learn more about leadership coaching."
+  },
+  {
+    "segment_id": "podcast-0084",
+    "start_seconds": 263.6000003814697,
+    "end_seconds": 264.92000007629395,
+    "text": "My own journey as a founder,"
+  },
+  {
+    "segment_id": "podcast-0085",
+    "start_seconds": 264.92000007629395,
+    "end_seconds": 266.2800006866455,
+    "text": "which I was sitting there going,"
+  },
+  {
+    "segment_id": "podcast-0086",
+    "start_seconds": 266.2800006866455,
+    "end_seconds": 267.5200004577637,
+    "text": "why is this happening to me?"
+  },
+  {
+    "segment_id": "podcast-0087",
+    "start_seconds": 267.5200004577637,
+    "end_seconds": 269.5200004577637,
+    "text": "You know, all the things that you go through as a founder,"
+  },
+  {
+    "segment_id": "podcast-0088",
+    "start_seconds": 269.5200004577637,
+    "end_seconds": 271.3999996185303,
+    "text": "but it's just evolves, right?"
+  },
+  {
+    "segment_id": "podcast-0089",
+    "start_seconds": 271.3999996185303,
+    "end_seconds": 272.560001373291,
+    "text": "It's always evolving."
+  },
+  {
+    "segment_id": "podcast-0090",
+    "start_seconds": 272.560001373291,
+    "end_seconds": 274.7200012207031,
+    "text": "Yeah, I love that perspective."
+  },
+  {
+    "segment_id": "podcast-0091",
+    "start_seconds": 274.7200012207031,
+    "end_seconds": 277.2400016784668,
+    "text": "I think I resonate so much with it"
+  },
+  {
+    "segment_id": "podcast-0092",
+    "start_seconds": 277.2400016784668,
+    "end_seconds": 281.95999908447266,
+    "text": "because, you know, I don't think it's talked about a lot"
+  },
+  {
+    "segment_id": "podcast-0093",
+    "start_seconds": 281.95999908447266,
+    "end_seconds": 286.20000076293945,
+    "text": "in terms of how startups and entrepreneurship"
+  },
+  {
+    "segment_id": "podcast-0094",
+    "start_seconds": 286.20000076293945,
+    "end_seconds": 288.0,
+    "text": "and those that are building tech companies"
+  },
+  {
+    "segment_id": "podcast-0095",
+    "start_seconds": 288.0,
+    "end_seconds": 292.11999893188477,
+    "text": "that, you know, ventures are in a big way"
+  },
+  {
+    "segment_id": "podcast-0096",
+    "start_seconds": 292.11999893188477,
+    "end_seconds": 294.2799987792969,
+    "text": "how culture is shaped, right?"
+  },
+  {
+    "segment_id": "podcast-0097",
+    "start_seconds": 294.2799987792969,
+    "end_seconds": 296.95999908447266,
+    "text": "And how people are shaped."
+  },
+  {
+    "segment_id": "podcast-0098",
+    "start_seconds": 296.95999908447266,
+    "end_seconds": 299.95999908447266,
+    "text": "And I think that's overlooked often in terms of,"
+  },
+  {
+    "segment_id": "podcast-0099",
+    "start_seconds": 299.95999908447266,
+    "end_seconds": 301.8400001525879,
+    "text": "you know, obviously people are,"
+  },
+  {
+    "segment_id": "podcast-0100",
+    "start_seconds": 301.8400001525879,
+    "end_seconds": 306.1600036621094,
+    "text": "you know, I hope for a good financial outcome for myself"
+  },
+  {
+    "segment_id": "podcast-0101",
+    "start_seconds": 306.1600036621094,
+    "end_seconds": 307.55999755859375,
+    "text": "and what I'm doing."
+  },
+  {
+    "segment_id": "podcast-0102",
+    "start_seconds": 307.55999755859375,
+    "end_seconds": 310.05999755859375,
+    "text": "I think that's a reasonable part of it."
+  },
+  {
+    "segment_id": "podcast-0103",
+    "start_seconds": 310.05999755859375,
+    "end_seconds": 312.9199981689453,
+    "text": "But also there's a much broader story"
+  },
+  {
+    "segment_id": "podcast-0104",
+    "start_seconds": 312.9199981689453,
+    "end_seconds": 316.6800003051758,
+    "text": "of why we're doing what we're doing."
+  },
+  {
+    "segment_id": "podcast-0105",
+    "start_seconds": 316.6800003051758,
+    "end_seconds": 320.2799987792969,
+    "text": "And maybe that brings us a little bit"
+  },
+  {
+    "segment_id": "podcast-0106",
+    "start_seconds": 320.2799987792969,
+    "end_seconds": 323.36000061035156,
+    "text": "to some of our topic about,"
+  },
+  {
+    "segment_id": "podcast-0107",
+    "start_seconds": 323.36000061035156,
+    "end_seconds": 326.76000213623047,
+    "text": "especially how that culture is shifting"
+  },
+  {
+    "segment_id": "podcast-0108",
+    "start_seconds": 326.76000213623047,
+    "end_seconds": 328.6800003051758,
+    "text": "around AI specifically."
+  },
+  {
+    "segment_id": "podcast-0109",
+    "start_seconds": 328.6800003051758,
+    "end_seconds": 330.36000061035156,
+    "text": "But again, before we get into that,"
+  },
+  {
+    "segment_id": "podcast-0110",
+    "start_seconds": 330.36000061035156,
+    "end_seconds": 331.6800003051758,
+    "text": "maybe you could just share a little bit"
+  },
+  {
+    "segment_id": "podcast-0111",
+    "start_seconds": 331.6800003051758,
+    "end_seconds": 334.9199981689453,
+    "text": "about a couple of the things that you're involved with now."
+  },
+  {
+    "segment_id": "podcast-0112",
+    "start_seconds": 334.9199981689453,
+    "end_seconds": 337.4800033569336,
+    "text": "And like that storytelling piece,"
+  },
+  {
+    "segment_id": "podcast-0113",
+    "start_seconds": 337.4800033569336,
+    "end_seconds": 342.0800018310547,
+    "text": "how has that evolved to connect with the tech world,"
+  },
+  {
+    "segment_id": "podcast-0114",
+    "start_seconds": 342.0800018310547,
+    "end_seconds": 345.0,
+    "text": "with, you know, some of your current ventures?"
+  },
+  {
+    "segment_id": "podcast-0115",
+    "start_seconds": 345.0,
+    "end_seconds": 345.8399963378906,
+    "text": "Great question."
+  },
+  {
+    "segment_id": "podcast-0116",
+    "start_seconds": 345.8399963378906,
+    "end_seconds": 349.63999938964844,
+    "text": "So where I am right now is I'm primarily executive coaching"
+  },
+  {
+    "segment_id": "podcast-0117",
+    "start_seconds": 349.63999938964844,
+    "end_seconds": 352.7200012207031,
+    "text": "or leadership coaching at MIT's business school,"
+  },
+  {
+    "segment_id": "podcast-0118",
+    "start_seconds": 352.76000213623047,
+    "end_seconds": 355.1600036621094,
+    "text": "the Sloan Fellows Program primarily."
+  },
+  {
+    "segment_id": "podcast-0119",
+    "start_seconds": 355.1600036621094,
+    "end_seconds": 356.87999725341797,
+    "text": "And then also with some startups,"
+  },
+  {
+    "segment_id": "podcast-0120",
+    "start_seconds": 356.87999725341797,
+    "end_seconds": 360.1999969482422,
+    "text": "usually right around the series A, series B level primarily,"
+  },
+  {
+    "segment_id": "podcast-0121",
+    "start_seconds": 360.1999969482422,
+    "end_seconds": 361.4800033569336,
+    "text": "and now coaching their teams."
+  },
+  {
+    "segment_id": "podcast-0122",
+    "start_seconds": 361.4800033569336,
+    "end_seconds": 363.8000030517578,
+    "text": "And it's been fascinating getting into coaching teams"
+  },
+  {
+    "segment_id": "podcast-0123",
+    "start_seconds": 363.8000030517578,
+    "end_seconds": 366.55999755859375,
+    "text": "because you learn a lot more of the different perspective"
+  },
+  {
+    "segment_id": "podcast-0124",
+    "start_seconds": 366.55999755859375,
+    "end_seconds": 367.8399963378906,
+    "text": "going on within the startup"
+  },
+  {
+    "segment_id": "podcast-0125",
+    "start_seconds": 367.8399963378906,
+    "end_seconds": 369.55999755859375,
+    "text": "and kind of how people are feeling,"
+  },
+  {
+    "segment_id": "podcast-0126",
+    "start_seconds": 369.55999755859375,
+    "end_seconds": 372.0800018310547,
+    "text": "how they're trying to evolve as leaders."
+  },
+  {
+    "segment_id": "podcast-0127",
+    "start_seconds": 372.0800018310547,
+    "end_seconds": 374.8000030517578,
+    "text": "With MIT, what's been interesting is"
+  },
+  {
+    "segment_id": "podcast-0128",
+    "start_seconds": 374.8000030517578,
+    "end_seconds": 376.44000244140625,
+    "text": "there's a lot of international students"
+  },
+  {
+    "segment_id": "podcast-0129",
+    "start_seconds": 376.44000244140625,
+    "end_seconds": 378.2799987792969,
+    "text": "and specifically a lot of the ones I get,"
+  },
+  {
+    "segment_id": "podcast-0130",
+    "start_seconds": 378.2799987792969,
+    "end_seconds": 380.47999572753906,
+    "text": "they all come here kind of wanting to be"
+  },
+  {
+    "segment_id": "podcast-0131",
+    "start_seconds": 380.47999572753906,
+    "end_seconds": 382.1600036621094,
+    "text": "an American entrepreneur."
+  },
+  {
+    "segment_id": "podcast-0132",
+    "start_seconds": 382.6000061035156,
+    "end_seconds": 383.44000244140625,
+    "text": "So they're always like,"
+  },
+  {
+    "segment_id": "podcast-0133",
+    "start_seconds": 383.44000244140625,
+    "end_seconds": 386.0,
+    "text": "can you help me tell my story like this?"
+  },
+  {
+    "segment_id": "podcast-0134",
+    "start_seconds": 386.0,
+    "end_seconds": 388.2799987792969,
+    "text": "I'll give me like a video or an example."
+  },
+  {
+    "segment_id": "podcast-0135",
+    "start_seconds": 388.2799987792969,
+    "end_seconds": 389.36000061035156,
+    "text": "And it'll be somebody, you know,"
+  },
+  {
+    "segment_id": "podcast-0136",
+    "start_seconds": 389.36000061035156,
+    "end_seconds": 391.8000030517578,
+    "text": "probably really famous in the tech world."
+  },
+  {
+    "segment_id": "podcast-0137",
+    "start_seconds": 391.8000030517578,
+    "end_seconds": 395.1999969482422,
+    "text": "But I always find like that's such,"
+  },
+  {
+    "segment_id": "podcast-0138",
+    "start_seconds": 395.1999969482422,
+    "end_seconds": 396.8000030517578,
+    "text": "like they have fear coming here."
+  },
+  {
+    "segment_id": "podcast-0139",
+    "start_seconds": 396.8000030517578,
+    "end_seconds": 398.1199951171875,
+    "text": "They're trying to stand out."
+  },
+  {
+    "segment_id": "podcast-0140",
+    "start_seconds": 398.1199951171875,
+    "end_seconds": 400.8399963378906,
+    "text": "They're trying to find their unique positioning."
+  },
+  {
+    "segment_id": "podcast-0141",
+    "start_seconds": 400.8399963378906,
+    "end_seconds": 403.44000244140625,
+    "text": "But oftentimes when we get into their story,"
+  },
+  {
+    "segment_id": "podcast-0142",
+    "start_seconds": 403.44000244140625,
+    "end_seconds": 405.1999969482422,
+    "text": "their story is so fascinating."
+  },
+  {
+    "segment_id": "podcast-0143",
+    "start_seconds": 405.1999969482422,
+    "end_seconds": 409.0,
+    "text": "It's usually, there's usually a ton of like obstacles"
+  },
+  {
+    "segment_id": "podcast-0144",
+    "start_seconds": 409.0,
+    "end_seconds": 411.9600067138672,
+    "text": "for them to even get to, you know, MIT, obviously."
+  },
+  {
+    "segment_id": "podcast-0145",
+    "start_seconds": 412.63999938964844,
+    "end_seconds": 414.8800048828125,
+    "text": "You know, a lot of backgrounds that, you know,"
+  },
+  {
+    "segment_id": "podcast-0146",
+    "start_seconds": 414.8800048828125,
+    "end_seconds": 417.52000427246094,
+    "text": "took a lot of resilience, a lot of overcoming."
+  },
+  {
+    "segment_id": "podcast-0147",
+    "start_seconds": 417.52000427246094,
+    "end_seconds": 419.63999938964844,
+    "text": "And there's just all this gold in their story"
+  },
+  {
+    "segment_id": "podcast-0148",
+    "start_seconds": 419.63999938964844,
+    "end_seconds": 421.8399963378906,
+    "text": "that they're basically trying to hide."
+  },
+  {
+    "segment_id": "podcast-0149",
+    "start_seconds": 421.8399963378906,
+    "end_seconds": 423.67999267578125,
+    "text": "And it's so, a lot of the process"
+  },
+  {
+    "segment_id": "podcast-0150",
+    "start_seconds": 423.67999267578125,
+    "end_seconds": 426.32000732421875,
+    "text": "is trying to extract out that unique positioning."
+  },
+  {
+    "segment_id": "podcast-0151",
+    "start_seconds": 426.32000732421875,
+    "end_seconds": 429.1999969482422,
+    "text": "And that really is what has sort of informed,"
+  },
+  {
+    "segment_id": "podcast-0152",
+    "start_seconds": 429.1999969482422,
+    "end_seconds": 430.1999969482422,
+    "text": "you know, what I'm calling right now"
+  },
+  {
+    "segment_id": "podcast-0153",
+    "start_seconds": 430.1999969482422,
+    "end_seconds": 431.63999938964844,
+    "text": "a little bit around narrative intelligence."
+  },
+  {
+    "segment_id": "podcast-0154",
+    "start_seconds": 431.63999938964844,
+    "end_seconds": 436.0399932861328,
+    "text": "But it's really about how to like extract your unique self"
+  },
+  {
+    "segment_id": "podcast-0155",
+    "start_seconds": 436.0399932861328,
+    "end_seconds": 438.67999267578125,
+    "text": "into your story and evolve it in real time."
+  },
+  {
+    "segment_id": "podcast-0156",
+    "start_seconds": 438.67999267578125,
+    "end_seconds": 441.44000244140625,
+    "text": "Because with AI, everybody's, you know,"
+  },
+  {
+    "segment_id": "podcast-0157",
+    "start_seconds": 441.63999938964844,
+    "end_seconds": 444.1600036621094,
+    "text": "excited about AI, but also fearful of AI."
+  },
+  {
+    "segment_id": "podcast-0158",
+    "start_seconds": 444.1600036621094,
+    "end_seconds": 446.63999938964844,
+    "text": "And so there's this constant back and forth."
+  },
+  {
+    "segment_id": "podcast-0159",
+    "start_seconds": 446.63999938964844,
+    "end_seconds": 449.75999450683594,
+    "text": "And so how do you continuously adapt"
+  },
+  {
+    "segment_id": "podcast-0160",
+    "start_seconds": 449.75999450683594,
+    "end_seconds": 453.24000549316406,
+    "text": "is sort of what happens throughout all of the coaching"
+  },
+  {
+    "segment_id": "podcast-0161",
+    "start_seconds": 453.24000549316406,
+    "end_seconds": 454.8399963378906,
+    "text": "and work I'm doing right now."
+  },
+  {
+    "segment_id": "podcast-0162",
+    "start_seconds": 454.8399963378906,
+    "end_seconds": 457.75999450683594,
+    "text": "You mentioned, so I'm kind of coming in cold"
+  },
+  {
+    "segment_id": "podcast-0163",
+    "start_seconds": 457.75999450683594,
+    "end_seconds": 460.2799987792969,
+    "text": "with you and Daniel have been through this experience"
+  },
+  {
+    "segment_id": "podcast-0164",
+    "start_seconds": 460.2799987792969,
+    "end_seconds": 461.6000061035156,
+    "text": "together and stuff."
+  },
+  {
+    "segment_id": "podcast-0165",
+    "start_seconds": 461.6000061035156,
+    "end_seconds": 463.9199981689453,
+    "text": "You mentioned narrative intelligence."
+  },
+  {
+    "segment_id": "podcast-0166",
+    "start_seconds": 463.9199981689453,
+    "end_seconds": 466.9199981689453,
+    "text": "And could you kind of take me through"
+  },
+  {
+    "segment_id": "podcast-0167",
+    "start_seconds": 466.9199981689453,
+    "end_seconds": 468.24000549316406,
+    "text": "what that means a little bit?"
+  },
+  {
+    "segment_id": "podcast-0168",
+    "start_seconds": 468.24000549316406,
+    "end_seconds": 470.9199981689453,
+    "text": "You've referenced it, but I'm not sure I'm there yet."
+  },
+  {
+    "segment_id": "podcast-0169",
+    "start_seconds": 471.7200012207031,
+    "end_seconds": 473.9600067138672,
+    "text": "And then maybe kind of, and you also mentioned"
+  },
+  {
+    "segment_id": "podcast-0170",
+    "start_seconds": 473.9600067138672,
+    "end_seconds": 475.1199951171875,
+    "text": "kind of in the same breath AI."
+  },
+  {
+    "segment_id": "podcast-0171",
+    "start_seconds": 475.1199951171875,
+    "end_seconds": 477.67999267578125,
+    "text": "And so could you kind of like, what's the relationship?"
+  },
+  {
+    "segment_id": "podcast-0172",
+    "start_seconds": 477.67999267578125,
+    "end_seconds": 480.0399932861328,
+    "text": "Or, you know, I don't understand."
+  },
+  {
+    "segment_id": "podcast-0173",
+    "start_seconds": 480.0,
+    "end_seconds": 483.92000007629395,
+    "text": "at this point, so I'll leave that to you on that."
+  },
+  {
+    "segment_id": "podcast-0174",
+    "start_seconds": 483.92000007629395,
+    "end_seconds": 486.07999992370605,
+    "text": "So it's obviously artificial intelligence,"
+  },
+  {
+    "segment_id": "podcast-0175",
+    "start_seconds": 486.07999992370605,
+    "end_seconds": 488.35999965667725,
+    "text": "you know, was sort of, you know, started thinking about it"
+  },
+  {
+    "segment_id": "podcast-0176",
+    "start_seconds": 488.35999965667725,
+    "end_seconds": 490.4799995422363,
+    "text": "and, you know, the more we were diving"
+  },
+  {
+    "segment_id": "podcast-0177",
+    "start_seconds": 490.4799995422363,
+    "end_seconds": 491.80000019073486,
+    "text": "into some of the research and work,"
+  },
+  {
+    "segment_id": "podcast-0178",
+    "start_seconds": 491.80000019073486,
+    "end_seconds": 494.3199996948242,
+    "text": "we started realizing, like, we live inside stories."
+  },
+  {
+    "segment_id": "podcast-0179",
+    "start_seconds": 494.3199996948242,
+    "end_seconds": 496.42000007629395,
+    "text": "So much of our decision making, our choices,"
+  },
+  {
+    "segment_id": "podcast-0180",
+    "start_seconds": 496.42000007629395,
+    "end_seconds": 498.3199996948242,
+    "text": "everything's, from the moment we wake up,"
+  },
+  {
+    "segment_id": "podcast-0181",
+    "start_seconds": 498.3199996948242,
+    "end_seconds": 500.0,
+    "text": "we're inside of a story, right?"
+  },
+  {
+    "segment_id": "podcast-0182",
+    "start_seconds": 500.0,
+    "end_seconds": 502.5599994659424,
+    "text": "And so I started looking at, like, you know,"
+  },
+  {
+    "segment_id": "podcast-0183",
+    "start_seconds": 502.5599994659424,
+    "end_seconds": 504.3199996948242,
+    "text": "narrative intelligence, there's been different people"
+  },
+  {
+    "segment_id": "podcast-0184",
+    "start_seconds": 504.3199996948242,
+    "end_seconds": 506.0,
+    "text": "that have looked at it, and really, I think,"
+  },
+  {
+    "segment_id": "podcast-0185",
+    "start_seconds": 506.0,
+    "end_seconds": 509.2800006866455,
+    "text": "the one article I saw was back around MIT and Harvard,"
+  },
+  {
+    "segment_id": "podcast-0186",
+    "start_seconds": 509.2800006866455,
+    "end_seconds": 511.5200004577637,
+    "text": "some different engineers trying to learn"
+  },
+  {
+    "segment_id": "podcast-0187",
+    "start_seconds": 511.5200004577637,
+    "end_seconds": 514.4799995422363,
+    "text": "how to talk to each other, and so they formed, like,"
+  },
+  {
+    "segment_id": "podcast-0188",
+    "start_seconds": 514.4799995422363,
+    "end_seconds": 516.2000007629395,
+    "text": "a group around it, so that led me to think,"
+  },
+  {
+    "segment_id": "podcast-0189",
+    "start_seconds": 516.2000007629395,
+    "end_seconds": 520.1199989318848,
+    "text": "okay, what else is here, given the current times with AI?"
+  },
+  {
+    "segment_id": "podcast-0190",
+    "start_seconds": 520.1199989318848,
+    "end_seconds": 523.0400009155273,
+    "text": "And so, as I started, you know, interviewing people"
+  },
+  {
+    "segment_id": "podcast-0191",
+    "start_seconds": 523.0400009155273,
+    "end_seconds": 524.5999984741211,
+    "text": "and working with people, I started thinking,"
+  },
+  {
+    "segment_id": "podcast-0192",
+    "start_seconds": 524.5999984741211,
+    "end_seconds": 528.4000015258789,
+    "text": "what could become more real time around, like,"
+  },
+  {
+    "segment_id": "podcast-0193",
+    "start_seconds": 528.4000015258789,
+    "end_seconds": 529.8400001525879,
+    "text": "what could become narrative intelligence?"
+  },
+  {
+    "segment_id": "podcast-0194",
+    "start_seconds": 529.8400001525879,
+    "end_seconds": 532.439998626709,
+    "text": "Storytelling has its place, obviously,"
+  },
+  {
+    "segment_id": "podcast-0195",
+    "start_seconds": 532.439998626709,
+    "end_seconds": 534.8800010681152,
+    "text": "in, for a leader, a founder, raising money,"
+  },
+  {
+    "segment_id": "podcast-0196",
+    "start_seconds": 534.8800010681152,
+    "end_seconds": 536.9599990844727,
+    "text": "talk pitching a customer, but a lot of times,"
+  },
+  {
+    "segment_id": "podcast-0197",
+    "start_seconds": 537.9199981689453,
+    "end_seconds": 540.6399993896484,
+    "text": "people get stuck in the stories, and they don't evolve them,"
+  },
+  {
+    "segment_id": "podcast-0198",
+    "start_seconds": 540.6399993896484,
+    "end_seconds": 542.4000015258789,
+    "text": "and so that's when I started thinking, like,"
+  },
+  {
+    "segment_id": "podcast-0199",
+    "start_seconds": 542.4000015258789,
+    "end_seconds": 545.5599975585938,
+    "text": "things are changing for a startup founder every day,"
+  },
+  {
+    "segment_id": "podcast-0200",
+    "start_seconds": 545.5599975585938,
+    "end_seconds": 549.4400024414062,
+    "text": "and there's new information, and there's new audiences,"
+  },
+  {
+    "segment_id": "podcast-0201",
+    "start_seconds": 549.4400024414062,
+    "end_seconds": 551.3600006103516,
+    "text": "and how do you just continuously evolve it?"
+  },
+  {
+    "segment_id": "podcast-0202",
+    "start_seconds": 551.3600006103516,
+    "end_seconds": 554.5599975585938,
+    "text": "So that's sort of where I started, so I pitched it,"
+  },
+  {
+    "segment_id": "podcast-0203",
+    "start_seconds": 554.5599975585938,
+    "end_seconds": 557.7600021362305,
+    "text": "I did my first talk at South by Southwest last year,"
+  },
+  {
+    "segment_id": "podcast-0204",
+    "start_seconds": 557.7600021362305,
+    "end_seconds": 559.7200012207031,
+    "text": "and I was so nervous, I was going in there,"
+  },
+  {
+    "segment_id": "podcast-0205",
+    "start_seconds": 559.7200012207031,
+    "end_seconds": 562.1600036621094,
+    "text": "I was in the green room, and I remember the guy"
+  },
+  {
+    "segment_id": "podcast-0206",
+    "start_seconds": 562.1600036621094,
+    "end_seconds": 565.3199996948242,
+    "text": "from Ted Lasso, if you've seen that show, was in there,"
+  },
+  {
+    "segment_id": "podcast-0207",
+    "start_seconds": 565.3199996948242,
+    "end_seconds": 566.8399963378906,
+    "text": "and he's sitting there, and I'm, like, so nervous,"
+  },
+  {
+    "segment_id": "podcast-0208",
+    "start_seconds": 567.7200012207031,
+    "end_seconds": 568.8399963378906,
+    "text": "I'm, like, oh, my God, there's, like, people around here,"
+  },
+  {
+    "segment_id": "podcast-0209",
+    "start_seconds": 568.8399963378906,
+    "end_seconds": 571.5999984741211,
+    "text": "is anybody gonna show up in my room, you know?"
+  },
+  {
+    "segment_id": "podcast-0210",
+    "start_seconds": 571.5999984741211,
+    "end_seconds": 574.5199966430664,
+    "text": "So I had, like, this was a new format they started"
+  },
+  {
+    "segment_id": "podcast-0211",
+    "start_seconds": 574.5199966430664,
+    "end_seconds": 576.5199966430664,
+    "text": "this past year called Core Conversation,"
+  },
+  {
+    "segment_id": "podcast-0212",
+    "start_seconds": 576.5199966430664,
+    "end_seconds": 578.2799987792969,
+    "text": "so I was really excited, but I really didn't know"
+  },
+  {
+    "segment_id": "podcast-0213",
+    "start_seconds": 578.2799987792969,
+    "end_seconds": 580.5999984741211,
+    "text": "if anybody was gonna show up, so I started peeking"
+  },
+  {
+    "segment_id": "podcast-0214",
+    "start_seconds": 580.5999984741211,
+    "end_seconds": 582.6800003051758,
+    "text": "outside the door, going, gosh, I wonder if anybody's"
+  },
+  {
+    "segment_id": "podcast-0215",
+    "start_seconds": 582.6800003051758,
+    "end_seconds": 586.1600036621094,
+    "text": "gonna show up in this room, and luckily, it was sold out,"
+  },
+  {
+    "segment_id": "podcast-0216",
+    "start_seconds": 586.1600036621094,
+    "end_seconds": 588.3199996948242,
+    "text": "we, it was, like, 50 people, so I'm not talking, like,"
+  },
+  {
+    "segment_id": "podcast-0217",
+    "start_seconds": 588.3199996948242,
+    "end_seconds": 593.0800018310547,
+    "text": "a 400-person theater, but it was a really good conversation,"
+  },
+  {
+    "segment_id": "podcast-0218",
+    "start_seconds": 593.0800018310547,
+    "end_seconds": 596.1600036621094,
+    "text": "a lot of interesting perspectives, questions,"
+  },
+  {
+    "segment_id": "podcast-0219",
+    "start_seconds": 596.1600036621094,
+    "end_seconds": 598.120002746582,
+    "text": "curious about what you were just asking,"
+  },
+  {
+    "segment_id": "podcast-0220",
+    "start_seconds": 598.120002746582,
+    "end_seconds": 599.6399993896484,
+    "text": "what is this narrative intelligence,"
+  },
+  {
+    "segment_id": "podcast-0221",
+    "start_seconds": 599.6399993896484,
+    "end_seconds": 601.3600006103516,
+    "text": "and how are you, you know, coaching it?"
+  },
+  {
+    "segment_id": "podcast-0222",
+    "start_seconds": 601.3600006103516,
+    "end_seconds": 603.6800003051758,
+    "text": "And so what it really came out of all of that"
+  },
+  {
+    "segment_id": "podcast-0223",
+    "start_seconds": 603.6800003051758,
+    "end_seconds": 606.2799987792969,
+    "text": "is people are afraid about the future,"
+  },
+  {
+    "segment_id": "podcast-0224",
+    "start_seconds": 606.2799987792969,
+    "end_seconds": 609.1600036621094,
+    "text": "they're trying to, a lot of them are in transitions"
+  },
+  {
+    "segment_id": "podcast-0225",
+    "start_seconds": 609.1600036621094,
+    "end_seconds": 610.8800048828125,
+    "text": "from one career, we had one guy there,"
+  },
+  {
+    "segment_id": "podcast-0226",
+    "start_seconds": 610.8800048828125,
+    "end_seconds": 613.7599945068359,
+    "text": "it was one of the top guys at NASA, and he was, like,"
+  },
+  {
+    "segment_id": "podcast-0227",
+    "start_seconds": 613.7599945068359,
+    "end_seconds": 615.7599945068359,
+    "text": "I'm trying to change my career now,"
+  },
+  {
+    "segment_id": "podcast-0228",
+    "start_seconds": 615.7599945068359,
+    "end_seconds": 618.3600006103516,
+    "text": "and I'm trying to transition in this next stage of life,"
+  },
+  {
+    "segment_id": "podcast-0229",
+    "start_seconds": 618.3600006103516,
+    "end_seconds": 620.9600067138672,
+    "text": "and so what it really told me was, it's kind of like"
+  },
+  {
+    "segment_id": "podcast-0230",
+    "start_seconds": 620.9600067138672,
+    "end_seconds": 622.9600067138672,
+    "text": "the classics, Hero's Journey, if you're familiar"
+  },
+  {
+    "segment_id": "podcast-0231",
+    "start_seconds": 622.9600067138672,
+    "end_seconds": 624.7200012207031,
+    "text": "with Joseph Campbell, or what's pretty much"
+  },
+  {
+    "segment_id": "podcast-0232",
+    "start_seconds": 624.7200012207031,
+    "end_seconds": 628.8800048828125,
+    "text": "in every movie, is it's kind of like we're all living"
+  },
+  {
+    "segment_id": "podcast-0233",
+    "start_seconds": 628.8800048828125,
+    "end_seconds": 630.8800048828125,
+    "text": "that Hero's Journey, you know, we're in the, you know,"
+  },
+  {
+    "segment_id": "podcast-0234",
+    "start_seconds": 630.8800048828125,
+    "end_seconds": 632.3600006103516,
+    "text": "whether it's the call, we're being called"
+  },
+  {
+    "segment_id": "podcast-0235",
+    "start_seconds": 632.3600006103516,
+    "end_seconds": 634.2400054931641,
+    "text": "into some adventure action, or we're going through"
+  },
+  {
+    "segment_id": "podcast-0236",
+    "start_seconds": 634.2400054931641,
+    "end_seconds": 636.9199981689453,
+    "text": "the threshold, or whether we're turning back home,"
+  },
+  {
+    "segment_id": "podcast-0237",
+    "start_seconds": 636.9199981689453,
+    "end_seconds": 638.8399963378906,
+    "text": "or we're trying to get back to our true self,"
+  },
+  {
+    "segment_id": "podcast-0238",
+    "start_seconds": 638.8399963378906,
+    "end_seconds": 640.9600067138672,
+    "text": "there's all these kind of periods we go through,"
+  },
+  {
+    "segment_id": "podcast-0239",
+    "start_seconds": 640.9600067138672,
+    "end_seconds": 645.3600006103516,
+    "text": "so as I dove deeper into it, I pulled a lot of my acting,"
+  },
+  {
+    "segment_id": "podcast-0240",
+    "start_seconds": 645.3600006103516,
+    "end_seconds": 648.4400024414062,
+    "text": "that I, coaching I received, I was fortunate to train"
+  },
+  {
+    "segment_id": "podcast-0241",
+    "start_seconds": 648.4400024414062,
+    "end_seconds": 650.6000061035156,
+    "text": "with some of the top acting coaches in LA,"
+  },
+  {
+    "segment_id": "podcast-0242",
+    "start_seconds": 650.6000061035156,
+    "end_seconds": 653.6799926757812,
+    "text": "and then coaching, psychology, neuroscience,"
+  },
+  {
+    "segment_id": "podcast-0243",
+    "start_seconds": 653.6799926757812,
+    "end_seconds": 656.2799987792969,
+    "text": "I started trying to pull, extract different things from it,"
+  },
+  {
+    "segment_id": "podcast-0244",
+    "start_seconds": 656.2799987792969,
+    "end_seconds": 658.6399993896484,
+    "text": "and what I really came up with is a three-step process,"
+  },
+  {
+    "segment_id": "podcast-0245",
+    "start_seconds": 658.6399993896484,
+    "end_seconds": 662.9600067138672,
+    "text": "which is own, author, and act, you know, show up each day,"
+  },
+  {
+    "segment_id": "podcast-0246",
+    "start_seconds": 662.9600067138672,
+    "end_seconds": 665.2400054931641,
+    "text": "and own where you're at, whether you like it or not,"
+  },
+  {
+    "segment_id": "podcast-0247",
+    "start_seconds": 665.2400054931641,
+    "end_seconds": 666.3999938964844,
+    "text": "or whether you're neutral on it,"
+  },
+  {
+    "segment_id": "podcast-0248",
+    "start_seconds": 666.3999938964844,
+    "end_seconds": 669.1600036621094,
+    "text": "but own where you are in your journey, you know,"
+  },
+  {
+    "segment_id": "podcast-0249",
+    "start_seconds": 669.1600036621094,
+    "end_seconds": 671.8000030517578,
+    "text": "look at ways that you can extract your learnings forward,"
+  },
+  {
+    "segment_id": "podcast-0250",
+    "start_seconds": 671.8000030517578,
+    "end_seconds": 674.9199981689453,
+    "text": "and then author this next chapter, this next phase for you,"
+  },
+  {
+    "segment_id": "podcast-0251",
+    "start_seconds": 674.9199981689453,
+    "end_seconds": 678.5599975585938,
+    "text": "it could be that week, that quarter, that next milestone,"
+  },
+  {
+    "segment_id": "podcast-0252",
+    "start_seconds": 678.5599975585938,
+    "end_seconds": 681.1999969482422,
+    "text": "but learn to author it, and what I found in the coaching"
+  },
+  {
+    "segment_id": "podcast-0253",
+    "start_seconds": 681.1999969482422,
+    "end_seconds": 683.0,
+    "text": "was a lot of times it required"
+  },
+  {
+    "segment_id": "podcast-0254",
+    "start_seconds": 683.0,
+    "end_seconds": 685.4799957275391,
+    "text": "a little reframing of your story."
+  },
+  {
+    "segment_id": "podcast-0255",
+    "start_seconds": 685.4799957275391,
+    "end_seconds": 687.9199981689453,
+    "text": "We had a founder, I think it was in Daniel's cohort,"
+  },
+  {
+    "segment_id": "podcast-0256",
+    "start_seconds": 687.9199981689453,
+    "end_seconds": 688.9600067138672,
+    "text": "that I remember working with,"
+  },
+  {
+    "segment_id": "podcast-0257",
+    "start_seconds": 688.9600067138672,
+    "end_seconds": 691.4400024414062,
+    "text": "and she didn't think she could be the CEO,"
+  },
+  {
+    "segment_id": "podcast-0258",
+    "start_seconds": 691.4400024414062,
+    "end_seconds": 693.4799957275391,
+    "text": "she was really like, she was really nervous,"
+  },
+  {
+    "segment_id": "podcast-0259",
+    "start_seconds": 693.4799957275391,
+    "end_seconds": 694.6000061035156,
+    "text": "she kept telling me every day"
+  },
+  {
+    "segment_id": "podcast-0260",
+    "start_seconds": 694.6000061035156,
+    "end_seconds": 696.0399932861328,
+    "text": "in the first couple weeks of the program,"
+  },
+  {
+    "segment_id": "podcast-0261",
+    "start_seconds": 696.0399932861328,
+    "end_seconds": 697.3200073242188,
+    "text": "like, I really shouldn't be CEO,"
+  },
+  {
+    "segment_id": "podcast-0262",
+    "start_seconds": 697.3200073242188,
+    "end_seconds": 698.2400054931641,
+    "text": "I don't think I can do this,"
+  },
+  {
+    "segment_id": "podcast-0263",
+    "start_seconds": 698.2400054931641,
+    "end_seconds": 700.8000030517578,
+    "text": "and she was from another country,"
+  },
+  {
+    "segment_id": "podcast-0264",
+    "start_seconds": 700.8000030517578,
+    "end_seconds": 702.9600067138672,
+    "text": "and she just had a lot of fear around it,"
+  },
+  {
+    "segment_id": "podcast-0265",
+    "start_seconds": 702.9600067138672,
+    "end_seconds": 706.0399932861328,
+    "text": "and again, as we dove deeper into the work,"
+  },
+  {
+    "segment_id": "podcast-0266",
+    "start_seconds": 706.0399932861328,
+    "end_seconds": 708.7599945068359,
+    "text": "she just really needed to kind of reframe her story,"
+  },
+  {
+    "segment_id": "podcast-0267",
+    "start_seconds": 708.7599945068359,
+    "end_seconds": 710.8000030517578,
+    "text": "and where she was to that point,"
+  },
+  {
+    "segment_id": "podcast-0268",
+    "start_seconds": 711.3200073242188,
+    "end_seconds": 712.1600036621094,
+    "text": "and what she started to realize"
+  },
+  {
+    "segment_id": "podcast-0269",
+    "start_seconds": 712.1600036621094,
+    "end_seconds": 713.9199981689453,
+    "text": "is she gained a lot of confidence"
+  },
+  {
+    "segment_id": "podcast-0270",
+    "start_seconds": 713.9199981689453,
+    "end_seconds": 716.2799987792969,
+    "text": "and saw that she could become CEO,"
+  },
+  {
+    "segment_id": "podcast-0271",
+    "start_seconds": 716.2799987792969,
+    "end_seconds": 717.9199981689453,
+    "text": "and so own, author, and act,"
+  },
+  {
+    "segment_id": "podcast-0272",
+    "start_seconds": 717.9199981689453,
+    "end_seconds": 719.0,
+    "text": "and act is the hardest thing,"
+  },
+  {
+    "segment_id": "podcast-0273",
+    "start_seconds": 719.0,
+    "end_seconds": 720.3200073242188,
+    "text": "because oftentimes,"
+  },
+  {
+    "segment_id": "podcast-0274",
+    "start_seconds": 720.0,
+    "end_seconds": 722.1199998855591,
+    "text": "you don't step into that first action step"
+  },
+  {
+    "segment_id": "podcast-0275",
+    "start_seconds": 722.1199998855591,
+    "end_seconds": 723.4800000190735,
+    "text": "as small as it may be,"
+  },
+  {
+    "segment_id": "podcast-0276",
+    "start_seconds": 723.4800000190735,
+    "end_seconds": 726.6799998283386,
+    "text": "we often let, you know, uncertainty get in the way."
+  },
+  {
+    "segment_id": "podcast-0277",
+    "start_seconds": 726.6799998283386,
+    "end_seconds": 728.1199998855591,
+    "text": "One quick follow-up on that."
+  },
+  {
+    "segment_id": "podcast-0278",
+    "start_seconds": 728.1199998855591,
+    "end_seconds": 732.5600004196167,
+    "text": "I'm curious, when you're saying that,"
+  },
+  {
+    "segment_id": "podcast-0279",
+    "start_seconds": 732.5600004196167,
+    "end_seconds": 735.5200004577637,
+    "text": "the notion of imposter syndrome came to mind,"
+  },
+  {
+    "segment_id": "podcast-0280",
+    "start_seconds": 735.5200004577637,
+    "end_seconds": 738.9599990844727,
+    "text": "and does that play into this process?"
+  },
+  {
+    "segment_id": "podcast-0281",
+    "start_seconds": 738.9599990844727,
+    "end_seconds": 739.7999992370605,
+    "text": "100%."
+  },
+  {
+    "segment_id": "podcast-0282",
+    "start_seconds": 739.7999992370605,
+    "end_seconds": 740.6399993896484,
+    "text": "100%."
+  },
+  {
+    "segment_id": "podcast-0283",
+    "start_seconds": 740.6399993896484,
+    "end_seconds": 742.3400001525879,
+    "text": "And I think imposter syndrome,"
+  },
+  {
+    "segment_id": "podcast-0284",
+    "start_seconds": 742.3400001525879,
+    "end_seconds": 743.7600002288818,
+    "text": "I don't know one founder,"
+  },
+  {
+    "segment_id": "podcast-0285",
+    "start_seconds": 743.7600002288818,
+    "end_seconds": 745.079999923706,
+    "text": "or pretty much anybody"
+  },
+  {
+    "segment_id": "podcast-0286",
+    "start_seconds": 745.079999923706,
+    "end_seconds": 746.920000076294,
+    "text": "who hasn't gone through imposter syndrome."
+  },
+  {
+    "segment_id": "podcast-0287",
+    "start_seconds": 746.920000076294,
+    "end_seconds": 748.1200008392334,
+    "text": "If you don't have imposter syndrome,"
+  },
+  {
+    "segment_id": "podcast-0288",
+    "start_seconds": 748.1200008392334,
+    "end_seconds": 749.8400001525879,
+    "text": "there might be something wrong with you,"
+  },
+  {
+    "segment_id": "podcast-0289",
+    "start_seconds": 749.8400001525879,
+    "end_seconds": 750.6800003051758,
+    "text": "is my feeling,"
+  },
+  {
+    "segment_id": "podcast-0290",
+    "start_seconds": 750.6800003051758,
+    "end_seconds": 753.9199981689453,
+    "text": "but I think the more you can embrace imposter syndrome"
+  },
+  {
+    "segment_id": "podcast-0291",
+    "start_seconds": 753.9199981689453,
+    "end_seconds": 754.9599990844727,
+    "text": "and normalize it,"
+  },
+  {
+    "segment_id": "podcast-0292",
+    "start_seconds": 754.9599990844727,
+    "end_seconds": 756.2400016784668,
+    "text": "that this is gonna happen."
+  },
+  {
+    "segment_id": "podcast-0293",
+    "start_seconds": 756.2400016784668,
+    "end_seconds": 759.7999992370605,
+    "text": "I mean, if you're taking the risk to start a company"
+  },
+  {
+    "segment_id": "podcast-0294",
+    "start_seconds": 759.7999992370605,
+    "end_seconds": 762.0,
+    "text": "and going through the hell that it takes"
+  },
+  {
+    "segment_id": "podcast-0295",
+    "start_seconds": 762.0,
+    "end_seconds": 764.9199981689453,
+    "text": "to become, to be an entrepreneur, to be a founder,"
+  },
+  {
+    "segment_id": "podcast-0296",
+    "start_seconds": 764.9199981689453,
+    "end_seconds": 768.3600006103516,
+    "text": "because it is, it's always like 10 times harder,"
+  },
+  {
+    "segment_id": "podcast-0297",
+    "start_seconds": 768.3600006103516,
+    "end_seconds": 769.3600006103516,
+    "text": "longer, everything."
+  },
+  {
+    "segment_id": "podcast-0298",
+    "start_seconds": 769.3600006103516,
+    "end_seconds": 771.5200004577637,
+    "text": "I'm sure Daniel's nodding over there"
+  },
+  {
+    "segment_id": "podcast-0299",
+    "start_seconds": 771.5200004577637,
+    "end_seconds": 773.4000015258789,
+    "text": "because it's never easy."
+  },
+  {
+    "segment_id": "podcast-0300",
+    "start_seconds": 773.4000015258789,
+    "end_seconds": 775.439998626709,
+    "text": "If it is easy, you probably just got lucky."
+  },
+  {
+    "segment_id": "podcast-0301",
+    "start_seconds": 775.439998626709,
+    "end_seconds": 776.7200012207031,
+    "text": "You got a lottery ticket."
+  },
+  {
+    "segment_id": "podcast-0302",
+    "start_seconds": 776.7200012207031,
+    "end_seconds": 778.1199989318848,
+    "text": "You got a lottery ticket or something,"
+  },
+  {
+    "segment_id": "podcast-0303",
+    "start_seconds": 778.1199989318848,
+    "end_seconds": 780.5200004577637,
+    "text": "but so embracing imposter syndrome"
+  },
+  {
+    "segment_id": "podcast-0304",
+    "start_seconds": 780.5200004577637,
+    "end_seconds": 782.4000015258789,
+    "text": "and immediately recognizing"
+  },
+  {
+    "segment_id": "podcast-0305",
+    "start_seconds": 782.4000015258789,
+    "end_seconds": 784.1999969482422,
+    "text": "that that's gonna be part of the journey"
+  },
+  {
+    "segment_id": "podcast-0306",
+    "start_seconds": 784.1999969482422,
+    "end_seconds": 785.9599990844727,
+    "text": "is probably the best way to approach it."
+  },
+  {
+    "segment_id": "podcast-0307",
+    "start_seconds": 785.9599990844727,
+    "end_seconds": 790.2799987792969,
+    "text": "Yeah, I definitely resonate with that a ton."
+  },
+  {
+    "segment_id": "podcast-0308",
+    "start_seconds": 790.2799987792969,
+    "end_seconds": 795.2799987792969,
+    "text": "And I wanna get to like each of these phases"
+  },
+  {
+    "segment_id": "podcast-0309",
+    "start_seconds": 795.9599990844727,
+    "end_seconds": 796.879997253418,
+    "text": "that you talked about"
+  },
+  {
+    "segment_id": "podcast-0310",
+    "start_seconds": 796.879997253418,
+    "end_seconds": 801.879997253418,
+    "text": "and kind of tie it in also to like our journey with AI."
+  },
+  {
+    "segment_id": "podcast-0311",
+    "start_seconds": 802.2399978637695,
+    "end_seconds": 804.8000030517578,
+    "text": "More generally, I think that would be really interesting."
+  },
+  {
+    "segment_id": "podcast-0312",
+    "start_seconds": 804.8000030517578,
+    "end_seconds": 807.0800018310547,
+    "text": "However, before we do that,"
+  },
+  {
+    "segment_id": "podcast-0313",
+    "start_seconds": 807.120002746582,
+    "end_seconds": 808.4400024414062,
+    "text": "maybe just like,"
+  },
+  {
+    "segment_id": "podcast-0314",
+    "start_seconds": 811.2399978637695,
+    "end_seconds": 813.4000015258789,
+    "text": "maybe it's like framed as a simple question,"
+  },
+  {
+    "segment_id": "podcast-0315",
+    "start_seconds": 813.4000015258789,
+    "end_seconds": 814.879997253418,
+    "text": "but I think there's a lot behind it."
+  },
+  {
+    "segment_id": "podcast-0316",
+    "start_seconds": 814.879997253418,
+    "end_seconds": 817.0400009155273,
+    "text": "Like, I guess my question is,"
+  },
+  {
+    "segment_id": "podcast-0317",
+    "start_seconds": 817.0400009155273,
+    "end_seconds": 820.5599975585938,
+    "text": "why should people care about their own journey"
+  },
+  {
+    "segment_id": "podcast-0318",
+    "start_seconds": 820.5599975585938,
+    "end_seconds": 823.8000030517578,
+    "text": "or expressing their own story,"
+  },
+  {
+    "segment_id": "podcast-0319",
+    "start_seconds": 823.8000030517578,
+    "end_seconds": 826.0400009155273,
+    "text": "like at a high level?"
+  },
+  {
+    "segment_id": "podcast-0320",
+    "start_seconds": 826.0400009155273,
+    "end_seconds": 831.0400009155273,
+    "text": "Like what does that do maybe for the person"
+  },
+  {
+    "segment_id": "podcast-0321",
+    "start_seconds": 831.5999984741211,
+    "end_seconds": 833.0800018310547,
+    "text": "and those in their environment?"
+  },
+  {
+    "segment_id": "podcast-0322",
+    "start_seconds": 833.0800018310547,
+    "end_seconds": 835.5999984741211,
+    "text": "Well, I would just say it simply is,"
+  },
+  {
+    "segment_id": "podcast-0323",
+    "start_seconds": 835.5999984741211,
+    "end_seconds": 837.3199996948242,
+    "text": "the one unique thing you know you have"
+  },
+  {
+    "segment_id": "podcast-0324",
+    "start_seconds": 837.3199996948242,
+    "end_seconds": 839.2799987792969,
+    "text": "is your story and your journey."
+  },
+  {
+    "segment_id": "podcast-0325",
+    "start_seconds": 839.2799987792969,
+    "end_seconds": 843.0800018310547,
+    "text": "And we often, I saw a statistic the other day"
+  },
+  {
+    "segment_id": "podcast-0326",
+    "start_seconds": 843.0800018310547,
+    "end_seconds": 844.6399993896484,
+    "text": "that we have 60,000 thoughts a day"
+  },
+  {
+    "segment_id": "podcast-0327",
+    "start_seconds": 844.6399993896484,
+    "end_seconds": 846.4000015258789,
+    "text": "and I think 80% of them are negative,"
+  },
+  {
+    "segment_id": "podcast-0328",
+    "start_seconds": 846.4000015258789,
+    "end_seconds": 849.1999969482422,
+    "text": "but learning to start shifting the mindset"
+  },
+  {
+    "segment_id": "podcast-0329",
+    "start_seconds": 849.1999969482422,
+    "end_seconds": 851.9199981689453,
+    "text": "and realizing like with AI,"
+  },
+  {
+    "segment_id": "podcast-0330",
+    "start_seconds": 851.9199981689453,
+    "end_seconds": 855.7599945068359,
+    "text": "I mean, everybody has their different perspectives on AI"
+  },
+  {
+    "segment_id": "podcast-0331",
+    "start_seconds": 855.7599945068359,
+    "end_seconds": 858.5200042724609,
+    "text": "and where it's going and how fast and what it's gonna do."
+  },
+  {
+    "segment_id": "podcast-0332",
+    "start_seconds": 858.5200042724609,
+    "end_seconds": 859.7599945068359,
+    "text": "But at the very least,"
+  },
+  {
+    "segment_id": "podcast-0333",
+    "start_seconds": 859.7599945068359,
+    "end_seconds": 862.2400054931641,
+    "text": "we can all pretty much recognize it's very powerful."
+  },
+  {
+    "segment_id": "podcast-0334",
+    "start_seconds": 862.2400054931641,
+    "end_seconds": 863.0800018310547,
+    "text": "It's game changing."
+  },
+  {
+    "segment_id": "podcast-0335",
+    "start_seconds": 863.0800018310547,
+    "end_seconds": 865.2400054931641,
+    "text": "We're at a pivotal moment in history."
+  },
+  {
+    "segment_id": "podcast-0336",
+    "start_seconds": 865.2400054931641,
+    "end_seconds": 869.1600036621094,
+    "text": "And so all the more reason for you to double down"
+  },
+  {
+    "segment_id": "podcast-0337",
+    "start_seconds": 869.1600036621094,
+    "end_seconds": 872.3200073242188,
+    "text": "on yourself and figure out ways to evolve yourself,"
+  },
+  {
+    "segment_id": "podcast-0338",
+    "start_seconds": 872.3200073242188,
+    "end_seconds": 875.0800018310547,
+    "text": "I mean, to adapt, to personally grow,"
+  },
+  {
+    "segment_id": "podcast-0339",
+    "start_seconds": 875.0800018310547,
+    "end_seconds": 877.0,
+    "text": "to become the leader you wanna become,"
+  },
+  {
+    "segment_id": "podcast-0340",
+    "start_seconds": 877.0,
+    "end_seconds": 882.0,
+    "text": "to embrace AI and use AI that's practical for you."
+  },
+  {
+    "segment_id": "podcast-0341",
+    "start_seconds": 882.1199951171875,
+    "end_seconds": 884.6000061035156,
+    "text": "No pun intended, but basically use AI"
+  },
+  {
+    "segment_id": "podcast-0342",
+    "start_seconds": 884.6000061035156,
+    "end_seconds": 888.2799987792969,
+    "text": "in a way that can help accelerate your personal growth"
+  },
+  {
+    "segment_id": "podcast-0343",
+    "start_seconds": 888.2799987792969,
+    "end_seconds": 890.8800048828125,
+    "text": "as leaders, as people, as family members,"
+  },
+  {
+    "segment_id": "podcast-0344",
+    "start_seconds": 890.8800048828125,
+    "end_seconds": 894.6399993896484,
+    "text": "as dad or wife or brother or sister or whoever."
+  },
+  {
+    "segment_id": "podcast-0345",
+    "start_seconds": 895.2400054931641,
+    "end_seconds": 896.3999938964844,
+    "text": "And that's the other big thing"
+  },
+  {
+    "segment_id": "podcast-0346",
+    "start_seconds": 896.3999938964844,
+    "end_seconds": 899.1600036621094,
+    "text": "is once I found quickly with founders,"
+  },
+  {
+    "segment_id": "podcast-0347",
+    "start_seconds": 899.1600036621094,
+    "end_seconds": 900.8399963378906,
+    "text": "Daniel, I'm sure you can attest to this,"
+  },
+  {
+    "segment_id": "podcast-0348",
+    "start_seconds": 900.8399963378906,
+    "end_seconds": 902.3999938964844,
+    "text": "is it quickly becomes,"
+  },
+  {
+    "segment_id": "podcast-0349",
+    "start_seconds": 902.3999938964844,
+    "end_seconds": 904.5599975585938,
+    "text": "it's hard to turn off like you're a founder"
+  },
+  {
+    "segment_id": "podcast-0350",
+    "start_seconds": 904.5599975585938,
+    "end_seconds": 905.6399993896484,
+    "text": "and then you kind of come home"
+  },
+  {
+    "segment_id": "podcast-0351",
+    "start_seconds": 905.6399993896484,
+    "end_seconds": 907.5200042724609,
+    "text": "and you had to kind of turn it off."
+  },
+  {
+    "segment_id": "podcast-0352",
+    "start_seconds": 907.5200042724609,
+    "end_seconds": 910.5200042724609,
+    "text": "But eventually it all kind of becomes one in the same."
+  },
+  {
+    "segment_id": "podcast-0353",
+    "start_seconds": 910.5200042724609,
+    "end_seconds": 913.4799957275391,
+    "text": "The leader you are at work"
+  },
+  {
+    "segment_id": "podcast-0354",
+    "start_seconds": 913.4799957275391,
+    "end_seconds": 916.0800018310547,
+    "text": "quickly evolves to the leader you are at home"
+  },
+  {
+    "segment_id": "podcast-0355",
+    "start_seconds": 916.0800018310547,
+    "end_seconds": 917.3600006103516,
+    "text": "and in your personal life."
+  },
+  {
+    "segment_id": "podcast-0356",
+    "start_seconds": 917.3600006103516,
+    "end_seconds": 921.1600036621094,
+    "text": "And so the more you can quickly align those two"
+  },
+  {
+    "segment_id": "podcast-0357",
+    "start_seconds": 921.1600036621094,
+    "end_seconds": 924.4400024414062,
+    "text": "and learn to just become a leader,"
+  },
+  {
+    "segment_id": "podcast-0358",
+    "start_seconds": 924.4400024414062,
+    "end_seconds": 926.3200073242188,
+    "text": "accept the fact that this is an identity"
+  },
+  {
+    "segment_id": "podcast-0359",
+    "start_seconds": 926.3200073242188,
+    "end_seconds": 928.7599945068359,
+    "text": "I wanna become in all aspects of my life,"
+  },
+  {
+    "segment_id": "podcast-0360",
+    "start_seconds": 928.7599945068359,
+    "end_seconds": 929.7599945068359,
+    "text": "I think is important."
+  },
+  {
+    "segment_id": "podcast-0361",
+    "start_seconds": 931.6000061035156,
+    "end_seconds": 936.3200073242188,
+    "text": "In this world where content is being produced so quickly"
+  },
+  {
+    "segment_id": "podcast-0362",
+    "start_seconds": 936.3200073242188,
+    "end_seconds": 939.0399932861328,
+    "text": "and people are being bombarded by so much,"
+  },
+  {
+    "segment_id": "podcast-0363",
+    "start_seconds": 939.0399932861328,
+    "end_seconds": 941.7200012207031,
+    "text": "it's critical that for your website,"
+  },
+  {
+    "segment_id": "podcast-0364",
+    "start_seconds": 941.7200012207031,
+    "end_seconds": 944.2799987792969,
+    "text": "for your brand, for your landing pages,"
+  },
+  {
+    "segment_id": "podcast-0365",
+    "start_seconds": 944.2799987792969,
+    "end_seconds": 948.2799987792969,
+    "text": "you produce something that looks handcrafted"
+  },
+  {
+    "segment_id": "podcast-0366",
+    "start_seconds": 948.2799987792969,
+    "end_seconds": 951.2799987792969,
+    "text": "but is still extremely fast to ship."
+  },
+  {
+    "segment_id": "podcast-0367",
+    "start_seconds": 951.2799987792969,
+    "end_seconds": 954.5599975585938,
+    "text": "And our partner, Framer, is enabling just this."
+  },
+  {
+    "segment_id": "podcast-0368",
+    "start_seconds": 954.5599975585938,
+    "end_seconds": 957.5200042724609,
+    "text": "Framer is the AI website builder"
+  },
+  {
+    "segment_id": "podcast-0369",
+    "start_seconds": 957.5200042724609,
+    "end_seconds": 960.0800018310547,
+    "text": "that helps creators, teams, and business."
+  },
+  {
+    "segment_id": "podcast-0370",
+    "start_seconds": 960.0,
+    "end_seconds": 966.4800000190735,
+    "text": "places, ship production-ready sites faster than ever, while getting every detail right."
+  },
+  {
+    "segment_id": "podcast-0371",
+    "start_seconds": 966.4800000190735,
+    "end_seconds": 972.3000001907349,
+    "text": "Prompt, inspect, edit, and publish in one place at a whole new pace."
+  },
+  {
+    "segment_id": "podcast-0372",
+    "start_seconds": 972.3000001907349,
+    "end_seconds": 976.9400005340576,
+    "text": "Learn how you can get more out of your site from a Framer specialist or get started building"
+  },
+  {
+    "segment_id": "podcast-0373",
+    "start_seconds": 976.9400005340576,
+    "end_seconds": 981.4400005340576,
+    "text": "for free today at framer.com."
+  },
+  {
+    "segment_id": "podcast-0374",
+    "start_seconds": 981.4400005340576,
+    "end_seconds": 999.8800010681152,
+    "text": "To read, you definitely have, you got me hooked on this, I'm curious, and I think both Daniel"
+  },
+  {
+    "segment_id": "podcast-0375",
+    "start_seconds": 999.8800010681152,
+    "end_seconds": 1008.060001373291,
+    "text": "and myself and others listening or watching the show, we're probably using a set of tools"
+  },
+  {
+    "segment_id": "podcast-0376",
+    "start_seconds": 1008.060001373291,
+    "end_seconds": 1012.939998626709,
+    "text": "and to some degree we're probably doing some of that, I'm guessing."
+  },
+  {
+    "segment_id": "podcast-0377",
+    "start_seconds": 1012.939998626709,
+    "end_seconds": 1018.9799995422363,
+    "text": "There were ideas as you were talking that were kind of resonating, like I was kind of"
+  },
+  {
+    "segment_id": "podcast-0378",
+    "start_seconds": 1018.9799995422363,
+    "end_seconds": 1023.5200004577637,
+    "text": "going, well, I do this and I do that, and I think, you know, that's helped my, you know,"
+  },
+  {
+    "segment_id": "podcast-0379",
+    "start_seconds": 1023.5200004577637,
+    "end_seconds": 1028.1800003051758,
+    "text": "this obviously helps at work, this thing has helped at home as we're using different, you"
+  },
+  {
+    "segment_id": "podcast-0380",
+    "start_seconds": 1028.1800003051758,
+    "end_seconds": 1033.099998474121,
+    "text": "know, different models and chats, you know, all the things."
+  },
+  {
+    "segment_id": "podcast-0381",
+    "start_seconds": 1033.099998474121,
+    "end_seconds": 1038.900001525879,
+    "text": "And so agents these days, what are some of the things, like if you're trying to get focused"
+  },
+  {
+    "segment_id": "podcast-0382",
+    "start_seconds": 1038.900001525879,
+    "end_seconds": 1046.0599975585938,
+    "text": "now on developing narrative intelligence and you want to use tools in a more focused way"
+  },
+  {
+    "segment_id": "podcast-0383",
+    "start_seconds": 1046.0599975585938,
+    "end_seconds": 1052.2200012207031,
+    "text": "to help yourself develop your story, as you've discussed, can you kind of focus me, can you"
+  },
+  {
+    "segment_id": "podcast-0384",
+    "start_seconds": 1052.2200012207031,
+    "end_seconds": 1057.4599990844727,
+    "text": "kind of take me down a path on what that means and like, you know, instead of me just kind"
+  },
+  {
+    "segment_id": "podcast-0385",
+    "start_seconds": 1057.4599990844727,
+    "end_seconds": 1061.5,
+    "text": "of doing whatever I'm doing eclectically, kind of give me a strategy."
+  },
+  {
+    "segment_id": "podcast-0386",
+    "start_seconds": 1061.6999969482422,
+    "end_seconds": 1065.1399993896484,
+    "text": "Okay, yes, I think, and that's one of the hardest things, Chris, I think for all of"
+  },
+  {
+    "segment_id": "podcast-0387",
+    "start_seconds": 1065.1399993896484,
+    "end_seconds": 1069.4599990844727,
+    "text": "us, and it's one of the things I think I gravitated into coaching because I needed it for myself."
+  },
+  {
+    "segment_id": "podcast-0388",
+    "start_seconds": 1069.4599990844727,
+    "end_seconds": 1074.5800018310547,
+    "text": "I mean, you know, we get distracted and we were maybe excited about some personal development"
+  },
+  {
+    "segment_id": "podcast-0389",
+    "start_seconds": 1074.5800018310547,
+    "end_seconds": 1078.8600006103516,
+    "text": "or some book or some growth at one point, and then we're quickly back off of that."
+  },
+  {
+    "segment_id": "podcast-0390",
+    "start_seconds": 1078.8600006103516,
+    "end_seconds": 1084.620002746582,
+    "text": "So I, you know, what I found to be very helpful with coaching founders and even for myself"
+  },
+  {
+    "segment_id": "podcast-0391",
+    "start_seconds": 1084.620002746582,
+    "end_seconds": 1090.1000061035156,
+    "text": "is really getting focused on your values, like really defining, like, what do you value?"
+  },
+  {
+    "segment_id": "podcast-0392",
+    "start_seconds": 1090.1399993896484,
+    "end_seconds": 1094.0599975585938,
+    "text": "And if you're working at a company, like, you know, technology company or whatever,"
+  },
+  {
+    "segment_id": "podcast-0393",
+    "start_seconds": 1094.0599975585938,
+    "end_seconds": 1098.8999938964844,
+    "text": "or you're a founder, really establishing where can I align my personal values with the company"
+  },
+  {
+    "segment_id": "podcast-0394",
+    "start_seconds": 1098.8999938964844,
+    "end_seconds": 1102.5,
+    "text": "values, you know, where, because that alignment is everything."
+  },
+  {
+    "segment_id": "podcast-0395",
+    "start_seconds": 1102.5,
+    "end_seconds": 1106.1799926757812,
+    "text": "And it goes deeper into the why, you know, we've all heard about the talks about the"
+  },
+  {
+    "segment_id": "podcast-0396",
+    "start_seconds": 1106.1799926757812,
+    "end_seconds": 1107.8600006103516,
+    "text": "why, but it really is true."
+  },
+  {
+    "segment_id": "podcast-0397",
+    "start_seconds": 1107.8600006103516,
+    "end_seconds": 1111.6999969482422,
+    "text": "I mean, yeah, you'd have to get to the what and how, but really with the why for your"
+  },
+  {
+    "segment_id": "podcast-0398",
+    "start_seconds": 1111.6999969482422,
+    "end_seconds": 1117.3800048828125,
+    "text": "own personal why, where you see yourself going, understanding the company why, wherever you're"
+  },
+  {
+    "segment_id": "podcast-0399",
+    "start_seconds": 1117.3800048828125,
+    "end_seconds": 1122.4600067138672,
+    "text": "working is, is hugely valuable, because I think what that does is keep you focused back"
+  },
+  {
+    "segment_id": "podcast-0400",
+    "start_seconds": 1122.4600067138672,
+    "end_seconds": 1127.3000030517578,
+    "text": "to your question about focus, it keeps you focused on, on how you're going to stay motivated,"
+  },
+  {
+    "segment_id": "podcast-0401",
+    "start_seconds": 1127.3000030517578,
+    "end_seconds": 1130.7799987792969,
+    "text": "how you're going to stay passionate, you know, what is the purpose here?"
+  },
+  {
+    "segment_id": "podcast-0402",
+    "start_seconds": 1130.7799987792969,
+    "end_seconds": 1131.7799987792969,
+    "text": "What is the goal?"
+  },
+  {
+    "segment_id": "podcast-0403",
+    "start_seconds": 1131.7799987792969,
+    "end_seconds": 1136.4600067138672,
+    "text": "So it's kind of like values is sort of the core foundation, and then looking at the track"
+  },
+  {
+    "segment_id": "podcast-0404",
+    "start_seconds": 1136.4600067138672,
+    "end_seconds": 1141.1399993896484,
+    "text": "to the outcome, like, and then work back from that, like, what outcome do does the company"
+  },
+  {
+    "segment_id": "podcast-0405",
+    "start_seconds": 1141.1399993896484,
+    "end_seconds": 1142.1399993896484,
+    "text": "foresee?"
+  },
+  {
+    "segment_id": "podcast-0406",
+    "start_seconds": 1142.1399993896484,
+    "end_seconds": 1145.8200073242188,
+    "text": "Or what outcome do I want in my personal life, and then working back to what are those steps"
+  },
+  {
+    "segment_id": "podcast-0407",
+    "start_seconds": 1145.8200073242188,
+    "end_seconds": 1147.3200073242188,
+    "text": "I can step into?"
+  },
+  {
+    "segment_id": "podcast-0408",
+    "start_seconds": 1147.3600006103516,
+    "end_seconds": 1151.3200073242188,
+    "text": "So that's, that's really been, I think, the best and the biggest thing I found is just"
+  },
+  {
+    "segment_id": "podcast-0409",
+    "start_seconds": 1151.3200073242188,
+    "end_seconds": 1156.1600036621094,
+    "text": "keeping it super simple and realistic, because I can't tell me times I've done this personally"
+  },
+  {
+    "segment_id": "podcast-0410",
+    "start_seconds": 1156.1600036621094,
+    "end_seconds": 1160.6799926757812,
+    "text": "and, and, and just fallen off and gone, Oh, gosh, you know, I set these goals."
+  },
+  {
+    "segment_id": "podcast-0411",
+    "start_seconds": 1160.6799926757812,
+    "end_seconds": 1166.1999969482422,
+    "text": "And, you know, it sounded great at January one, but you know, by February one, I'm already"
+  },
+  {
+    "segment_id": "podcast-0412",
+    "start_seconds": 1166.1999969482422,
+    "end_seconds": 1167.1999969482422,
+    "text": "like, what's going on here?"
+  },
+  {
+    "segment_id": "podcast-0413",
+    "start_seconds": 1167.1999969482422,
+    "end_seconds": 1168.479995727539,
+    "text": "I'm not doing hardly any of this stuff."
+  },
+  {
+    "segment_id": "podcast-0414",
+    "start_seconds": 1168.479995727539,
+    "end_seconds": 1172.8000030517578,
+    "text": "So just making a realistic that book atomic habits is one of my favorite books."
+  },
+  {
+    "segment_id": "podcast-0415",
+    "start_seconds": 1173.520004272461,
+    "end_seconds": 1177.7200012207031,
+    "text": "A lot of people have read that, but that's a really great way to look at how you can"
+  },
+  {
+    "segment_id": "podcast-0416",
+    "start_seconds": 1177.7200012207031,
+    "end_seconds": 1183.5599975585938,
+    "text": "be you compound yourself over the course of the year with really small habits, you know,"
+  },
+  {
+    "segment_id": "podcast-0417",
+    "start_seconds": 1183.5599975585938,
+    "end_seconds": 1184.5599975585938,
+    "text": "I've read the book."
+  },
+  {
+    "segment_id": "podcast-0418",
+    "start_seconds": 1184.5599975585938,
+    "end_seconds": 1185.5599975585938,
+    "text": "So good."
+  },
+  {
+    "segment_id": "podcast-0419",
+    "start_seconds": 1185.5599975585938,
+    "end_seconds": 1186.5599975585938,
+    "text": "Definitely."
+  },
+  {
+    "segment_id": "podcast-0420",
+    "start_seconds": 1186.5599975585938,
+    "end_seconds": 1187.5599975585938,
+    "text": "Definitely."
+  },
+  {
+    "segment_id": "podcast-0421",
+    "start_seconds": 1187.5599975585938,
+    "end_seconds": 1188.5599975585938,
+    "text": "Good one."
+  },
+  {
+    "segment_id": "podcast-0422",
+    "start_seconds": 1188.5599975585938,
+    "end_seconds": 1189.5599975585938,
+    "text": "Danny, we're about to say something."
+  },
+  {
+    "segment_id": "podcast-0423",
+    "start_seconds": 1189.5599975585938,
+    "end_seconds": 1190.5599975585938,
+    "text": "Yeah."
+  },
+  {
+    "segment_id": "podcast-0424",
+    "start_seconds": 1190.5599975585938,
+    "end_seconds": 1191.5599975585938,
+    "text": "Read."
+  },
+  {
+    "segment_id": "podcast-0425",
+    "start_seconds": 1191.5599975585938,
+    "end_seconds": 1195.240005493164,
+    "text": "I think you kind of started out the you mentioned those three steps."
+  },
+  {
+    "segment_id": "podcast-0426",
+    "start_seconds": 1195.240005493164,
+    "end_seconds": 1196.7200012207031,
+    "text": "The first one was own."
+  },
+  {
+    "segment_id": "podcast-0427",
+    "start_seconds": 1196.7200012207031,
+    "end_seconds": 1199.9600067138672,
+    "text": "I've been thinking about that as you and Chris have been talking."
+  },
+  {
+    "segment_id": "podcast-0428",
+    "start_seconds": 1200.0,
+    "end_seconds": 1221.0,
+    "text": "And it really resonated with me in relation to how myself and our team and maybe how I've led in the adoption of AI on our team. And I think where we have been blocked and maybe not aligned like you're talking about to where we need to go with AI, how we need to adopt those tools, which tools we adopt, etc."
+  },
+  {
+    "segment_id": "podcast-0429",
+    "start_seconds": 1222.0,
+    "end_seconds": 1236.0,
+    "text": "has been maybe when I've kind of led more, I've not owned where I am with the technology and what I don't know and what I'm comfortable with or not comfortable with."
+  },
+  {
+    "segment_id": "podcast-0430",
+    "start_seconds": 1236.0,
+    "end_seconds": 1259.0,
+    "text": "I've thought a lot over the past year about my own humility around like, oh, I have these certain code standards. And I have these standards around how a software development lifecycle should happen. And I know in my pride or whatever that is that this is the way it should go."
+  },
+  {
+    "segment_id": "podcast-0431",
+    "start_seconds": 1259.0,
+    "end_seconds": 1287.0,
+    "text": "And I'm not really owning the reality of where the technology is and what's possible with it. So let's say our company wants to get to this place like you're talking about. We have values that are important to us and we have a mission of what we're trying to achieve. I'm actually a liability then towards that mission because I'm not acting out of humility or a real ownership of what the reality is."
+  },
+  {
+    "segment_id": "podcast-0432",
+    "start_seconds": 1287.0,
+    "end_seconds": 1293.0,
+    "text": "Is that partially what you mean by that? I'm curious your reflection on that experience, I guess."
+  },
+  {
+    "segment_id": "podcast-0433",
+    "start_seconds": 1293.0,
+    "end_seconds": 1306.0,
+    "text": "Yes. Well, first of all, don't beat yourself up, Daniel. This is very common. And I think part of it is because you're the leader, you're the CEO, so you're trying to show certainty. You have a tremendous background and you're super smart."
+  },
+  {
+    "segment_id": "podcast-0434",
+    "start_seconds": 1306.0,
+    "end_seconds": 1323.0,
+    "text": "But I think that really is it because what I'm finding with teams right now, we actually have one team I'm coaching. It's an AI company, but we're calling it now the ownership project because so much of these leaders, I mean, you know how it is when you're going from these early stages, you're in survival mode for so much of it, right? You're just trying to survive."
+  },
+  {
+    "segment_id": "podcast-0435",
+    "start_seconds": 1323.0,
+    "end_seconds": 1340.0,
+    "text": "And then all of a sudden, you either hit that point where you're starting to grow revenue and you get some investment and now you're expected to really grow and everybody's got to grow. A lot of these leaders, some of them haven't been in leadership positions, so everybody's now learning together."
+  },
+  {
+    "segment_id": "podcast-0436",
+    "start_seconds": 1340.0,
+    "end_seconds": 1366.0,
+    "text": "And I think what you pointed out is really key for the CEO founder, especially, is to be more open when they can about what they don't know. I can't tell how many times I think founders just naturally want to say, hey, I've got to pretend like I know it all, because they think that's the norm. But really, when they can open up and say, hey, this is an area I'm learning too, so we can learn together, I think can be very valuable as well."
+  },
+  {
+    "segment_id": "podcast-0437",
+    "start_seconds": 1366.0,
+    "end_seconds": 1390.0,
+    "text": "Ownership is such a big topic right now. I'm finding it coming up in almost every team and group I'm coaching with, because also they need the rest of the team to take initiative. And whether it's AI tools they're learning or anything that's happening, I mean, it's happening so fast that whatever anybody can bring to the table and share and move forward, all the better, right? It's no longer helpful to be siloed."
+  },
+  {
+    "segment_id": "podcast-0438",
+    "start_seconds": 1390.0,
+    "end_seconds": 1417.0,
+    "text": "Yeah, yeah. And do you think that that connects with then, let's say, a person in, like you were talking about people considering their roles, even if they're not, let's say, the CEO or in that position, people are constantly being fed like your role might not be here, you need to adapt, like all of these things. And it's really hard to embrace that sort of reality."
+  },
+  {
+    "segment_id": "podcast-0439",
+    "start_seconds": 1417.0,
+    "end_seconds": 1428.0,
+    "text": "I'm not saying it is the reality for everyone, right? But I don't know, that brings up emotions, for sure, in terms of people's relationship to AI and what it could mean."
+  },
+  {
+    "segment_id": "podcast-0440",
+    "start_seconds": 1428.0,
+    "end_seconds": 1440.0,
+    "text": "And I think, especially, as you would know, I think a lot of engineers, especially in the day when everybody was told, yeah, go become, learn how to code, and this is the path."
+  },
+  {
+    "segment_id": "podcast-0441",
+    "start_seconds": 1440.0,
+    "end_seconds": 1442.920000076294,
+    "text": "for a lot of reasons it is, it's such a great path."
+  },
+  {
+    "segment_id": "podcast-0442",
+    "start_seconds": 1442.920000076294,
+    "end_seconds": 1445.159999847412,
+    "text": "But now there's a lot of people now looking like,"
+  },
+  {
+    "segment_id": "podcast-0443",
+    "start_seconds": 1445.159999847412,
+    "end_seconds": 1446.119999885559,
+    "text": "am I gonna get replaced?"
+  },
+  {
+    "segment_id": "podcast-0444",
+    "start_seconds": 1446.119999885559,
+    "end_seconds": 1449.039999961853,
+    "text": "And I think that's happening across most industries."
+  },
+  {
+    "segment_id": "podcast-0445",
+    "start_seconds": 1449.039999961853,
+    "end_seconds": 1450.8199996948242,
+    "text": "I know with some of the people I'm talking to,"
+  },
+  {
+    "segment_id": "podcast-0446",
+    "start_seconds": 1450.8199996948242,
+    "end_seconds": 1453.0600004196167,
+    "text": "like in Hollywood, there's a guest I just had on,"
+  },
+  {
+    "segment_id": "podcast-0447",
+    "start_seconds": 1453.0600004196167,
+    "end_seconds": 1456.579999923706,
+    "text": "Eric Chamlin, and he's kind of an expert around technology"
+  },
+  {
+    "segment_id": "podcast-0448",
+    "start_seconds": 1456.579999923706,
+    "end_seconds": 1459.2000007629395,
+    "text": "and AI in Hollywood, all the studios and stuff."
+  },
+  {
+    "segment_id": "podcast-0449",
+    "start_seconds": 1459.2000007629395,
+    "end_seconds": 1462.6399993896484,
+    "text": "And oh my God, like, yeah, it's amazing."
+  },
+  {
+    "segment_id": "podcast-0450",
+    "start_seconds": 1462.6399993896484,
+    "end_seconds": 1464.1800003051758,
+    "text": "Everybody thinks they're getting replaced."
+  },
+  {
+    "segment_id": "podcast-0451",
+    "start_seconds": 1464.1800003051758,
+    "end_seconds": 1466.3199996948242,
+    "text": "And so, yeah, I think for your role,"
+  },
+  {
+    "segment_id": "podcast-0452",
+    "start_seconds": 1466.3199996948242,
+    "end_seconds": 1468.6000003814697,
+    "text": "it's gonna be a lot of like your coaching,"
+  },
+  {
+    "segment_id": "podcast-0453",
+    "start_seconds": 1469.5599994659424,
+    "end_seconds": 1472.560001373291,
+    "text": "having the coach and manage and listen to people"
+  },
+  {
+    "segment_id": "podcast-0454",
+    "start_seconds": 1472.560001373291,
+    "end_seconds": 1474.439998626709,
+    "text": "and really just kind of bring it back"
+  },
+  {
+    "segment_id": "podcast-0455",
+    "start_seconds": 1474.439998626709,
+    "end_seconds": 1477.9599990844727,
+    "text": "to what's practical right now in today's current time,"
+  },
+  {
+    "segment_id": "podcast-0456",
+    "start_seconds": 1477.9599990844727,
+    "end_seconds": 1479.939998626709,
+    "text": "knowing that there's a lot can change,"
+  },
+  {
+    "segment_id": "podcast-0457",
+    "start_seconds": 1480.9599990844727,
+    "end_seconds": 1483.0,
+    "text": "but what can you control right now?"
+  },
+  {
+    "segment_id": "podcast-0458",
+    "start_seconds": 1483.0,
+    "end_seconds": 1484.159999847412,
+    "text": "It's sort of the old like military,"
+  },
+  {
+    "segment_id": "podcast-0459",
+    "start_seconds": 1484.159999847412,
+    "end_seconds": 1486.2000007629395,
+    "text": "what can I control in this moment?"
+  },
+  {
+    "segment_id": "podcast-0460",
+    "start_seconds": 1487.3800010681152,
+    "end_seconds": 1488.9799995422363,
+    "text": "So I think that's really helpful."
+  },
+  {
+    "segment_id": "podcast-0461",
+    "start_seconds": 1488.9799995422363,
+    "end_seconds": 1491.159999847412,
+    "text": "But yeah, and it really, it's also requiring"
+  },
+  {
+    "segment_id": "podcast-0462",
+    "start_seconds": 1491.159999847412,
+    "end_seconds": 1494.6800003051758,
+    "text": "a lot of your teammates to start learning"
+  },
+  {
+    "segment_id": "podcast-0463",
+    "start_seconds": 1494.6800003051758,
+    "end_seconds": 1497.1800003051758,
+    "text": "and looking at ways that maybe they can wear another hat."
+  },
+  {
+    "segment_id": "podcast-0464",
+    "start_seconds": 1497.2200012207031,
+    "end_seconds": 1498.7400016784668,
+    "text": "And I know they're probably going, gosh,"
+  },
+  {
+    "segment_id": "podcast-0465",
+    "start_seconds": 1498.7400016784668,
+    "end_seconds": 1499.9799995422363,
+    "text": "I signed up for this startup"
+  },
+  {
+    "segment_id": "podcast-0466",
+    "start_seconds": 1499.9799995422363,
+    "end_seconds": 1502.4599990844727,
+    "text": "and I thought the role was this when I signed up"
+  },
+  {
+    "segment_id": "podcast-0467",
+    "start_seconds": 1502.4599990844727,
+    "end_seconds": 1504.6600036621094,
+    "text": "and it's changed and I'm taking on all these roles,"
+  },
+  {
+    "segment_id": "podcast-0468",
+    "start_seconds": 1504.6600036621094,
+    "end_seconds": 1508.0199966430664,
+    "text": "but that's also part of how you learn."
+  },
+  {
+    "segment_id": "podcast-0469",
+    "start_seconds": 1508.0199966430664,
+    "end_seconds": 1509.900001525879,
+    "text": "I mean, one of the things I coach"
+  },
+  {
+    "segment_id": "podcast-0470",
+    "start_seconds": 1509.900001525879,
+    "end_seconds": 1513.2200012207031,
+    "text": "with some of the people at MIT are considering two tracks."
+  },
+  {
+    "segment_id": "podcast-0471",
+    "start_seconds": 1513.2200012207031,
+    "end_seconds": 1514.5800018310547,
+    "text": "Am I gonna go try to interview"
+  },
+  {
+    "segment_id": "podcast-0472",
+    "start_seconds": 1514.5800018310547,
+    "end_seconds": 1516.5,
+    "text": "and get a job with Google, hopefully,"
+  },
+  {
+    "segment_id": "podcast-0473",
+    "start_seconds": 1516.5,
+    "end_seconds": 1518.9800033569336,
+    "text": "or Facebook or Meta or whoever,"
+  },
+  {
+    "segment_id": "podcast-0474",
+    "start_seconds": 1518.9800033569336,
+    "end_seconds": 1521.3399963378906,
+    "text": "or do I wanna start my own business"
+  },
+  {
+    "segment_id": "podcast-0475",
+    "start_seconds": 1521.3399963378906,
+    "end_seconds": 1523.4199981689453,
+    "text": "or go work for a startup for a while?"
+  },
+  {
+    "segment_id": "podcast-0476",
+    "start_seconds": 1523.4199981689453,
+    "end_seconds": 1526.3399963378906,
+    "text": "And that's one of the pros you try to get across"
+  },
+  {
+    "segment_id": "podcast-0477",
+    "start_seconds": 1526.3399963378906,
+    "end_seconds": 1528.0599975585938,
+    "text": "is like, you may not make as much money,"
+  },
+  {
+    "segment_id": "podcast-0478",
+    "start_seconds": 1528.0599975585938,
+    "end_seconds": 1529.379997253418,
+    "text": "there might not be as much certainty,"
+  },
+  {
+    "segment_id": "podcast-0479",
+    "start_seconds": 1529.379997253418,
+    "end_seconds": 1531.9400024414062,
+    "text": "but guess what, you can learn a lot quickly."
+  },
+  {
+    "segment_id": "podcast-0480",
+    "start_seconds": 1531.9400024414062,
+    "end_seconds": 1535.1999969482422,
+    "text": "You can take on a lot of different roles quickly."
+  },
+  {
+    "segment_id": "podcast-0481",
+    "start_seconds": 1535.1999969482422,
+    "end_seconds": 1538.1800003051758,
+    "text": "So it's a great thing to understand"
+  },
+  {
+    "segment_id": "podcast-0482",
+    "start_seconds": 1538.1800003051758,
+    "end_seconds": 1539.5800018310547,
+    "text": "as you're approaching that."
+  },
+  {
+    "segment_id": "podcast-0483",
+    "start_seconds": 1539.5800018310547,
+    "end_seconds": 1542.2600021362305,
+    "text": "And I'd like to actually extend this"
+  },
+  {
+    "segment_id": "podcast-0484",
+    "start_seconds": 1542.2600021362305,
+    "end_seconds": 1543.5,
+    "text": "because you're actually going"
+  },
+  {
+    "segment_id": "podcast-0485",
+    "start_seconds": 1543.5,
+    "end_seconds": 1545.5800018310547,
+    "text": "where I was gonna ask you anyway."
+  },
+  {
+    "segment_id": "podcast-0486",
+    "start_seconds": 1545.5800018310547,
+    "end_seconds": 1550.5800018310547,
+    "text": "And it's like we are in, for better or for worse,"
+  },
+  {
+    "segment_id": "podcast-0487",
+    "start_seconds": 1551.5400009155273,
+    "end_seconds": 1554.620002746582,
+    "text": "kind of the most fantastic moment in history"
+  },
+  {
+    "segment_id": "podcast-0488",
+    "start_seconds": 1555.4599990844727,
+    "end_seconds": 1556.6999969482422,
+    "text": "where things have changed"
+  },
+  {
+    "segment_id": "podcast-0489",
+    "start_seconds": 1556.6999969482422,
+    "end_seconds": 1560.379997253418,
+    "text": "and the notion of who we are"
+  },
+  {
+    "segment_id": "podcast-0490",
+    "start_seconds": 1560.379997253418,
+    "end_seconds": 1562.3000030517578,
+    "text": "and our identities are changing,"
+  },
+  {
+    "segment_id": "podcast-0491",
+    "start_seconds": 1562.3000030517578,
+    "end_seconds": 1564.1800003051758,
+    "text": "the work we're doing on a day-to-day basis,"
+  },
+  {
+    "segment_id": "podcast-0492",
+    "start_seconds": 1564.1800003051758,
+    "end_seconds": 1565.5,
+    "text": "how we get it done."
+  },
+  {
+    "segment_id": "podcast-0493",
+    "start_seconds": 1565.5,
+    "end_seconds": 1567.9800033569336,
+    "text": "I know speaking for myself,"
+  },
+  {
+    "segment_id": "podcast-0494",
+    "start_seconds": 1567.9800033569336,
+    "end_seconds": 1572.979995727539,
+    "text": "I am with the new possibilities that the tooling creates,"
+  },
+  {
+    "segment_id": "podcast-0495",
+    "start_seconds": 1573.020004272461,
+    "end_seconds": 1574.259994506836,
+    "text": "I'm more productive right now"
+  },
+  {
+    "segment_id": "podcast-0496",
+    "start_seconds": 1574.259994506836,
+    "end_seconds": 1576.2200012207031,
+    "text": "than I've ever been in my entire life."
+  },
+  {
+    "segment_id": "podcast-0497",
+    "start_seconds": 1576.2200012207031,
+    "end_seconds": 1579.020004272461,
+    "text": "And so, and I'm learning,"
+  },
+  {
+    "segment_id": "podcast-0498",
+    "start_seconds": 1579.020004272461,
+    "end_seconds": 1581.5800018310547,
+    "text": "I'm like I'm learning what to do with that."
+  },
+  {
+    "segment_id": "podcast-0499",
+    "start_seconds": 1581.5800018310547,
+    "end_seconds": 1585.740005493164,
+    "text": "Like there's an adjustment of extra capacity."
+  },
+  {
+    "segment_id": "podcast-0500",
+    "start_seconds": 1585.740005493164,
+    "end_seconds": 1588.3399963378906,
+    "text": "And so, you mentioned about in startups,"
+  },
+  {
+    "segment_id": "podcast-0501",
+    "start_seconds": 1588.3399963378906,
+    "end_seconds": 1590.0599975585938,
+    "text": "people will come in and say,"
+  },
+  {
+    "segment_id": "podcast-0502",
+    "start_seconds": 1590.0599975585938,
+    "end_seconds": 1591.6999969482422,
+    "text": "well, I came in on this role,"
+  },
+  {
+    "segment_id": "podcast-0503",
+    "start_seconds": 1591.6999969482422,
+    "end_seconds": 1595.259994506836,
+    "text": "but maybe it's time to pivot my role within the startup."
+  },
+  {
+    "segment_id": "podcast-0504",
+    "start_seconds": 1595.259994506836,
+    "end_seconds": 1596.6999969482422,
+    "text": "But I think that's happening"
+  },
+  {
+    "segment_id": "podcast-0505",
+    "start_seconds": 1596.6999969482422,
+    "end_seconds": 1598.6199951171875,
+    "text": "in all organizations right now."
+  },
+  {
+    "segment_id": "podcast-0506",
+    "start_seconds": 1598.6199951171875,
+    "end_seconds": 1601.6600036621094,
+    "text": "That's, you can have very large,"
+  },
+  {
+    "segment_id": "podcast-0507",
+    "start_seconds": 1601.6600036621094,
+    "end_seconds": 1603.3000030517578,
+    "text": "well-established organizations"
+  },
+  {
+    "segment_id": "podcast-0508",
+    "start_seconds": 1603.3000030517578,
+    "end_seconds": 1605.4600067138672,
+    "text": "that are having the same situation"
+  },
+  {
+    "segment_id": "podcast-0509",
+    "start_seconds": 1605.4600067138672,
+    "end_seconds": 1607.3399963378906,
+    "text": "with the new capabilities coming in."
+  },
+  {
+    "segment_id": "podcast-0510",
+    "start_seconds": 1607.3399963378906,
+    "end_seconds": 1611.5,
+    "text": "And so that is continuing to accelerate."
+  },
+  {
+    "segment_id": "podcast-0511",
+    "start_seconds": 1612.4199981689453,
+    "end_seconds": 1617.4199981689453,
+    "text": "And so, given the fact that like our day-to-day reality"
+  },
+  {
+    "segment_id": "podcast-0512",
+    "start_seconds": 1617.5,
+    "end_seconds": 1619.7799987792969,
+    "text": "is accelerating along this trend,"
+  },
+  {
+    "segment_id": "podcast-0513",
+    "start_seconds": 1620.6600036621094,
+    "end_seconds": 1623.979995727539,
+    "text": "and therefore it's not even the rate of learning"
+  },
+  {
+    "segment_id": "podcast-0514",
+    "start_seconds": 1623.979995727539,
+    "end_seconds": 1626.8200073242188,
+    "text": "being the same, you don't have to learn the same."
+  },
+  {
+    "segment_id": "podcast-0515",
+    "start_seconds": 1626.8200073242188,
+    "end_seconds": 1629.5399932861328,
+    "text": "Tomorrow, you have to learn more than you've learned today."
+  },
+  {
+    "segment_id": "podcast-0516",
+    "start_seconds": 1629.5399932861328,
+    "end_seconds": 1632.020004272461,
+    "text": "And the next day, you're gonna have to learn more"
+  },
+  {
+    "segment_id": "podcast-0517",
+    "start_seconds": 1632.020004272461,
+    "end_seconds": 1634.9400024414062,
+    "text": "and be more, have a greater ability"
+  },
+  {
+    "segment_id": "podcast-0518",
+    "start_seconds": 1634.9400024414062,
+    "end_seconds": 1637.0599975585938,
+    "text": "to pivot in your own world."
+  },
+  {
+    "segment_id": "podcast-0519",
+    "start_seconds": 1637.0599975585938,
+    "end_seconds": 1641.020004272461,
+    "text": "How, so like, I love the framework that you've taken,"
+  },
+  {
+    "segment_id": "podcast-0520",
+    "start_seconds": 1641.020004272461,
+    "end_seconds": 1643.1000061035156,
+    "text": "but I'm throwing this challenge at you"
+  },
+  {
+    "segment_id": "podcast-0521",
+    "start_seconds": 1643.1000061035156,
+    "end_seconds": 1644.6600036621094,
+    "text": "for the folks that are out there,"
+  },
+  {
+    "segment_id": "podcast-0522",
+    "start_seconds": 1644.6600036621094,
+    "end_seconds": 1646.0599975585938,
+    "text": "as we're all living that,"
+  },
+  {
+    "segment_id": "podcast-0523",
+    "start_seconds": 1646.0599975585938,
+    "end_seconds": 1647.6999969482422,
+    "text": "which obviously generates some of the fear"
+  },
+  {
+    "segment_id": "podcast-0524",
+    "start_seconds": 1647.6999969482422,
+    "end_seconds": 1648.740005493164,
+    "text": "that you've been talking about,"
+  },
+  {
+    "segment_id": "podcast-0525",
+    "start_seconds": 1648.740005493164,
+    "end_seconds": 1651.2200012207031,
+    "text": "how do you manage that in the process"
+  },
+  {
+    "segment_id": "podcast-0526",
+    "start_seconds": 1651.2200012207031,
+    "end_seconds": 1654.020004272461,
+    "text": "as the acceleration continues?"
+  },
+  {
+    "segment_id": "podcast-0527",
+    "start_seconds": 1654.020004272461,
+    "end_seconds": 1657.979995727539,
+    "text": "Because I'm certainly struggling with that in my own life."
+  },
+  {
+    "segment_id": "podcast-0528",
+    "start_seconds": 1659.3000030517578,
+    "end_seconds": 1660.3000030517578,
+    "text": "In terms of trying to-"
+  },
+  {
+    "segment_id": "podcast-0529",
+    "start_seconds": 1660.3000030517578,
+    "end_seconds": 1661.3800048828125,
+    "text": "I understand, Chris."
+  },
+  {
+    "segment_id": "podcast-0530",
+    "start_seconds": 1661.3800048828125,
+    "end_seconds": 1664.1000061035156,
+    "text": "I feel like we all can relate to that."
+  },
+  {
+    "segment_id": "podcast-0531",
+    "start_seconds": 1664.1000061035156,
+    "end_seconds": 1666.020004272461,
+    "text": "And that's where, again, coming back to being human"
+  },
+  {
+    "segment_id": "podcast-0532",
+    "start_seconds": 1666.020004272461,
+    "end_seconds": 1667.5399932861328,
+    "text": "and trying to understand the meaning,"
+  },
+  {
+    "segment_id": "podcast-0533",
+    "start_seconds": 1667.5399932861328,
+    "end_seconds": 1670.8999938964844,
+    "text": "all the meaning underneath all of this is key."
+  },
+  {
+    "segment_id": "podcast-0534",
+    "start_seconds": 1671.5800018310547,
+    "end_seconds": 1674.2200012207031,
+    "text": "That's where I think those emotional intelligence skills"
+  },
+  {
+    "segment_id": "podcast-0535",
+    "start_seconds": 1674.2200012207031,
+    "end_seconds": 1677.1000061035156,
+    "text": "are so critical now, now more than ever, right?"
+  },
+  {
+    "segment_id": "podcast-0536",
+    "start_seconds": 1677.1000061035156,
+    "end_seconds": 1678.5,
+    "text": "How do I become more self-aware?"
+  },
+  {
+    "segment_id": "podcast-0537",
+    "start_seconds": 1678.5,
+    "end_seconds": 1679.8600006103516,
+    "text": "How do I stay more present?"
+  },
+  {
+    "segment_id": "podcast-0538",
+    "start_seconds": 1680.0,
+    "end_seconds": 1682.619999885559,
+    "text": "Now, how do I learn to self-regulate in situations"
+  },
+  {
+    "segment_id": "podcast-0539",
+    "start_seconds": 1682.619999885559,
+    "end_seconds": 1685.3200001716614,
+    "text": "when there's fear everywhere, there's distraction,"
+  },
+  {
+    "segment_id": "podcast-0540",
+    "start_seconds": 1685.3200001716614,
+    "end_seconds": 1687.3200001716614,
+    "text": "there's feels like the world's overwhelming."
+  },
+  {
+    "segment_id": "podcast-0541",
+    "start_seconds": 1687.3200001716614,
+    "end_seconds": 1688.6800003051758,
+    "text": "One day you're up and excited"
+  },
+  {
+    "segment_id": "podcast-0542",
+    "start_seconds": 1688.6800003051758,
+    "end_seconds": 1692.3199996948242,
+    "text": "because you're working on with Claude or chat GPT"
+  },
+  {
+    "segment_id": "podcast-0543",
+    "start_seconds": 1692.3199996948242,
+    "end_seconds": 1693.159999847412,
+    "text": "and everything's like,"
+  },
+  {
+    "segment_id": "podcast-0544",
+    "start_seconds": 1693.159999847412,
+    "end_seconds": 1694.6400003433228,
+    "text": "oh, you're feeling great about yourself."
+  },
+  {
+    "segment_id": "podcast-0545",
+    "start_seconds": 1694.6400003433228,
+    "end_seconds": 1696.3600006103516,
+    "text": "And then the next minute you feel like, oh gosh,"
+  },
+  {
+    "segment_id": "podcast-0546",
+    "start_seconds": 1696.3600006103516,
+    "end_seconds": 1699.5200004577637,
+    "text": "like, I feel like I'm this small and I have no place here."
+  },
+  {
+    "segment_id": "podcast-0547",
+    "start_seconds": 1699.5200004577637,
+    "end_seconds": 1701.6399993896484,
+    "text": "So it's, I think a lot of those skills"
+  },
+  {
+    "segment_id": "podcast-0548",
+    "start_seconds": 1701.6399993896484,
+    "end_seconds": 1703.5599994659424,
+    "text": "are really important to develop."
+  },
+  {
+    "segment_id": "podcast-0549",
+    "start_seconds": 1703.5599994659424,
+    "end_seconds": 1705.7999992370605,
+    "text": "And I also think you mentioned identity."
+  },
+  {
+    "segment_id": "podcast-0550",
+    "start_seconds": 1705.7999992370605,
+    "end_seconds": 1708.7800006866455,
+    "text": "I think it's important to look at identity different."
+  },
+  {
+    "segment_id": "podcast-0551",
+    "start_seconds": 1708.7800006866455,
+    "end_seconds": 1710.5,
+    "text": "I mean, there's essence, right?"
+  },
+  {
+    "segment_id": "podcast-0552",
+    "start_seconds": 1710.5,
+    "end_seconds": 1713.2599983215332,
+    "text": "Who I really am, who you really are deep down,"
+  },
+  {
+    "segment_id": "podcast-0553",
+    "start_seconds": 1713.2599983215332,
+    "end_seconds": 1715.8600006103516,
+    "text": "like what makes you you, but then there's identity"
+  },
+  {
+    "segment_id": "podcast-0554",
+    "start_seconds": 1715.8600006103516,
+    "end_seconds": 1717.7799987792969,
+    "text": "and identity can involve."
+  },
+  {
+    "segment_id": "podcast-0555",
+    "start_seconds": 1717.7799987792969,
+    "end_seconds": 1719.1800003051758,
+    "text": "And I think a lot of people"
+  },
+  {
+    "segment_id": "podcast-0556",
+    "start_seconds": 1719.1800003051758,
+    "end_seconds": 1722.2999992370605,
+    "text": "don't try on enough identities at times."
+  },
+  {
+    "segment_id": "podcast-0557",
+    "start_seconds": 1722.2999992370605,
+    "end_seconds": 1724.0800018310547,
+    "text": "So for example, I saw this quote the other day"
+  },
+  {
+    "segment_id": "podcast-0558",
+    "start_seconds": 1724.0800018310547,
+    "end_seconds": 1724.9199981689453,
+    "text": "where somebody said,"
+  },
+  {
+    "segment_id": "podcast-0559",
+    "start_seconds": 1724.9199981689453,
+    "end_seconds": 1726.6199989318848,
+    "text": "you know, I never thought of myself as an athlete,"
+  },
+  {
+    "segment_id": "podcast-0560",
+    "start_seconds": 1726.6199989318848,
+    "end_seconds": 1729.1199989318848,
+    "text": "but I am starting to go to the gym three days a week"
+  },
+  {
+    "segment_id": "podcast-0561",
+    "start_seconds": 1729.1199989318848,
+    "end_seconds": 1730.2999992370605,
+    "text": "and I'm starting to do things."
+  },
+  {
+    "segment_id": "podcast-0562",
+    "start_seconds": 1730.2999992370605,
+    "end_seconds": 1732.1399993896484,
+    "text": "And it's like, I think I'm an athlete."
+  },
+  {
+    "segment_id": "podcast-0563",
+    "start_seconds": 1732.1399993896484,
+    "end_seconds": 1734.7000007629395,
+    "text": "And I'm like, yeah, call yourself that."
+  },
+  {
+    "segment_id": "podcast-0564",
+    "start_seconds": 1734.7000007629395,
+    "end_seconds": 1736.1399993896484,
+    "text": "And that's where I go back to like,"
+  },
+  {
+    "segment_id": "podcast-0565",
+    "start_seconds": 1736.1800003051758,
+    "end_seconds": 1739.2999992370605,
+    "text": "if you can make leadership your identity,"
+  },
+  {
+    "segment_id": "podcast-0566",
+    "start_seconds": 1739.2999992370605,
+    "end_seconds": 1742.5200004577637,
+    "text": "even if you're not the CEO at a company, that's fine."
+  },
+  {
+    "segment_id": "podcast-0567",
+    "start_seconds": 1742.5200004577637,
+    "end_seconds": 1744.7799987792969,
+    "text": "Make yourself a leader and figure out like"
+  },
+  {
+    "segment_id": "podcast-0568",
+    "start_seconds": 1744.7799987792969,
+    "end_seconds": 1747.6600036621094,
+    "text": "what steps I wanna take to continuously evolve."
+  },
+  {
+    "segment_id": "podcast-0569",
+    "start_seconds": 1747.6600036621094,
+    "end_seconds": 1749.3000030517578,
+    "text": "But I guess to answer your question,"
+  },
+  {
+    "segment_id": "podcast-0570",
+    "start_seconds": 1749.3000030517578,
+    "end_seconds": 1753.8199996948242,
+    "text": "I really rely a lot on those emotional intelligence skills."
+  },
+  {
+    "segment_id": "podcast-0571",
+    "start_seconds": 1753.8199996948242,
+    "end_seconds": 1757.900001525879,
+    "text": "How do I show more empathy, ask more questions,"
+  },
+  {
+    "segment_id": "podcast-0572",
+    "start_seconds": 1757.900001525879,
+    "end_seconds": 1759.8600006103516,
+    "text": "listen, maybe if I'm really frustrated"
+  },
+  {
+    "segment_id": "podcast-0573",
+    "start_seconds": 1759.8600006103516,
+    "end_seconds": 1762.1800003051758,
+    "text": "or I don't agree with the person I'm working with,"
+  },
+  {
+    "segment_id": "podcast-0574",
+    "start_seconds": 1762.1800003051758,
+    "end_seconds": 1764.8600006103516,
+    "text": "how can I respond rather than react?"
+  },
+  {
+    "segment_id": "podcast-0575",
+    "start_seconds": 1764.900001525879,
+    "end_seconds": 1766.7799987792969,
+    "text": "You know, sometimes you do have to react, right?"
+  },
+  {
+    "segment_id": "podcast-0576",
+    "start_seconds": 1766.7799987792969,
+    "end_seconds": 1768.900001525879,
+    "text": "You're just, you're gonna step out in front on the street"
+  },
+  {
+    "segment_id": "podcast-0577",
+    "start_seconds": 1768.900001525879,
+    "end_seconds": 1771.2200012207031,
+    "text": "and you don't wanna get hit by a bus, you're gonna react."
+  },
+  {
+    "segment_id": "podcast-0578",
+    "start_seconds": 1771.2200012207031,
+    "end_seconds": 1773.2600021362305,
+    "text": "But sometimes you can respond, right?"
+  },
+  {
+    "segment_id": "podcast-0579",
+    "start_seconds": 1773.2600021362305,
+    "end_seconds": 1776.5800018310547,
+    "text": "You're maybe getting, you're not getting the answer you want"
+  },
+  {
+    "segment_id": "podcast-0580",
+    "start_seconds": 1776.5800018310547,
+    "end_seconds": 1779.2200012207031,
+    "text": "or you're not reaching the objective you want"
+  },
+  {
+    "segment_id": "podcast-0581",
+    "start_seconds": 1779.2200012207031,
+    "end_seconds": 1781.9800033569336,
+    "text": "in the conversation, but you can maybe take a step back"
+  },
+  {
+    "segment_id": "podcast-0582",
+    "start_seconds": 1781.9800033569336,
+    "end_seconds": 1783.6600036621094,
+    "text": "and learn to respond differently."
+  },
+  {
+    "segment_id": "podcast-0583",
+    "start_seconds": 1783.6600036621094,
+    "end_seconds": 1785.7200012207031,
+    "text": "Those are some of the things that I think"
+  },
+  {
+    "segment_id": "podcast-0584",
+    "start_seconds": 1785.7200012207031,
+    "end_seconds": 1789.3000030517578,
+    "text": "will be very, very valuable right now in work."
+  },
+  {
+    "segment_id": "podcast-0585",
+    "start_seconds": 1789.3000030517578,
+    "end_seconds": 1790.5,
+    "text": "But it's scary."
+  },
+  {
+    "segment_id": "podcast-0586",
+    "start_seconds": 1790.5,
+    "end_seconds": 1793.379997253418,
+    "text": "I'm not gonna say like everybody I'm coaching right now"
+  },
+  {
+    "segment_id": "podcast-0587",
+    "start_seconds": 1793.379997253418,
+    "end_seconds": 1794.6999969482422,
+    "text": "is pretty much in the same boat."
+  },
+  {
+    "segment_id": "podcast-0588",
+    "start_seconds": 1795.5400009155273,
+    "end_seconds": 1797.0199966430664,
+    "text": "Everybody's kind of trying to figure it out."
+  },
+  {
+    "segment_id": "podcast-0589",
+    "start_seconds": 1798.2200012207031,
+    "end_seconds": 1800.2200012207031,
+    "text": "I love how Reed in this episode"
+  },
+  {
+    "segment_id": "podcast-0590",
+    "start_seconds": 1800.2200012207031,
+    "end_seconds": 1802.9800033569336,
+    "text": "is helping us understand narrative intelligence,"
+  },
+  {
+    "segment_id": "podcast-0591",
+    "start_seconds": 1802.9800033569336,
+    "end_seconds": 1807.9800033569336,
+    "text": "how we can keep up in this rapidly changing world of AI."
+  },
+  {
+    "segment_id": "podcast-0592",
+    "start_seconds": 1807.9800033569336,
+    "end_seconds": 1811.6600036621094,
+    "text": "And part of that is us as individuals, as leaders,"
+  },
+  {
+    "segment_id": "podcast-0593",
+    "start_seconds": 1811.6600036621094,
+    "end_seconds": 1815.1399993896484,
+    "text": "as organizations taking ownership of where we are"
+  },
+  {
+    "segment_id": "podcast-0594",
+    "start_seconds": 1815.1399993896484,
+    "end_seconds": 1817.6999969482422,
+    "text": "in our AI adoption and AI journey."
+  },
+  {
+    "segment_id": "podcast-0595",
+    "start_seconds": 1817.6999969482422,
+    "end_seconds": 1820.3000030517578,
+    "text": "And I see so frequently that organizations"
+  },
+  {
+    "segment_id": "podcast-0596",
+    "start_seconds": 1820.3000030517578,
+    "end_seconds": 1824.6999969482422,
+    "text": "are not prepared for this next phase of autonomous agents"
+  },
+  {
+    "segment_id": "podcast-0597",
+    "start_seconds": 1824.6999969482422,
+    "end_seconds": 1827.9400024414062,
+    "text": "where organizations will have a fleet of agents"
+  },
+  {
+    "segment_id": "podcast-0598",
+    "start_seconds": 1827.9400024414062,
+    "end_seconds": 1832.1799926757812,
+    "text": "operating with agency in company infrastructure"
+  },
+  {
+    "segment_id": "podcast-0599",
+    "start_seconds": 1832.1799926757812,
+    "end_seconds": 1834.7799987792969,
+    "text": "with access to critical systems."
+  },
+  {
+    "segment_id": "podcast-0600",
+    "start_seconds": 1834.7799987792969,
+    "end_seconds": 1837.8200073242188,
+    "text": "That's why I'm so privileged to be leading"
+  },
+  {
+    "segment_id": "podcast-0601",
+    "start_seconds": 1837.8200073242188,
+    "end_seconds": 1840.8600006103516,
+    "text": "an amazing team of folks over at Prediction Guard."
+  },
+  {
+    "segment_id": "podcast-0602",
+    "start_seconds": 1840.8600006103516,
+    "end_seconds": 1843.4600067138672,
+    "text": "I founded the company three and a half years ago"
+  },
+  {
+    "segment_id": "podcast-0603",
+    "start_seconds": 1843.4600067138672,
+    "end_seconds": 1846.1399993896484,
+    "text": "and we provide an AI control plane"
+  },
+  {
+    "segment_id": "podcast-0604",
+    "start_seconds": 1846.1399993896484,
+    "end_seconds": 1848.3000030517578,
+    "text": "that you run in your infrastructure"
+  },
+  {
+    "segment_id": "podcast-0605",
+    "start_seconds": 1848.3000030517578,
+    "end_seconds": 1850.0599975585938,
+    "text": "to keep sovereign control"
+  },
+  {
+    "segment_id": "podcast-0606",
+    "start_seconds": 1850.0599975585938,
+    "end_seconds": 1852.7799987792969,
+    "text": "over the agents operating in your infrastructure."
+  },
+  {
+    "segment_id": "podcast-0607",
+    "start_seconds": 1852.7799987792969,
+    "end_seconds": 1854.5800018310547,
+    "text": "You can manage the supply chain"
+  },
+  {
+    "segment_id": "podcast-0608",
+    "start_seconds": 1854.5800018310547,
+    "end_seconds": 1856.6600036621094,
+    "text": "on which those agents operate,"
+  },
+  {
+    "segment_id": "podcast-0609",
+    "start_seconds": 1856.6600036621094,
+    "end_seconds": 1858.8999938964844,
+    "text": "the scoping of what they can access."
+  },
+  {
+    "segment_id": "podcast-0610",
+    "start_seconds": 1858.8999938964844,
+    "end_seconds": 1862.8999938964844,
+    "text": "You can institute runtime controls over the agent behavior"
+  },
+  {
+    "segment_id": "podcast-0611",
+    "start_seconds": 1862.8999938964844,
+    "end_seconds": 1865.8600006103516,
+    "text": "and you have a full set of operational components"
+  },
+  {
+    "segment_id": "podcast-0612",
+    "start_seconds": 1865.8600006103516,
+    "end_seconds": 1868.0599975585938,
+    "text": "that help you keep track of agents"
+  },
+  {
+    "segment_id": "podcast-0613",
+    "start_seconds": 1868.0599975585938,
+    "end_seconds": 1869.5399932861328,
+    "text": "that have been quarantined,"
+  },
+  {
+    "segment_id": "podcast-0614",
+    "start_seconds": 1869.5399932861328,
+    "end_seconds": 1871.4199981689453,
+    "text": "agents that have gone off script,"
+  },
+  {
+    "segment_id": "podcast-0615",
+    "start_seconds": 1871.4199981689453,
+    "end_seconds": 1873.979995727539,
+    "text": "investigations into agent behavior."
+  },
+  {
+    "segment_id": "podcast-0616",
+    "start_seconds": 1873.979995727539,
+    "end_seconds": 1875.979995727539,
+    "text": "I would encourage you to check out what we're doing"
+  },
+  {
+    "segment_id": "podcast-0617",
+    "start_seconds": 1875.979995727539,
+    "end_seconds": 1880.1799926757812,
+    "text": "at predictionguard.com slash Practical AI."
+  },
+  {
+    "segment_id": "podcast-0618",
+    "start_seconds": 1880.1799926757812,
+    "end_seconds": 1883.1799926757812,
+    "text": "Book a time with myself and the team"
+  },
+  {
+    "segment_id": "podcast-0619",
+    "start_seconds": 1883.1799926757812,
+    "end_seconds": 1886.1799926757812,
+    "text": "to help you understand what we're doing"
+  },
+  {
+    "segment_id": "podcast-0620",
+    "start_seconds": 1886.1799926757812,
+    "end_seconds": 1889.5800018310547,
+    "text": "and really explore how you can adopt agents"
+  },
+  {
+    "segment_id": "podcast-0621",
+    "start_seconds": 1889.5800018310547,
+    "end_seconds": 1891.0599975585938,
+    "text": "without losing control."
+  },
+  {
+    "segment_id": "podcast-0622",
+    "start_seconds": 1891.0599975585938,
+    "end_seconds": 1894.8600006103516,
+    "text": "That's predictionguard.com slash Practical AI."
+  },
+  {
+    "segment_id": "podcast-0623",
+    "start_seconds": 1894.8600006103516,
+    "end_seconds": 1899.5,
+    "text": "Again, predictionguard.com slash Practical AI."
+  },
+  {
+    "segment_id": "podcast-0624",
+    "start_seconds": 1901.3399963378906,
+    "end_seconds": 1903.8600006103516,
+    "text": "Well, Reid, you started to go this direction"
+  },
+  {
+    "segment_id": "podcast-0625",
+    "start_seconds": 1903.8600006103516,
+    "end_seconds": 1908.4600067138672,
+    "text": "which I'm really curious about this idea of identity"
+  },
+  {
+    "segment_id": "podcast-0626",
+    "start_seconds": 1908.4600067138672,
+    "end_seconds": 1910.1799926757812,
+    "text": "and the identities that we take on"
+  },
+  {
+    "segment_id": "podcast-0627",
+    "start_seconds": 1910.1799926757812,
+    "end_seconds": 1912.9400024414062,
+    "text": "and the roles that we're, you know,"
+  },
+  {
+    "segment_id": "podcast-0628",
+    "start_seconds": 1912.9400024414062,
+    "end_seconds": 1917.3399963378906,
+    "text": "what we're trying to achieve in terms of outcome."
+  },
+  {
+    "segment_id": "podcast-0629",
+    "start_seconds": 1917.3399963378906,
+    "end_seconds": 1919.9400024414062,
+    "text": "And I think this brings up the"
+  },
+  {
+    "segment_id": "podcast-0630",
+    "start_seconds": 1920.0,
+    "end_seconds": 1926.3600001335144,
+    "text": "tension where people are trying to figure out, what is my uniquely human"
+  },
+  {
+    "segment_id": "podcast-0631",
+    "start_seconds": 1926.3600001335144,
+    "end_seconds": 1932.6800003051758,
+    "text": "role within the world of AI? What is kind of preserved that artificial"
+  },
+  {
+    "segment_id": "podcast-0632",
+    "start_seconds": 1932.6800003051758,
+    "end_seconds": 1936.7600002288818,
+    "text": "intelligence doesn't do? And maybe narrative intelligence and other forms"
+  },
+  {
+    "segment_id": "podcast-0633",
+    "start_seconds": 1936.7600002288818,
+    "end_seconds": 1942.840000152588,
+    "text": "of my own identity and role does stay there."
+  },
+  {
+    "segment_id": "podcast-0634",
+    "start_seconds": 1942.840000152588,
+    "end_seconds": 1947.6000003814697,
+    "text": "I love that you're on, coming from your background,"
+  },
+  {
+    "segment_id": "podcast-0635",
+    "start_seconds": 1947.6000003814697,
+    "end_seconds": 1954.0,
+    "text": "through storytelling, through acting, all of these things. I love the Tolkien"
+  },
+  {
+    "segment_id": "podcast-0636",
+    "start_seconds": 1954.0,
+    "end_seconds": 1960.0,
+    "text": "letter where he is talking about this idea of, as humans, we are sub-creators"
+  },
+  {
+    "segment_id": "podcast-0637",
+    "start_seconds": 1960.0,
+    "end_seconds": 1965.400001525879,
+    "text": "and we look around us and this kind of ultimate beauty is this"
+  },
+  {
+    "segment_id": "podcast-0638",
+    "start_seconds": 1965.400001525879,
+    "end_seconds": 1971.2999992370605,
+    "text": "sub-creation that we each are able to do. I'm wondering, in your mind, what does"
+  },
+  {
+    "segment_id": "podcast-0639",
+    "start_seconds": 1971.2999992370605,
+    "end_seconds": 1977.2000007629395,
+    "text": "that look like? Maybe even for yourself, as you're thinking"
+  },
+  {
+    "segment_id": "podcast-0640",
+    "start_seconds": 1977.2000007629395,
+    "end_seconds": 1980.4799995422363,
+    "text": "about it. You're obviously entering into new ventures, you're doing new"
+  },
+  {
+    "segment_id": "podcast-0641",
+    "start_seconds": 1980.4799995422363,
+    "end_seconds": 1985.1600036621094,
+    "text": "things with the podcast and other things that you're working on right now."
+  },
+  {
+    "segment_id": "podcast-0642",
+    "start_seconds": 1985.1600036621094,
+    "end_seconds": 1991.5199966430664,
+    "text": "What is this idea of creation and creativity and the"
+  },
+  {
+    "segment_id": "podcast-0643",
+    "start_seconds": 1991.5199966430664,
+    "end_seconds": 1996.0400009155273,
+    "text": "uniquely human element of that? What does that mean to you now, given everything"
+  },
+  {
+    "segment_id": "podcast-0644",
+    "start_seconds": 1996.0400009155273,
+    "end_seconds": 2000.9599990844727,
+    "text": "that's happening with AI? Great question, Daniel. I would say, right now, at first"
+  },
+  {
+    "segment_id": "podcast-0645",
+    "start_seconds": 2000.9599990844727,
+    "end_seconds": 2004.599998474121,
+    "text": "I was probably, like most people, a little bit worried about what AI"
+  },
+  {
+    "segment_id": "podcast-0646",
+    "start_seconds": 2005.0800018310547,
+    "end_seconds": 2010.3199996948242,
+    "text": "means for me and my identities. Now I look at it from a"
+  },
+  {
+    "segment_id": "podcast-0647",
+    "start_seconds": 2010.3199996948242,
+    "end_seconds": 2013.9199981689453,
+    "text": "completely different lens. I love that book, I don't know if you've read it, by"
+  },
+  {
+    "segment_id": "podcast-0648",
+    "start_seconds": 2013.9199981689453,
+    "end_seconds": 2018.400001525879,
+    "text": "Rick Rubin, The Creative Act. But if you really start to think, step back"
+  },
+  {
+    "segment_id": "podcast-0649",
+    "start_seconds": 2018.400001525879,
+    "end_seconds": 2023.5199966430664,
+    "text": "from it, it's never been better to be a creator, an innovator, a human, right? When"
+  },
+  {
+    "segment_id": "podcast-0650",
+    "start_seconds": 2023.5199966430664,
+    "end_seconds": 2027.400001525879,
+    "text": "you really think of the tools that are out there. Before,"
+  },
+  {
+    "segment_id": "podcast-0651",
+    "start_seconds": 2027.400001525879,
+    "end_seconds": 2031.8000030517578,
+    "text": "there's so many different barriers to get there. Whether"
+  },
+  {
+    "segment_id": "podcast-0652",
+    "start_seconds": 2031.8000030517578,
+    "end_seconds": 2035.4800033569336,
+    "text": "you had to get a certain job, go to maybe a certain school, had to have the"
+  },
+  {
+    "segment_id": "podcast-0653",
+    "start_seconds": 2035.4800033569336,
+    "end_seconds": 2039.599998474121,
+    "text": "certain skills. But now, it's never been better to learn these things."
+  },
+  {
+    "segment_id": "podcast-0654",
+    "start_seconds": 2039.599998474121,
+    "end_seconds": 2044.5199966430664,
+    "text": "That's a great quote that you mentioned, but I think of it"
+  },
+  {
+    "segment_id": "podcast-0655",
+    "start_seconds": 2044.5199966430664,
+    "end_seconds": 2048.6799926757812,
+    "text": "right now as like, almost anything's possible. And that's a great feeling. We'll"
+  },
+  {
+    "segment_id": "podcast-0656",
+    "start_seconds": 2048.6799926757812,
+    "end_seconds": 2052.1199951171875,
+    "text": "have to be reeled back in at times, but it's a great place to allow"
+  },
+  {
+    "segment_id": "podcast-0657",
+    "start_seconds": 2052.1199951171875,
+    "end_seconds": 2055.720001220703,
+    "text": "yourself to go creatively and think, who do I want to become? What do I"
+  },
+  {
+    "segment_id": "podcast-0658",
+    "start_seconds": 2055.720001220703,
+    "end_seconds": 2059.240005493164,
+    "text": "want to do? What stories do I want to tell? What things do I want to"
+  },
+  {
+    "segment_id": "podcast-0659",
+    "start_seconds": 2059.240005493164,
+    "end_seconds": 2063.3200073242188,
+    "text": "build? What people do I want to work with? I think it's now, it's just a"
+  },
+  {
+    "segment_id": "podcast-0660",
+    "start_seconds": 2063.3200073242188,
+    "end_seconds": 2069.039993286133,
+    "text": "really awesome time to go back. It's just a"
+  },
+  {
+    "segment_id": "podcast-0661",
+    "start_seconds": 2069.039993286133,
+    "end_seconds": 2074.3600006103516,
+    "text": "really great time to be a creator or an innovator. And so, right now,"
+  },
+  {
+    "segment_id": "podcast-0662",
+    "start_seconds": 2074.3600006103516,
+    "end_seconds": 2078.3999938964844,
+    "text": "when I think of the work I'm doing, I look at it just every day"
+  },
+  {
+    "segment_id": "podcast-0663",
+    "start_seconds": 2078.3999938964844,
+    "end_seconds": 2082.479995727539,
+    "text": "as like, I'm learning. And the more you can step into just the growth mindset of"
+  },
+  {
+    "segment_id": "podcast-0664",
+    "start_seconds": 2082.479995727539,
+    "end_seconds": 2087.6399993896484,
+    "text": "just, I want to be curious, I want to ask questions, I want to be present, and I"
+  },
+  {
+    "segment_id": "podcast-0665",
+    "start_seconds": 2087.6399993896484,
+    "end_seconds": 2091.720001220703,
+    "text": "just want to learn. And you step into that every day as a learner, it's a"
+  },
+  {
+    "segment_id": "podcast-0666",
+    "start_seconds": 2091.720001220703,
+    "end_seconds": 2095.3999938964844,
+    "text": "great place to be because everything's changing in a way that"
+  },
+  {
+    "segment_id": "podcast-0667",
+    "start_seconds": 2095.3999938964844,
+    "end_seconds": 2099.800003051758,
+    "text": "we've never imagined before. Yeah, just anecdotally, I don't know"
+  },
+  {
+    "segment_id": "podcast-0668",
+    "start_seconds": 2099.800003051758,
+    "end_seconds": 2104.9199981689453,
+    "text": "if this is really revealing too much to our audience, but I'm okay with"
+  },
+  {
+    "segment_id": "podcast-0669",
+    "start_seconds": 2104.9199981689453,
+    "end_seconds": 2109.3200073242188,
+    "text": "being a little vulnerable. So, this last weekend, I was at the Indiana"
+  },
+  {
+    "segment_id": "podcast-0670",
+    "start_seconds": 2109.3200073242188,
+    "end_seconds": 2114.6399993896484,
+    "text": "Bigfoot Conference, which was just amazing in every way. I would highly"
+  },
+  {
+    "segment_id": "podcast-0671",
+    "start_seconds": 2114.6399993896484,
+    "end_seconds": 2119.759994506836,
+    "text": "recommend attending if you're in the area. This is for people with shoe sizes"
+  },
+  {
+    "segment_id": "podcast-0672",
+    "start_seconds": 2119.759994506836,
+    "end_seconds": 2125.6799926757812,
+    "text": "greater than 13, right? Right, exactly, yeah. So, I mean, just anecdotally, though, I was"
+  },
+  {
+    "segment_id": "podcast-0673",
+    "start_seconds": 2125.6799926757812,
+    "end_seconds": 2132.240005493164,
+    "text": "there, like, so I went last year and I was there this year. And to hear the people"
+  },
+  {
+    "segment_id": "podcast-0674",
+    "start_seconds": 2132.240005493164,
+    "end_seconds": 2139.3999938964844,
+    "text": "there that were, you know, whatever random subculture topic that that is, and"
+  },
+  {
+    "segment_id": "podcast-0675",
+    "start_seconds": 2139.520004272461,
+    "end_seconds": 2145.1600036621094,
+    "text": "they're into, the ways that they're thinking about applying AI to be"
+  },
+  {
+    "segment_id": "podcast-0676",
+    "start_seconds": 2145.1600036621094,
+    "end_seconds": 2150.6000061035156,
+    "text": "creative, to do their research and explore this material and, like, do this"
+  },
+  {
+    "segment_id": "podcast-0677",
+    "start_seconds": 2150.6000061035156,
+    "end_seconds": 2155.720001220703,
+    "text": "searching and, like, accumulate this and create maps and, like, do all these things."
+  },
+  {
+    "segment_id": "podcast-0678",
+    "start_seconds": 2155.720001220703,
+    "end_seconds": 2161.8800048828125,
+    "text": "Like, that all, even a year ago, like, there were..."
+  },
+  {
+    "segment_id": "podcast-0679",
+    "start_seconds": 2160.0,
+    "end_seconds": 2163.6600000858307,
+    "text": "It was obviously fun and cool,"
+  },
+  {
+    "segment_id": "podcast-0680",
+    "start_seconds": 2163.6600000858307,
+    "end_seconds": 2165.119999885559,
+    "text": "but they weren't talking in that way"
+  },
+  {
+    "segment_id": "podcast-0681",
+    "start_seconds": 2165.119999885559,
+    "end_seconds": 2168.840000152588,
+    "text": "about maybe some of the same possibilities with technology."
+  },
+  {
+    "segment_id": "podcast-0682",
+    "start_seconds": 2168.840000152588,
+    "end_seconds": 2170.960000038147,
+    "text": "And I know that's a very random thing,"
+  },
+  {
+    "segment_id": "podcast-0683",
+    "start_seconds": 2170.960000038147,
+    "end_seconds": 2173.260000228882,
+    "text": "but I think it connects with what you were saying"
+  },
+  {
+    "segment_id": "podcast-0684",
+    "start_seconds": 2173.260000228882,
+    "end_seconds": 2177.920000076294,
+    "text": "that it's never better whether you're a software engineer"
+  },
+  {
+    "segment_id": "podcast-0685",
+    "start_seconds": 2177.920000076294,
+    "end_seconds": 2179.4799995422363,
+    "text": "or you're a member"
+  },
+  {
+    "segment_id": "podcast-0686",
+    "start_seconds": 2179.4799995422363,
+    "end_seconds": 2182.680000305176,
+    "text": "of the Indiana Bigfoot Research Organization"
+  },
+  {
+    "segment_id": "podcast-0687",
+    "start_seconds": 2182.680000305176,
+    "end_seconds": 2184.9799995422363,
+    "text": "to be able to like think creatively"
+  },
+  {
+    "segment_id": "podcast-0688",
+    "start_seconds": 2184.9799995422363,
+    "end_seconds": 2188.6399993896484,
+    "text": "and apply what you're doing."
+  },
+  {
+    "segment_id": "podcast-0689",
+    "start_seconds": 2188.6399993896484,
+    "end_seconds": 2189.840000152588,
+    "text": "I thought I knew you, man."
+  },
+  {
+    "segment_id": "podcast-0690",
+    "start_seconds": 2189.840000152588,
+    "end_seconds": 2191.3600006103516,
+    "text": "Yeah, there you go, Chris."
+  },
+  {
+    "segment_id": "podcast-0691",
+    "start_seconds": 2191.3600006103516,
+    "end_seconds": 2192.9599990844727,
+    "text": "I thought I knew you, so."
+  },
+  {
+    "segment_id": "podcast-0692",
+    "start_seconds": 2192.9599990844727,
+    "end_seconds": 2194.4799995422363,
+    "text": "Hey, hey, and Daniel,"
+  },
+  {
+    "segment_id": "podcast-0693",
+    "start_seconds": 2194.4799995422363,
+    "end_seconds": 2196.840000152588,
+    "text": "you knew I produced a Bigfoot film, don't you?"
+  },
+  {
+    "segment_id": "podcast-0694",
+    "start_seconds": 2196.840000152588,
+    "end_seconds": 2199.3600006103516,
+    "text": "Oh, that's amazing, I didn't know."
+  },
+  {
+    "segment_id": "podcast-0695",
+    "start_seconds": 2199.3600006103516,
+    "end_seconds": 2202.159999847412,
+    "text": "Yeah, I'll have to look at the credits of that one, yeah."
+  },
+  {
+    "segment_id": "podcast-0696",
+    "start_seconds": 2202.159999847412,
+    "end_seconds": 2205.5400009155273,
+    "text": "So that was, I spent a lot of time around Bigfoot research."
+  },
+  {
+    "segment_id": "podcast-0697",
+    "start_seconds": 2205.5400009155273,
+    "end_seconds": 2207.2999992370605,
+    "text": "I wish we had the tools we have today."
+  },
+  {
+    "segment_id": "podcast-0698",
+    "start_seconds": 2207.2999992370605,
+    "end_seconds": 2208.220001220703,
+    "text": "Exactly."
+  },
+  {
+    "segment_id": "podcast-0699",
+    "start_seconds": 2208.220001220703,
+    "end_seconds": 2211.560001373291,
+    "text": "I partnered with a guy named Eduardo Sanchez."
+  },
+  {
+    "segment_id": "podcast-0700",
+    "start_seconds": 2211.560001373291,
+    "end_seconds": 2214.2000007629395,
+    "text": "He's the director, creator of the Blair Witch Project,"
+  },
+  {
+    "segment_id": "podcast-0701",
+    "start_seconds": 2214.2000007629395,
+    "end_seconds": 2217.720001220703,
+    "text": "and he had this great, really great script for years."
+  },
+  {
+    "segment_id": "podcast-0702",
+    "start_seconds": 2217.720001220703,
+    "end_seconds": 2220.319999694824,
+    "text": "It was a big budget script that he was trying to get made,"
+  },
+  {
+    "segment_id": "podcast-0703",
+    "start_seconds": 2220.319999694824,
+    "end_seconds": 2221.240001678467,
+    "text": "had different attachments."
+  },
+  {
+    "segment_id": "podcast-0704",
+    "start_seconds": 2221.240001678467,
+    "end_seconds": 2224.0400009155273,
+    "text": "Anyways, we decided at some point just to like go do"
+  },
+  {
+    "segment_id": "podcast-0705",
+    "start_seconds": 2224.0400009155273,
+    "end_seconds": 2226.5599975585938,
+    "text": "the low budget version of it to get it out there"
+  },
+  {
+    "segment_id": "podcast-0706",
+    "start_seconds": 2226.5599975585938,
+    "end_seconds": 2228.279998779297,
+    "text": "because he was so passionate about Bigfoot."
+  },
+  {
+    "segment_id": "podcast-0707",
+    "start_seconds": 2228.279998779297,
+    "end_seconds": 2230.120002746582,
+    "text": "So yeah, I fell into that world for a while."
+  },
+  {
+    "segment_id": "podcast-0708",
+    "start_seconds": 2230.120002746582,
+    "end_seconds": 2232.180000305176,
+    "text": "But to your point, all the more reason that, yeah,"
+  },
+  {
+    "segment_id": "podcast-0709",
+    "start_seconds": 2232.180000305176,
+    "end_seconds": 2234.4400024414062,
+    "text": "you can be a software engineer and on the side,"
+  },
+  {
+    "segment_id": "podcast-0710",
+    "start_seconds": 2234.4400024414062,
+    "end_seconds": 2237.8399963378906,
+    "text": "you can be a musician, you can be a storyteller,"
+  },
+  {
+    "segment_id": "podcast-0711",
+    "start_seconds": 2237.8399963378906,
+    "end_seconds": 2240.319999694824,
+    "text": "you can create story worlds, you can be an author,"
+  },
+  {
+    "segment_id": "podcast-0712",
+    "start_seconds": 2240.319999694824,
+    "end_seconds": 2241.720001220703,
+    "text": "you can do whatever you want nowadays."
+  },
+  {
+    "segment_id": "podcast-0713",
+    "start_seconds": 2241.720001220703,
+    "end_seconds": 2243.4800033569336,
+    "text": "And I think that's important to realize"
+  },
+  {
+    "segment_id": "podcast-0714",
+    "start_seconds": 2243.4800033569336,
+    "end_seconds": 2244.7600021362305,
+    "text": "with these tools that are out there."
+  },
+  {
+    "segment_id": "podcast-0715",
+    "start_seconds": 2244.7600021362305,
+    "end_seconds": 2249.7600021362305,
+    "text": "I'm curious, as I circle around kind of on the conversation,"
+  },
+  {
+    "segment_id": "podcast-0716",
+    "start_seconds": 2250.120002746582,
+    "end_seconds": 2253.7600021362305,
+    "text": "and I wanted to ask, there are a lot of people,"
+  },
+  {
+    "segment_id": "podcast-0717",
+    "start_seconds": 2253.7600021362305,
+    "end_seconds": 2257.720001220703,
+    "text": "I think like certainly on, when you talk to the three of us,"
+  },
+  {
+    "segment_id": "podcast-0718",
+    "start_seconds": 2257.720001220703,
+    "end_seconds": 2262.720001220703,
+    "text": "it's, I think it's easy to get us onto this path to do this."
+  },
+  {
+    "segment_id": "podcast-0719",
+    "start_seconds": 2262.7600021362305,
+    "end_seconds": 2264.4800033569336,
+    "text": "You know, I was kind of like, hey,"
+  },
+  {
+    "segment_id": "podcast-0720",
+    "start_seconds": 2264.4800033569336,
+    "end_seconds": 2265.879997253418,
+    "text": "I'm kind of doing some things,"
+  },
+  {
+    "segment_id": "podcast-0721",
+    "start_seconds": 2265.879997253418,
+    "end_seconds": 2267.6399993896484,
+    "text": "but I need you to focus me and stuff."
+  },
+  {
+    "segment_id": "podcast-0722",
+    "start_seconds": 2267.6399993896484,
+    "end_seconds": 2271.2399978637695,
+    "text": "How do you get people in a harder sense?"
+  },
+  {
+    "segment_id": "podcast-0723",
+    "start_seconds": 2271.2399978637695,
+    "end_seconds": 2273.7600021362305,
+    "text": "There's a whole world of people out there"
+  },
+  {
+    "segment_id": "podcast-0724",
+    "start_seconds": 2273.7600021362305,
+    "end_seconds": 2275.9599990844727,
+    "text": "who are feeling left behind."
+  },
+  {
+    "segment_id": "podcast-0725",
+    "start_seconds": 2275.9599990844727,
+    "end_seconds": 2278.6399993896484,
+    "text": "And they're not doing AI podcasts,"
+  },
+  {
+    "segment_id": "podcast-0726",
+    "start_seconds": 2278.6399993896484,
+    "end_seconds": 2280.9199981689453,
+    "text": "they're not listening to AI podcasts,"
+  },
+  {
+    "segment_id": "podcast-0727",
+    "start_seconds": 2280.9199981689453,
+    "end_seconds": 2282.8399963378906,
+    "text": "or watching AI podcasts."
+  },
+  {
+    "segment_id": "podcast-0728",
+    "start_seconds": 2282.8399963378906,
+    "end_seconds": 2285.9599990844727,
+    "text": "They, and they are kind of grinding through the world"
+  },
+  {
+    "segment_id": "podcast-0729",
+    "start_seconds": 2285.9599990844727,
+    "end_seconds": 2288.279998779297,
+    "text": "as they have been doing their whole lives."
+  },
+  {
+    "segment_id": "podcast-0730",
+    "start_seconds": 2288.279998779297,
+    "end_seconds": 2292.0,
+    "text": "And that, you know, I don't have data on this,"
+  },
+  {
+    "segment_id": "podcast-0731",
+    "start_seconds": 2292.0,
+    "end_seconds": 2294.5599975585938,
+    "text": "but that's probably the majority of people out there."
+  },
+  {
+    "segment_id": "podcast-0732",
+    "start_seconds": 2294.5599975585938,
+    "end_seconds": 2297.8399963378906,
+    "text": "And how do you get them?"
+  },
+  {
+    "segment_id": "podcast-0733",
+    "start_seconds": 2297.8399963378906,
+    "end_seconds": 2300.9199981689453,
+    "text": "I don't imagine it's a quick and super easy thing,"
+  },
+  {
+    "segment_id": "podcast-0734",
+    "start_seconds": 2301.0800018310547,
+    "end_seconds": 2304.9199981689453,
+    "text": "but like, how do you get them to take the first step or two?"
+  },
+  {
+    "segment_id": "podcast-0735",
+    "start_seconds": 2304.9199981689453,
+    "end_seconds": 2306.1199951171875,
+    "text": "It's a weird question."
+  },
+  {
+    "segment_id": "podcast-0736",
+    "start_seconds": 2306.1199951171875,
+    "end_seconds": 2307.8399963378906,
+    "text": "Where you're like, you know,"
+  },
+  {
+    "segment_id": "podcast-0737",
+    "start_seconds": 2307.8399963378906,
+    "end_seconds": 2309.6399993896484,
+    "text": "cause we have a future going forward here"
+  },
+  {
+    "segment_id": "podcast-0738",
+    "start_seconds": 2309.6399993896484,
+    "end_seconds": 2310.9199981689453,
+    "text": "and it's not just us."
+  },
+  {
+    "segment_id": "podcast-0739",
+    "start_seconds": 2310.9199981689453,
+    "end_seconds": 2313.759994506836,
+    "text": "It is a whole lot of people in the masses."
+  },
+  {
+    "segment_id": "podcast-0740",
+    "start_seconds": 2313.759994506836,
+    "end_seconds": 2316.5599975585938,
+    "text": "How do you, how would you, recognizing it's all,"
+  },
+  {
+    "segment_id": "podcast-0741",
+    "start_seconds": 2316.5599975585938,
+    "end_seconds": 2318.720001220703,
+    "text": "I'm asking a really hard challenge."
+  },
+  {
+    "segment_id": "podcast-0742",
+    "start_seconds": 2318.720001220703,
+    "end_seconds": 2320.199996948242,
+    "text": "I know that."
+  },
+  {
+    "segment_id": "podcast-0743",
+    "start_seconds": 2320.199996948242,
+    "end_seconds": 2321.6000061035156,
+    "text": "How do you get that first,"
+  },
+  {
+    "segment_id": "podcast-0744",
+    "start_seconds": 2321.6000061035156,
+    "end_seconds": 2323.240005493164,
+    "text": "how do you get people to say,"
+  },
+  {
+    "segment_id": "podcast-0745",
+    "start_seconds": 2323.240005493164,
+    "end_seconds": 2326.4400024414062,
+    "text": "I'll take a first step into a larger, different world?"
+  },
+  {
+    "segment_id": "podcast-0746",
+    "start_seconds": 2326.4400024414062,
+    "end_seconds": 2327.759994506836,
+    "text": "That's a great question."
+  },
+  {
+    "segment_id": "podcast-0747",
+    "start_seconds": 2327.759994506836,
+    "end_seconds": 2328.8800048828125,
+    "text": "Thanks for asking that, Chris."
+  },
+  {
+    "segment_id": "podcast-0748",
+    "start_seconds": 2328.8800048828125,
+    "end_seconds": 2331.1600036621094,
+    "text": "And I say that because I feel like I'm living it"
+  },
+  {
+    "segment_id": "podcast-0749",
+    "start_seconds": 2331.1600036621094,
+    "end_seconds": 2333.6799926757812,
+    "text": "with not only family members, you know,"
+  },
+  {
+    "segment_id": "podcast-0750",
+    "start_seconds": 2333.6799926757812,
+    "end_seconds": 2335.960006713867,
+    "text": "my parents or people that are even my age"
+  },
+  {
+    "segment_id": "podcast-0751",
+    "start_seconds": 2335.960006713867,
+    "end_seconds": 2337.1600036621094,
+    "text": "that maybe are in, you know,"
+  },
+  {
+    "segment_id": "podcast-0752",
+    "start_seconds": 2337.1600036621094,
+    "end_seconds": 2338.520004272461,
+    "text": "I grew up in Texas and,"
+  },
+  {
+    "segment_id": "podcast-0753",
+    "start_seconds": 2338.520004272461,
+    "end_seconds": 2341.039993286133,
+    "text": "but even like talking to different companies I'm coaching,"
+  },
+  {
+    "segment_id": "podcast-0754",
+    "start_seconds": 2341.039993286133,
+    "end_seconds": 2343.800003051758,
+    "text": "like their customers are in manufacturing"
+  },
+  {
+    "segment_id": "podcast-0755",
+    "start_seconds": 2343.800003051758,
+    "end_seconds": 2345.8800048828125,
+    "text": "or they're in, you know, rural cities."
+  },
+  {
+    "segment_id": "podcast-0756",
+    "start_seconds": 2345.8800048828125,
+    "end_seconds": 2346.720001220703,
+    "text": "And they're like,"
+  },
+  {
+    "segment_id": "podcast-0757",
+    "start_seconds": 2346.720001220703,
+    "end_seconds": 2348.1199951171875,
+    "text": "and he said, there's a lot of fear around,"
+  },
+  {
+    "segment_id": "podcast-0758",
+    "start_seconds": 2348.1199951171875,
+    "end_seconds": 2350.6000061035156,
+    "text": "like they don't like AI or they're a little bit,"
+  },
+  {
+    "segment_id": "podcast-0759",
+    "start_seconds": 2350.6000061035156,
+    "end_seconds": 2351.6000061035156,
+    "text": "they're so worried about it."
+  },
+  {
+    "segment_id": "podcast-0760",
+    "start_seconds": 2351.6000061035156,
+    "end_seconds": 2352.6000061035156,
+    "text": "Maybe they're reading the news."
+  },
+  {
+    "segment_id": "podcast-0761",
+    "start_seconds": 2352.6000061035156,
+    "end_seconds": 2356.479995727539,
+    "text": "And so I think one thing I found to work just recently"
+  },
+  {
+    "segment_id": "podcast-0762",
+    "start_seconds": 2356.520004272461,
+    "end_seconds": 2359.960006713867,
+    "text": "is make it super simple and practical"
+  },
+  {
+    "segment_id": "podcast-0763",
+    "start_seconds": 2359.960006713867,
+    "end_seconds": 2362.199996948242,
+    "text": "that fits, integrates into their life as it is."
+  },
+  {
+    "segment_id": "podcast-0764",
+    "start_seconds": 2362.199996948242,
+    "end_seconds": 2365.0,
+    "text": "So for example, do you like to cook?"
+  },
+  {
+    "segment_id": "podcast-0765",
+    "start_seconds": 2365.0,
+    "end_seconds": 2367.039993286133,
+    "text": "Is there a recipe you can come up with?"
+  },
+  {
+    "segment_id": "podcast-0766",
+    "start_seconds": 2367.039993286133,
+    "end_seconds": 2369.199996948242,
+    "text": "Is there a restaurant you wanna discover,"
+  },
+  {
+    "segment_id": "podcast-0767",
+    "start_seconds": 2369.199996948242,
+    "end_seconds": 2372.3999938964844,
+    "text": "you know, that you can kind of easily get them into,"
+  },
+  {
+    "segment_id": "podcast-0768",
+    "start_seconds": 2372.3999938964844,
+    "end_seconds": 2374.6799926757812,
+    "text": "you know, asking questions, prompting,"
+  },
+  {
+    "segment_id": "podcast-0769",
+    "start_seconds": 2374.6799926757812,
+    "end_seconds": 2375.6399993896484,
+    "text": "and then they start to get,"
+  },
+  {
+    "segment_id": "podcast-0770",
+    "start_seconds": 2375.6399993896484,
+    "end_seconds": 2376.720001220703,
+    "text": "it's just like the, you know,"
+  },
+  {
+    "segment_id": "podcast-0771",
+    "start_seconds": 2376.720001220703,
+    "end_seconds": 2378.6399993896484,
+    "text": "it's a much better version of the internet from old,"
+  },
+  {
+    "segment_id": "podcast-0772",
+    "start_seconds": 2378.6399993896484,
+    "end_seconds": 2380.3200073242188,
+    "text": "but the point being is I think"
+  },
+  {
+    "segment_id": "podcast-0773",
+    "start_seconds": 2380.3200073242188,
+    "end_seconds": 2382.4400024414062,
+    "text": "once they start to see it work for them,"
+  },
+  {
+    "segment_id": "podcast-0774",
+    "start_seconds": 2382.4400024414062,
+    "end_seconds": 2383.8399963378906,
+    "text": "like the other day or over the summer,"
+  },
+  {
+    "segment_id": "podcast-0775",
+    "start_seconds": 2383.8399963378906,
+    "end_seconds": 2387.240005493164,
+    "text": "we were planning a trip, like a reunion trip."
+  },
+  {
+    "segment_id": "podcast-0776",
+    "start_seconds": 2387.240005493164,
+    "end_seconds": 2392.199996948242,
+    "text": "And anyways, my parents were so afraid of AI"
+  },
+  {
+    "segment_id": "podcast-0777",
+    "start_seconds": 2392.199996948242,
+    "end_seconds": 2393.039993286133,
+    "text": "and they were like,"
+  },
+  {
+    "segment_id": "podcast-0778",
+    "start_seconds": 2393.039993286133,
+    "end_seconds": 2394.6000061035156,
+    "text": "oh, I don't like what's going on in the world."
+  },
+  {
+    "segment_id": "podcast-0779",
+    "start_seconds": 2394.6000061035156,
+    "end_seconds": 2396.800003051758,
+    "text": "And then we started doing this,"
+  },
+  {
+    "segment_id": "podcast-0780",
+    "start_seconds": 2396.800003051758,
+    "end_seconds": 2398.5599975585938,
+    "text": "we started planning out this trip."
+  },
+  {
+    "segment_id": "podcast-0781",
+    "start_seconds": 2398.5599975585938,
+    "end_seconds": 2399.9199981689453,
+    "text": "And within a matter of minutes,"
+  },
+  {
+    "segment_id": "podcast-0782",
+    "start_seconds": 2400.0,
+    "end_seconds": 2402.8399999141693,
+    "text": "We had like an itinerary of all the really cool places"
+  },
+  {
+    "segment_id": "podcast-0783",
+    "start_seconds": 2402.8399999141693,
+    "end_seconds": 2403.680000066757,
+    "text": "we wanted to do."
+  },
+  {
+    "segment_id": "podcast-0784",
+    "start_seconds": 2403.680000066757,
+    "end_seconds": 2406.199999809265,
+    "text": "And it just all of a sudden sparked their curiosity."
+  },
+  {
+    "segment_id": "podcast-0785",
+    "start_seconds": 2406.199999809265,
+    "end_seconds": 2407.159999847412,
+    "text": "They got creative."
+  },
+  {
+    "segment_id": "podcast-0786",
+    "start_seconds": 2407.159999847412,
+    "end_seconds": 2408.4799995422363,
+    "text": "Well, what if we ask this?"
+  },
+  {
+    "segment_id": "podcast-0787",
+    "start_seconds": 2408.4799995422363,
+    "end_seconds": 2409.960000038147,
+    "text": "Can you ask it this question?"
+  },
+  {
+    "segment_id": "podcast-0788",
+    "start_seconds": 2409.960000038147,
+    "end_seconds": 2412.800000190735,
+    "text": "And before you know it, you start to realize like,"
+  },
+  {
+    "segment_id": "podcast-0789",
+    "start_seconds": 2412.800000190735,
+    "end_seconds": 2415.760000228882,
+    "text": "hey, it's pretty simple at the end of the day"
+  },
+  {
+    "segment_id": "podcast-0790",
+    "start_seconds": 2415.760000228882,
+    "end_seconds": 2417.4400005340576,
+    "text": "if you just wanna start."
+  },
+  {
+    "segment_id": "podcast-0791",
+    "start_seconds": 2417.4400005340576,
+    "end_seconds": 2419.760000228882,
+    "text": "And so I think to answer your question,"
+  },
+  {
+    "segment_id": "podcast-0792",
+    "start_seconds": 2419.760000228882,
+    "end_seconds": 2422.319999694824,
+    "text": "the more you can ask questions to them,"
+  },
+  {
+    "segment_id": "podcast-0793",
+    "start_seconds": 2422.319999694824,
+    "end_seconds": 2425.0400009155273,
+    "text": "that kind of ties it back to what they're interested in"
+  },
+  {
+    "segment_id": "podcast-0794",
+    "start_seconds": 2425.0400009155273,
+    "end_seconds": 2427.8799991607666,
+    "text": "or motivated to do, that's what I've found to be better."
+  },
+  {
+    "segment_id": "podcast-0795",
+    "start_seconds": 2427.8799991607666,
+    "end_seconds": 2428.7199993133545,
+    "text": "Good advice."
+  },
+  {
+    "segment_id": "podcast-0796",
+    "start_seconds": 2428.7199993133545,
+    "end_seconds": 2430.8799991607666,
+    "text": "Yeah, I love that."
+  },
+  {
+    "segment_id": "podcast-0797",
+    "start_seconds": 2430.8799991607666,
+    "end_seconds": 2433.9599990844727,
+    "text": "I always recommend the same for like technical people"
+  },
+  {
+    "segment_id": "podcast-0798",
+    "start_seconds": 2433.9599990844727,
+    "end_seconds": 2434.9199981689453,
+    "text": "trying to get into it."
+  },
+  {
+    "segment_id": "podcast-0799",
+    "start_seconds": 2434.9199981689453,
+    "end_seconds": 2436.560001373291,
+    "text": "Maybe they're building their first agent."
+  },
+  {
+    "segment_id": "podcast-0800",
+    "start_seconds": 2436.560001373291,
+    "end_seconds": 2438.680000305176,
+    "text": "They're like, well, what do I do?"
+  },
+  {
+    "segment_id": "podcast-0801",
+    "start_seconds": 2438.680000305176,
+    "end_seconds": 2441.720001220703,
+    "text": "My question is often, well, what are you interested in?"
+  },
+  {
+    "segment_id": "podcast-0802",
+    "start_seconds": 2441.720001220703,
+    "end_seconds": 2444.0800018310547,
+    "text": "Like, is it, you know, whatever,"
+  },
+  {
+    "segment_id": "podcast-0803",
+    "start_seconds": 2445.2999992370605,
+    "end_seconds": 2450.2999992370605,
+    "text": "trading crypto or like collecting, you know, Pokemon cards,"
+  },
+  {
+    "segment_id": "podcast-0804",
+    "start_seconds": 2450.840000152588,
+    "end_seconds": 2452.759998321533,
+    "text": "like create something that's related"
+  },
+  {
+    "segment_id": "podcast-0805",
+    "start_seconds": 2452.759998321533,
+    "end_seconds": 2454.9199981689453,
+    "text": "to the thing that you're passionate about, right?"
+  },
+  {
+    "segment_id": "podcast-0806",
+    "start_seconds": 2454.9199981689453,
+    "end_seconds": 2456.8800010681152,
+    "text": "And that's more useful."
+  },
+  {
+    "segment_id": "podcast-0807",
+    "start_seconds": 2456.8800010681152,
+    "end_seconds": 2458.400001525879,
+    "text": "Bigfoot for this episode."
+  },
+  {
+    "segment_id": "podcast-0808",
+    "start_seconds": 2458.400001525879,
+    "end_seconds": 2460.0800018310547,
+    "text": "Exactly, yeah."
+  },
+  {
+    "segment_id": "podcast-0809",
+    "start_seconds": 2460.0800018310547,
+    "end_seconds": 2462.1199989318848,
+    "text": "Much research needed."
+  },
+  {
+    "segment_id": "podcast-0810",
+    "start_seconds": 2462.1199989318848,
+    "end_seconds": 2464.599998474121,
+    "text": "Are we gonna find Bigfoot by the end of the week?"
+  },
+  {
+    "segment_id": "podcast-0811",
+    "start_seconds": 2465.5199966430664,
+    "end_seconds": 2467.4800033569336,
+    "text": "I hope so, you know,"
+  },
+  {
+    "segment_id": "podcast-0812",
+    "start_seconds": 2467.4800033569336,
+    "end_seconds": 2470.319999694824,
+    "text": "unless it's an interdimensional being"
+  },
+  {
+    "segment_id": "podcast-0813",
+    "start_seconds": 2470.319999694824,
+    "end_seconds": 2472.0,
+    "text": "and then probably not."
+  },
+  {
+    "segment_id": "podcast-0814",
+    "start_seconds": 2474.800003051758,
+    "end_seconds": 2477.0,
+    "text": "Yeah, this has been great, Reid."
+  },
+  {
+    "segment_id": "podcast-0815",
+    "start_seconds": 2477.0,
+    "end_seconds": 2481.1600036621094,
+    "text": "I wanna maybe like, as we get closer to an end here,"
+  },
+  {
+    "segment_id": "podcast-0816",
+    "start_seconds": 2481.1600036621094,
+    "end_seconds": 2484.1600036621094,
+    "text": "we often ask our guests kind of,"
+  },
+  {
+    "segment_id": "podcast-0817",
+    "start_seconds": 2484.1600036621094,
+    "end_seconds": 2487.120002746582,
+    "text": "as you look to the future, you know,"
+  },
+  {
+    "segment_id": "podcast-0818",
+    "start_seconds": 2487.120002746582,
+    "end_seconds": 2490.1600036621094,
+    "text": "that whatever time period that makes sense in your mind,"
+  },
+  {
+    "segment_id": "podcast-0819",
+    "start_seconds": 2490.1600036621094,
+    "end_seconds": 2492.319999694824,
+    "text": "you know, the next few months, the next year,"
+  },
+  {
+    "segment_id": "podcast-0820",
+    "start_seconds": 2492.319999694824,
+    "end_seconds": 2493.4400024414062,
+    "text": "whatever that is,"
+  },
+  {
+    "segment_id": "podcast-0821",
+    "start_seconds": 2493.4400024414062,
+    "end_seconds": 2496.680000305176,
+    "text": "what's kind of at the top of your mind around,"
+  },
+  {
+    "segment_id": "podcast-0822",
+    "start_seconds": 2496.680000305176,
+    "end_seconds": 2499.319999694824,
+    "text": "it could be a set of challenges"
+  },
+  {
+    "segment_id": "podcast-0823",
+    "start_seconds": 2499.319999694824,
+    "end_seconds": 2502.0800018310547,
+    "text": "that you're thinking about in this area."
+  },
+  {
+    "segment_id": "podcast-0824",
+    "start_seconds": 2502.0800018310547,
+    "end_seconds": 2505.4400024414062,
+    "text": "It could be like something you're excited to dig into"
+  },
+  {
+    "segment_id": "podcast-0825",
+    "start_seconds": 2505.4400024414062,
+    "end_seconds": 2510.319999694824,
+    "text": "and explore more, where you see some of these things going."
+  },
+  {
+    "segment_id": "podcast-0826",
+    "start_seconds": 2510.319999694824,
+    "end_seconds": 2512.4800033569336,
+    "text": "Does anything come to mind in terms of,"
+  },
+  {
+    "segment_id": "podcast-0827",
+    "start_seconds": 2512.4800033569336,
+    "end_seconds": 2513.7600021362305,
+    "text": "yeah, when you end the day"
+  },
+  {
+    "segment_id": "podcast-0828",
+    "start_seconds": 2513.7600021362305,
+    "end_seconds": 2516.680000305176,
+    "text": "and you're thinking about those things moving forward,"
+  },
+  {
+    "segment_id": "podcast-0829",
+    "start_seconds": 2516.680000305176,
+    "end_seconds": 2517.800003051758,
+    "text": "what comes to mind?"
+  },
+  {
+    "segment_id": "podcast-0830",
+    "start_seconds": 2517.800003051758,
+    "end_seconds": 2518.6399993896484,
+    "text": "Great question."
+  },
+  {
+    "segment_id": "podcast-0831",
+    "start_seconds": 2518.6399993896484,
+    "end_seconds": 2521.5199966430664,
+    "text": "I, you know, I think I'm a little bit of a dreamer, Daniel."
+  },
+  {
+    "segment_id": "podcast-0832",
+    "start_seconds": 2521.5199966430664,
+    "end_seconds": 2523.120002746582,
+    "text": "I've always been, you know,"
+  },
+  {
+    "segment_id": "podcast-0833",
+    "start_seconds": 2523.120002746582,
+    "end_seconds": 2526.120002746582,
+    "text": "I think it's one of the reasons I got into film"
+  },
+  {
+    "segment_id": "podcast-0834",
+    "start_seconds": 2526.120002746582,
+    "end_seconds": 2529.8399963378906,
+    "text": "was I was sort of an introvert and I was really into sports,"
+  },
+  {
+    "segment_id": "podcast-0835",
+    "start_seconds": 2529.8399963378906,
+    "end_seconds": 2532.3200073242188,
+    "text": "but I really wanted to like learn to express myself."
+  },
+  {
+    "segment_id": "podcast-0836",
+    "start_seconds": 2532.3200073242188,
+    "end_seconds": 2534.8800048828125,
+    "text": "So I always come back to ways"
+  },
+  {
+    "segment_id": "podcast-0837",
+    "start_seconds": 2534.8800048828125,
+    "end_seconds": 2537.039993286133,
+    "text": "that people can tell their story."
+  },
+  {
+    "segment_id": "podcast-0838",
+    "start_seconds": 2537.039993286133,
+    "end_seconds": 2541.759994506836,
+    "text": "I envision a world and I've started to reimagine the brand"
+  },
+  {
+    "segment_id": "podcast-0839",
+    "start_seconds": 2541.759994506836,
+    "end_seconds": 2543.240005493164,
+    "text": "I started called The Lesson,"
+  },
+  {
+    "segment_id": "podcast-0840",
+    "start_seconds": 2543.240005493164,
+    "end_seconds": 2545.759994506836,
+    "text": "which is really like imagine like a world"
+  },
+  {
+    "segment_id": "podcast-0841",
+    "start_seconds": 2545.759994506836,
+    "end_seconds": 2547.1199951171875,
+    "text": "that almost felt like, you know,"
+  },
+  {
+    "segment_id": "podcast-0842",
+    "start_seconds": 2547.1199951171875,
+    "end_seconds": 2549.4400024414062,
+    "text": "you could tap into people's stories and lives,"
+  },
+  {
+    "segment_id": "podcast-0843",
+    "start_seconds": 2549.4400024414062,
+    "end_seconds": 2551.8800048828125,
+    "text": "almost like you do a Netflix show or whatever."
+  },
+  {
+    "segment_id": "podcast-0844",
+    "start_seconds": 2551.8800048828125,
+    "end_seconds": 2553.9199981689453,
+    "text": "It doesn't have to be necessarily a long form,"
+  },
+  {
+    "segment_id": "podcast-0845",
+    "start_seconds": 2553.9199981689453,
+    "end_seconds": 2556.1199951171875,
+    "text": "but imagine ways that we can connect,"
+  },
+  {
+    "segment_id": "podcast-0846",
+    "start_seconds": 2556.1199951171875,
+    "end_seconds": 2559.199996948242,
+    "text": "we can tell stories, we can become, you know,"
+  },
+  {
+    "segment_id": "podcast-0847",
+    "start_seconds": 2559.199996948242,
+    "end_seconds": 2561.3200073242188,
+    "text": "again, these different identities in a way"
+  },
+  {
+    "segment_id": "podcast-0848",
+    "start_seconds": 2561.3200073242188,
+    "end_seconds": 2565.3200073242188,
+    "text": "that becomes just really beautiful and rich to see"
+  },
+  {
+    "segment_id": "podcast-0849",
+    "start_seconds": 2565.3200073242188,
+    "end_seconds": 2567.3999938964844,
+    "text": "and to where we feel kind of part of something bigger"
+  },
+  {
+    "segment_id": "podcast-0850",
+    "start_seconds": 2567.3999938964844,
+    "end_seconds": 2568.759994506836,
+    "text": "and as a whole."
+  },
+  {
+    "segment_id": "podcast-0851",
+    "start_seconds": 2568.759994506836,
+    "end_seconds": 2570.3200073242188,
+    "text": "And I say that only,"
+  },
+  {
+    "segment_id": "podcast-0852",
+    "start_seconds": 2570.3200073242188,
+    "end_seconds": 2572.1600036621094,
+    "text": "I hope that's a world that we can get to,"
+  },
+  {
+    "segment_id": "podcast-0853",
+    "start_seconds": 2572.1600036621094,
+    "end_seconds": 2574.1199951171875,
+    "text": "but it's certainly with the tools"
+  },
+  {
+    "segment_id": "podcast-0854",
+    "start_seconds": 2574.1199951171875,
+    "end_seconds": 2575.1199951171875,
+    "text": "that are out there right now,"
+  },
+  {
+    "segment_id": "podcast-0855",
+    "start_seconds": 2575.1199951171875,
+    "end_seconds": 2579.3200073242188,
+    "text": "it certainly seems like there will be some extraordinary ways"
+  },
+  {
+    "segment_id": "podcast-0856",
+    "start_seconds": 2579.3200073242188,
+    "end_seconds": 2583.6799926757812,
+    "text": "to, you know, lift humanity in the future."
+  },
+  {
+    "segment_id": "podcast-0857",
+    "start_seconds": 2583.6799926757812,
+    "end_seconds": 2585.6000061035156,
+    "text": "And it might be a lot here a lot sooner than we think."
+  },
+  {
+    "segment_id": "podcast-0858",
+    "start_seconds": 2585.6000061035156,
+    "end_seconds": 2587.8399963378906,
+    "text": "So I go back to, to answer your question,"
+  },
+  {
+    "segment_id": "podcast-0859",
+    "start_seconds": 2587.8399963378906,
+    "end_seconds": 2589.960006713867,
+    "text": "I go back to a lot of the dreams"
+  },
+  {
+    "segment_id": "podcast-0860",
+    "start_seconds": 2589.960006713867,
+    "end_seconds": 2593.8800048828125,
+    "text": "and sort of vision I had around storytelling"
+  },
+  {
+    "segment_id": "podcast-0861",
+    "start_seconds": 2593.8800048828125,
+    "end_seconds": 2595.6399993896484,
+    "text": "and how to move people."
+  },
+  {
+    "segment_id": "podcast-0862",
+    "start_seconds": 2595.6399993896484,
+    "end_seconds": 2596.479995727539,
+    "text": "That's great."
+  },
+  {
+    "segment_id": "podcast-0863",
+    "start_seconds": 2596.479995727539,
+    "end_seconds": 2600.0,
+    "text": "Well, I hope to have you back on the show"
+  },
+  {
+    "segment_id": "podcast-0864",
+    "start_seconds": 2600.6799926757812,
+    "end_seconds": 2602.6399993896484,
+    "text": "in the future to talk through all of those things."
+  },
+  {
+    "segment_id": "podcast-0865",
+    "start_seconds": 2602.6399993896484,
+    "end_seconds": 2604.240005493164,
+    "text": "And as you've highlighted,"
+  },
+  {
+    "segment_id": "podcast-0866",
+    "start_seconds": 2604.240005493164,
+    "end_seconds": 2606.3999938964844,
+    "text": "things will look different in the future"
+  },
+  {
+    "segment_id": "podcast-0867",
+    "start_seconds": 2606.3999938964844,
+    "end_seconds": 2607.8399963378906,
+    "text": "than we can even predict"
+  },
+  {
+    "segment_id": "podcast-0868",
+    "start_seconds": 2607.8399963378906,
+    "end_seconds": 2609.8399963378906,
+    "text": "and not something to be afraid of,"
+  },
+  {
+    "segment_id": "podcast-0869",
+    "start_seconds": 2609.8399963378906,
+    "end_seconds": 2612.520004272461,
+    "text": "but something to lean into and, you know,"
+  },
+  {
+    "segment_id": "podcast-0870",
+    "start_seconds": 2612.520004272461,
+    "end_seconds": 2613.8399963378906,
+    "text": "make part of your story."
+  },
+  {
+    "segment_id": "podcast-0871",
+    "start_seconds": 2613.8399963378906,
+    "end_seconds": 2616.0800018310547,
+    "text": "So, so happy that you could join us"
+  },
+  {
+    "segment_id": "podcast-0872",
+    "start_seconds": 2616.0800018310547,
+    "end_seconds": 2617.720001220703,
+    "text": "and share that with us."
+  },
+  {
+    "segment_id": "podcast-0873",
+    "start_seconds": 2617.720001220703,
+    "end_seconds": 2618.759994506836,
+    "text": "Thanks for joining Reed."
+  },
+  {
+    "segment_id": "podcast-0874",
+    "start_seconds": 2618.759994506836,
+    "end_seconds": 2619.960006713867,
+    "text": "Thank you so much, Daniel."
+  },
+  {
+    "segment_id": "podcast-0875",
+    "start_seconds": 2619.960006713867,
+    "end_seconds": 2620.800003051758,
+    "text": "Thank you, Chris."
+  },
+  {
+    "segment_id": "podcast-0876",
+    "start_seconds": 2620.800003051758,
+    "end_seconds": 2621.6399993896484,
+    "text": "I really appreciate it."
+  },
+  {
+    "segment_id": "podcast-0877",
+    "start_seconds": 2621.6399993896484,
+    "end_seconds": 2622.479995727539,
+    "text": "Thank you."
+  },
+  {
+    "segment_id": "podcast-0878",
+    "start_seconds": 2622.479995727539,
+    "end_seconds": 2623.3200073242188,
+    "text": "Thank you."
+  },
+  {
+    "segment_id": "podcast-0879",
+    "start_seconds": 2623.3200073242188,
+    "end_seconds": 2624.1600036621094,
+    "text": "Thank you."
+  },
+  {
+    "segment_id": "podcast-0880",
+    "start_seconds": 2624.1600036621094,
+    "end_seconds": 2625.0,
+    "text": "Thank you."
+  },
+  {
+    "segment_id": "podcast-0881",
+    "start_seconds": 2625.0,
+    "end_seconds": 2625.8399963378906,
+    "text": "Thank you."
+  },
+  {
+    "segment_id": "podcast-0882",
+    "start_seconds": 2625.8399963378906,
+    "end_seconds": 2626.6799926757812,
+    "text": "Thank you."
+  },
+  {
+    "segment_id": "podcast-0883",
+    "start_seconds": 2626.6799926757812,
+    "end_seconds": 2627.520004272461,
+    "text": "Thank you."
+  },
+  {
+    "segment_id": "podcast-0884",
+    "start_seconds": 2627.520004272461,
+    "end_seconds": 2628.3600006103516,
+    "text": "Thank you."
+  },
+  {
+    "segment_id": "podcast-0885",
+    "start_seconds": 2628.3600006103516,
+    "end_seconds": 2629.199996948242,
+    "text": "Thank you."
+  },
+  {
+    "segment_id": "podcast-0886",
+    "start_seconds": 2629.199996948242,
+    "end_seconds": 2630.8800048828125,
+    "text": "That's our show for this week."
+  },
+  {
+    "segment_id": "podcast-0887",
+    "start_seconds": 2630.8800048828125,
+    "end_seconds": 2632.800003051758,
+    "text": "If you haven't checked out our website,"
+  },
+  {
+    "segment_id": "podcast-0888",
+    "start_seconds": 2632.800003051758,
+    "end_seconds": 2635.0,
+    "text": "head to practicalai.fm"
+  },
+  {
+    "segment_id": "podcast-0889",
+    "start_seconds": 2635.0,
+    "end_seconds": 2636.1600036621094,
+    "text": "and be sure to connect with us"
+  },
+  {
+    "segment_id": "podcast-0890",
+    "start_seconds": 2636.1600036621094,
+    "end_seconds": 2638.479995727539,
+    "text": "on LinkedIn, X, or Blue Sky."
+  },
+  {
+    "segment_id": "podcast-0891",
+    "start_seconds": 2638.479995727539,
+    "end_seconds": 2640.0800018310547,
+    "text": "You'll see us posting insights."
+  },
+  {
+    "segment_id": "podcast-0892",
+    "start_seconds": 2640.0,
+    "end_seconds": 2644.4000000953674,
+    "text": "to the latest AI developments, and we would love for you to join the conversation."
+  },
+  {
+    "segment_id": "podcast-0893",
+    "start_seconds": 2644.4000000953674,
+    "end_seconds": 2648.800000190735,
+    "text": "Thanks to our partner, Prediction Guard, for providing operational support for the show."
+  },
+  {
+    "segment_id": "podcast-0894",
+    "start_seconds": 2648.800000190735,
+    "end_seconds": 2654.0,
+    "text": "Check them out at predictionguard.com. Also, thanks to Breakmaster Cylinder for the beats,"
+  },
+  {
+    "segment_id": "podcast-0895",
+    "start_seconds": 2654.0,
+    "end_seconds": 2663.4400005340576,
+    "text": "and to you for listening. That's all for now, but you'll hear from us again next week."
+  }
+]

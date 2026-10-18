@@ -1,0 +1,17 @@
+{
+  "stage": "run",
+  "status": "failed",
+  "input_count": 0,
+  "output_count": 1,
+  "started_at": "2026-10-18T03:26:02.617Z",
+  "finished_at": "2026-10-18T03:53:08.272Z",
+  "tools_or_models": [
+    "Python standard library"
+  ],
+  "cost_usd": null,
+  "cost_estimate": false,
+  "errors": [
+    "Extraction failed for feed:https://openai.com/index/stack-overflow-chatgpt-plugin (https://openai.com/index/stack-overflow-chatgpt-plugin): HTTPError: HTTP Error 403: Forbidden",
+    "AI/content stage failed: OpenAI briefs request failed (HTTP 400): {\n  \"error\": {\n    \"message\": \"Your input exceeds the context window of this model. Please adjust your input and try again.\",\n    \"type\": \"invalid_request_error\",\n    \"param\": \"input\",\n    \"code\": \"context_length_exceeded\"\n  }\n}"
+  ]
+}

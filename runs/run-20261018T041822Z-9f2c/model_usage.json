@@ -1,0 +1,36 @@
+[
+  {
+    "purpose": "selection",
+    "model": "gpt-5-mini",
+    "response_id": "resp_06e3db9534b18530016ad446a32a0c87d2850c48b1a7d171de",
+    "usage": {
+      "input_tokens": 25072,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 8202,
+      "output_tokens_details": {
+        "reasoning_tokens": 2112
+      },
+      "total_tokens": 33274
+    }
+  },
+  {
+    "purpose": "briefs",
+    "model": "gpt-5-mini",
+    "response_id": "resp_066e5a7f954ed130016ad448913f2887d28af0897d8233d1c4",
+    "usage": {
+      "input_tokens": 7876,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 10585,
+      "output_tokens_details": {
+        "reasoning_tokens": 2560
+      },
+      "total_tokens": 18461
+    }
+  }
+]

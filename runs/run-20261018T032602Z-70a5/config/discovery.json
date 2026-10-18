@@ -1,0 +1,12 @@
+{
+  "lookback_days": 30,
+  "max_items_per_source": 2,
+  "youtube_metadata_scan_limit": 20,
+  "relevance_terms": [
+    "agent", "agentic", "multi-agent", "mcp", "model context protocol",
+    "tool use", "tool calling", "function calling", "agent framework",
+    "agent sdk", "agent workflow", "agent evaluation", "agent eval",
+    "orchestration", "langgraph", "google adk", "computer use",
+    "browser use", "agent platform", "agent builder", "workflow automation"
+  ]
+}

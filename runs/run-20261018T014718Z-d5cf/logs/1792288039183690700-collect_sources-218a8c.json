@@ -1,0 +1,14 @@
+{
+  "stage": "collect_sources",
+  "status": "complete",
+  "input_count": 3,
+  "output_count": 3,
+  "started_at": "2026-10-18T01:47:18.524Z",
+  "finished_at": "2026-10-18T01:47:19.183Z",
+  "tools_or_models": [
+    "Python standard library"
+  ],
+  "cost_usd": null,
+  "cost_estimate": false,
+  "errors": []
+}

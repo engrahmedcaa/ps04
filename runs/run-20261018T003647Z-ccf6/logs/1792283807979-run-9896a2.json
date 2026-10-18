@@ -1,0 +1,16 @@
+{
+  "stage": "run",
+  "status": "failed",
+  "input_count": 0,
+  "output_count": 1,
+  "started_at": "2026-10-18T00:36:47.840Z",
+  "finished_at": "2026-10-18T00:36:47.980Z",
+  "tools_or_models": [
+    "Node.js built-ins"
+  ],
+  "cost_usd": null,
+  "cost_estimate": false,
+  "errors": [
+    "Only 3 eligible items; cannot responsibly produce three source-grounded briefs."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "stage": "run",
+  "status": "failed",
+  "input_count": 0,
+  "output_count": 1,
+  "started_at": "2026-10-18T01:44:26.313Z",
+  "finished_at": "2026-10-18T01:44:26.430Z",
+  "tools_or_models": [
+    "Python standard library"
+  ],
+  "cost_usd": null,
+  "cost_estimate": false,
+  "errors": [
+    "Evidence minimum not met: 3/12 eligible, 3/6 publishers, input counts {'feed': 1, 'youtube': 1, 'podcast': 1} (need at least two per kind). Not creating unsupported content."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "provider": "OpenAI Responses API",
+  "model_env_var": "OPENAI_MODEL",
+  "default_model": "gpt-5-mini",
+  "credential_env_var": "OPENAI_API_KEY",
+  "transcription_model_env_var": "OPENAI_TRANSCRIPTION_MODEL",
+  "default_transcription_model": "whisper-1",
+  "note": "Usage is optional until a valid API key is configured. API calls can incur charges. Verify current model availability and pricing in the provider dashboard before running a live model pipeline."
+}

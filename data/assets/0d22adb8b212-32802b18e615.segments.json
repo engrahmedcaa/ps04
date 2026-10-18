@@ -1,0 +1,194 @@
+[
+  {
+    "segment_id": "youtube-0001",
+    "start_seconds": 0.0,
+    "end_seconds": 3.640000104904175,
+    "text": "Stripe built an internal AI assistant with over 1,000 skills,"
+  },
+  {
+    "segment_id": "youtube-0002",
+    "start_seconds": 3.640000104904175,
+    "end_seconds": 8.399999618530273,
+    "text": "500 internal tools, and 83% of the company using it every week."
+  },
+  {
+    "segment_id": "youtube-0003",
+    "start_seconds": 8.399999618530273,
+    "end_seconds": 10.960000038146973,
+    "text": "They did that by managing context correctly."
+  },
+  {
+    "segment_id": "youtube-0004",
+    "start_seconds": 10.960000038146973,
+    "end_seconds": 14.960000038146973,
+    "text": "Stripe wanted every employee to have an assistant connected to their data warehouse,"
+  },
+  {
+    "segment_id": "youtube-0005",
+    "start_seconds": 14.960000038146973,
+    "end_seconds": 17.0,
+    "text": "Slack, and internal tools."
+  },
+  {
+    "segment_id": "youtube-0006",
+    "start_seconds": 17.0,
+    "end_seconds": 20.65999984741211,
+    "text": "But load 1,000 skills and 500 tools into one system prompt,"
+  },
+  {
+    "segment_id": "youtube-0007",
+    "start_seconds": 20.65999984741211,
+    "end_seconds": 23.5,
+    "text": "and the agent runs out of room before it even starts the task."
+  },
+  {
+    "segment_id": "youtube-0008",
+    "start_seconds": 23.5,
+    "end_seconds": 27.200000762939453,
+    "text": "So they built it on DeepAgents, our open source agent harness."
+  },
+  {
+    "segment_id": "youtube-0009",
+    "start_seconds": 27.200000762939453,
+    "end_seconds": 29.899999618530273,
+    "text": "Each skill carries its own list of allowed tools,"
+  },
+  {
+    "segment_id": "youtube-0010",
+    "start_seconds": 29.899999618530273,
+    "end_seconds": 32.36000061035156,
+    "text": "so picking a skill decides which tools load,"
+  },
+  {
+    "segment_id": "youtube-0011",
+    "start_seconds": 32.36000061035156,
+    "end_seconds": 34.900001525878906,
+    "text": "and the agent's context ends up with just a handful,"
+  },
+  {
+    "segment_id": "youtube-0012",
+    "start_seconds": 34.900001525878906,
+    "end_seconds": 37.459999084472656,
+    "text": "not all 500 available tools at once."
+  },
+  {
+    "segment_id": "youtube-0013",
+    "start_seconds": 37.459999084472656,
+    "end_seconds": 41.599998474121094,
+    "text": "Of course, a handful of foundational skills always stay pinned no matter what."
+  },
+  {
+    "segment_id": "youtube-0014",
+    "start_seconds": 41.599998474121094,
+    "end_seconds": 45.29999923706055,
+    "text": "So Stripe's core context and policies never get dropped by accident."
+  },
+  {
+    "segment_id": "youtube-0015",
+    "start_seconds": 45.29999923706055,
+    "end_seconds": 47.540000915527344,
+    "text": "So that covers what stays in context."
+  },
+  {
+    "segment_id": "youtube-0016",
+    "start_seconds": 47.540000915527344,
+    "end_seconds": 50.65999984741211,
+    "text": "Now the agent runs and writes code outside a sandbox,"
+  },
+  {
+    "segment_id": "youtube-0017",
+    "start_seconds": 50.65999984741211,
+    "end_seconds": 54.20000076293945,
+    "text": "but for safety, it calls into the sandbox to run that code."
+  },
+  {
+    "segment_id": "youtube-0018",
+    "start_seconds": 54.20000076293945,
+    "end_seconds": 56.13999938964844,
+    "text": "So execution stays isolated"
+  },
+  {
+    "segment_id": "youtube-0019",
+    "start_seconds": 56.13999938964844,
+    "end_seconds": 60.20000076293945,
+    "text": "without ever exposing Stripe's real infrastructure or credentials."
+  },
+  {
+    "segment_id": "youtube-0020",
+    "start_seconds": 60.20000076293945,
+    "end_seconds": 62.939998626708984,
+    "text": "The agent also needs to remember things across a session,"
+  },
+  {
+    "segment_id": "youtube-0021",
+    "start_seconds": 62.939998626708984,
+    "end_seconds": 65.68000030517578,
+    "text": "so a virtual file system backed by S3"
+  },
+  {
+    "segment_id": "youtube-0022",
+    "start_seconds": 65.68000030517578,
+    "end_seconds": 69.58000183105469,
+    "text": "lets it persist state instead of rereading everything from scratch on every turn."
+  },
+  {
+    "segment_id": "youtube-0023",
+    "start_seconds": 69.58000183105469,
+    "end_seconds": 73.04000091552734,
+    "text": "One Stripe engineer built the first working version of CHI in a single week"
+  },
+  {
+    "segment_id": "youtube-0024",
+    "start_seconds": 73.04000091552734,
+    "end_seconds": 76.44000244140625,
+    "text": "because DeepAgents had already solved the hard infrastructure problems."
+  },
+  {
+    "segment_id": "youtube-0025",
+    "start_seconds": 76.44000244140625,
+    "end_seconds": 78.9000015258789,
+    "text": "Adoption grew 16-fold in about a month,"
+  },
+  {
+    "segment_id": "youtube-0026",
+    "start_seconds": 78.9000015258789,
+    "end_seconds": 81.63999938964844,
+    "text": "and CHI now runs over 60,000 sessions a week."
+  },
+  {
+    "segment_id": "youtube-0027",
+    "start_seconds": 81.63999938964844,
+    "end_seconds": 85.04000091552734,
+    "text": "As the engineering manager for Stripe's agent foundation team put it,"
+  },
+  {
+    "segment_id": "youtube-0028",
+    "start_seconds": 85.04000091552734,
+    "end_seconds": 88.37999725341797,
+    "text": "the DeepAgents layer solves all the non-Stripey problems,"
+  },
+  {
+    "segment_id": "youtube-0029",
+    "start_seconds": 88.37999725341797,
+    "end_seconds": 91.58000183105469,
+    "text": "so his team could focus on Stripe's problems instead."
+  },
+  {
+    "segment_id": "youtube-0030",
+    "start_seconds": 91.58000183105469,
+    "end_seconds": 94.13999938964844,
+    "text": "If you want to learn more about the mechanics behind DeepAgents,"
+  },
+  {
+    "segment_id": "youtube-0031",
+    "start_seconds": 94.13999938964844,
+    "end_seconds": 97.4800033569336,
+    "text": "Langgene Academy's DeepAgents course walks through everything hands-on,"
+  },
+  {
+    "segment_id": "youtube-0032",
+    "start_seconds": 97.4800033569336,
+    "end_seconds": 99.33999633789062,
+    "text": "so you can apply it to your own team."
+  }
+]

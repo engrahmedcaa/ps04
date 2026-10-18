@@ -1,0 +1,11 @@
+[
+  {"source_id":"openai-blog","publisher_id":"openai","kind":"feed","url":"https://openai.com/news/rss.xml"},
+  {"source_id":"google-developers-blog","publisher_id":"google-developers","kind":"feed","url":"https://developers.googleblog.com/feeds/posts/default?alt=rss"},
+  {"source_id":"langchain-blog","publisher_id":"langchain","kind":"feed","url":"https://www.langchain.com/blog/rss.xml"},
+  {"source_id":"metr-research-blog","publisher_id":"metr","kind":"feed","url":"https://metr.org/feed.xml"},
+  {"source_id":"google-developers-youtube","publisher_id":"google-developers","kind":"youtube","url":"https://www.youtube.com/@GoogleDevelopers/videos"},
+  {"source_id":"langchain-youtube","publisher_id":"langchain","kind":"youtube","url":"https://www.youtube.com/@LangChain/videos"},
+  {"source_id":"anthropic-youtube","publisher_id":"anthropic","kind":"youtube","url":"https://www.youtube.com/@anthropic-ai/videos"},
+  {"source_id":"practical-ai-podcast","publisher_id":"practical-ai-podcast","kind":"podcast","url":"https://feeds.transistor.fm/practical-ai-machine-learning-data-science-llm"},
+  {"source_id":"latent-space-podcast","publisher_id":"latent-space-podcast","kind":"podcast","url":"https://api.substack.com/feed/podcast/1084089.rss"}
+]

@@ -1,0 +1,14 @@
+{
+  "stage": "collect_sources",
+  "status": "complete",
+  "input_count": 3,
+  "output_count": 3,
+  "started_at": "2026-10-18T00:37:39.151Z",
+  "finished_at": "2026-10-18T00:37:39.243Z",
+  "tools_or_models": [
+    "Node.js built-ins"
+  ],
+  "cost_usd": null,
+  "cost_estimate": false,
+  "errors": []
+}

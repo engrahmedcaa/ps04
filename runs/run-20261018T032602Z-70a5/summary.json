@@ -1,0 +1,147 @@
+{
+  "run_id": "run-20261018T032602Z-70a5",
+  "status": "failed",
+  "counts": {
+    "discovered": 14,
+    "extracted": 13,
+    "new": 8,
+    "changed": 0,
+    "unchanged": 5,
+    "eligible": 16,
+    "excluded": 0,
+    "accepted": 11,
+    "rejected": 4,
+    "deferred": 1,
+    "articles": 0,
+    "video_scripts": 0
+  },
+  "source_coverage": {
+    "by_kind": {
+      "feed": 5,
+      "youtube": 4,
+      "podcast": 4
+    },
+    "independent_publishers": [
+      "google-developers",
+      "langchain",
+      "latent-space-podcast",
+      "metr",
+      "openai",
+      "practical-ai-podcast"
+    ]
+  },
+  "duplicate_observations": [],
+  "distinct_items_after_flagged_duplicates": 13,
+  "repeatability_check": {
+    "live_run_dates": [
+      "2026-10-18"
+    ],
+    "live_runs_on_distinct_days": false
+  },
+  "discovery_screening": {
+    "as_of_date": "2026-10-18",
+    "lookback_days": 30,
+    "max_items_per_source": 2,
+    "raw_feed_and_video_entries_seen": 2189,
+    "recent_on_topic_before_source_cap": 76,
+    "kept_for_full_extraction": 14,
+    "screened_out_by_reason": {
+      "outside_window": 2015,
+      "unknown_or_invalid_date": 20,
+      "off_topic": 78,
+      "over_source_limit": 62
+    },
+    "examples": {
+      "outside_window": [
+        {
+          "title": "Introducing the Australian Youth Safety Blueprint",
+          "published_at": "2026-09-18T12:00:00Z",
+          "url": "https://openai.com/index/australian-youth-safety-blueprint"
+        },
+        {
+          "title": "How Cooley is accelerating IPO work with ChatGPT",
+          "published_at": "2026-09-17T12:00:00Z",
+          "url": "https://openai.com/index/cooley-gopublic"
+        },
+        {
+          "title": "Introducing Astra for Law",
+          "published_at": "2026-09-17T00:00:00Z",
+          "url": "https://openai.com/index/astra-for-law"
+        }
+      ],
+      "unknown_or_invalid_date": [
+        {
+          "title": "Announcing DPoP Support for Google OAuth: Securing Refresh Tokens",
+          "published_at": null,
+          "url": "https://developers.googleblog.com/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/"
+        },
+        {
+          "title": "Three layers, one repo: a tour of google/adk-recipes",
+          "published_at": null,
+          "url": "https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes/"
+        },
+        {
+          "title": "Evaluating AI agents: moving past the vibe check",
+          "published_at": null,
+          "url": "https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check/"
+        }
+      ],
+      "off_topic": [
+        {
+          "title": "How Itaú is building generative AI for its entire customer base",
+          "published_at": "2026-10-16T19:00:00Z",
+          "url": "https://openai.com/index/itau-generative-ai"
+        },
+        {
+          "title": "Benefit Street Partners answers questions faster with Codex",
+          "published_at": "2026-10-16T00:00:00Z",
+          "url": "https://openai.com/index/benefit-street-partners"
+        },
+        {
+          "title": "Bringing GPT-Rosalind to academic research labs",
+          "published_at": "2026-10-15T19:00:00Z",
+          "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
+        }
+      ],
+      "over_source_limit": [
+        {
+          "source_id": "openai-blog",
+          "count": 8,
+          "detail": "Kept only the 2 newest relevant items from this source."
+        },
+        {
+          "source_id": "langchain-blog",
+          "count": 25,
+          "detail": "Kept only the 2 newest relevant items from this source."
+        },
+        {
+          "source_id": "google-developers-youtube",
+          "count": 3,
+          "detail": "Kept only the 2 newest relevant items from this source."
+        }
+      ]
+    }
+  },
+  "failed_or_incomplete_stages": [
+    "Extraction failed for feed:https://openai.com/index/stack-overflow-chatgpt-plugin (https://openai.com/index/stack-overflow-chatgpt-plugin): HTTPError: HTTP Error 403: Forbidden",
+    "AI/content stage failed: OpenAI briefs request failed (HTTP 400): {\n  \"error\": {\n    \"message\": \"Your input exceeds the context window of this model. Please adjust your input and try again.\",\n    \"type\": \"invalid_request_error\",\n    \"param\": \"input\",\n    \"code\": \"context_length_exceeded\"\n  }\n}"
+  ],
+  "elapsed_seconds": 1625.634278,
+  "tools_or_models": [
+    "OpenAI Responses API: gpt-5-mini",
+    "Python standard library"
+  ],
+  "cost_usd": null,
+  "cost_note": "Unknown until a provider is configured and reports usage.",
+  "manual_actions": [
+    "Verify sources, claims, and independence",
+    "Inspect editorial decisions; revise policy",
+    "Complete human approval",
+    "Expand and edit drafts to assignment length",
+    "Render videos in Google Vids or HeyGen",
+    "Publish on Substack and YouTube",
+    "Record technical demonstration",
+    "Complete a second live run on another date"
+  ],
+  "publication_links": null
+}

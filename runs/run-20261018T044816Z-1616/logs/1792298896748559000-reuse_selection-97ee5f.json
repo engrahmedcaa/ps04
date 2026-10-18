@@ -1,0 +1,14 @@
+{
+  "stage": "reuse_selection",
+  "status": "complete",
+  "input_count": 13,
+  "output_count": 13,
+  "started_at": "2026-10-18T04:48:16.748Z",
+  "finished_at": "2026-10-18T04:48:16.748Z",
+  "tools_or_models": [
+    "OpenAI Responses API: gpt-5-mini (saved, validated decisions)"
+  ],
+  "cost_usd": null,
+  "cost_estimate": false,
+  "errors": []
+}

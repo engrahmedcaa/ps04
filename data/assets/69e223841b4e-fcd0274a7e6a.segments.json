@@ -1,0 +1,1880 @@
+[
+  {
+    "segment_id": "youtube-0001",
+    "start_seconds": 0.0,
+    "end_seconds": 8.039999961853027,
+    "text": "Very excited to go through some of the things we're thinking about from particularly the"
+  },
+  {
+    "segment_id": "youtube-0002",
+    "start_seconds": 8.039999961853027,
+    "end_seconds": 12.880000114440918,
+    "text": "research side, but in terms of how we update the model weights for a model, like in terms"
+  },
+  {
+    "segment_id": "youtube-0003",
+    "start_seconds": 12.880000114440918,
+    "end_seconds": 15.800000190734863,
+    "text": "of earning your intelligence, that's one of the big things you can do."
+  },
+  {
+    "segment_id": "youtube-0004",
+    "start_seconds": 15.800000190734863,
+    "end_seconds": 19.920000076293945,
+    "text": "So it feels like there's a lot going on and I'm going to try and like give a big context"
+  },
+  {
+    "segment_id": "youtube-0005",
+    "start_seconds": 19.920000076293945,
+    "end_seconds": 23.559999465942383,
+    "text": "dump of at least like what we're thinking about, what we believe even the Frontier Labs"
+  },
+  {
+    "segment_id": "youtube-0006",
+    "start_seconds": 23.559999465942383,
+    "end_seconds": 27.520000457763672,
+    "text": "are thinking about when it comes to like post training and even earlier stages of training"
+  },
+  {
+    "segment_id": "youtube-0007",
+    "start_seconds": 27.520000457763672,
+    "end_seconds": 29.520000457763672,
+    "text": "with your models."
+  },
+  {
+    "segment_id": "youtube-0008",
+    "start_seconds": 29.520000457763672,
+    "end_seconds": 34.400001525878906,
+    "text": "So this is kind of like the loop that, you know, everyone refers to."
+  },
+  {
+    "segment_id": "youtube-0009",
+    "start_seconds": 34.400001525878906,
+    "end_seconds": 37.63999938964844,
+    "text": "This is the loop you see in all the, you know, own your own intelligence slides."
+  },
+  {
+    "segment_id": "youtube-0010",
+    "start_seconds": 37.63999938964844,
+    "end_seconds": 41.0,
+    "text": "It's essentially like, okay, we have an agent doing some sort of task."
+  },
+  {
+    "segment_id": "youtube-0011",
+    "start_seconds": 41.0,
+    "end_seconds": 43.959999084472656,
+    "text": "We are able to extract traces for that task."
+  },
+  {
+    "segment_id": "youtube-0012",
+    "start_seconds": 43.959999084472656,
+    "end_seconds": 47.720001220703125,
+    "text": "We are able to then look for them and see what the model is doing right and what it's"
+  },
+  {
+    "segment_id": "youtube-0013",
+    "start_seconds": 47.720001220703125,
+    "end_seconds": 48.720001220703125,
+    "text": "doing wrong."
+  },
+  {
+    "segment_id": "youtube-0014",
+    "start_seconds": 48.720001220703125,
+    "end_seconds": 52.2400016784668,
+    "text": "And we're going to turn that into some form of an eval."
+  },
+  {
+    "segment_id": "youtube-0015",
+    "start_seconds": 52.2400016784668,
+    "end_seconds": 56.400001525878906,
+    "text": "Now this might look like an environment with a reward function as we see in RL, it might"
+  },
+  {
+    "segment_id": "youtube-0016",
+    "start_seconds": 56.400001525878906,
+    "end_seconds": 60.720001220703125,
+    "text": "look like an eval that turns into, you know, a perfect gold trace that we can then SFT"
+  },
+  {
+    "segment_id": "youtube-0017",
+    "start_seconds": 60.720001220703125,
+    "end_seconds": 63.31999969482422,
+    "text": "on, supervise, fine tune on, whatever it looks like."
+  },
+  {
+    "segment_id": "youtube-0018",
+    "start_seconds": 63.31999969482422,
+    "end_seconds": 66.83999633789062,
+    "text": "There is some way to determine good from bad in the traces that we're generating."
+  },
+  {
+    "segment_id": "youtube-0019",
+    "start_seconds": 66.83999633789062,
+    "end_seconds": 71.5999984741211,
+    "text": "And then, you know, there's this box, which is like this very nebulous, like train."
+  },
+  {
+    "segment_id": "youtube-0020",
+    "start_seconds": 71.5999984741211,
+    "end_seconds": 74.31999969482422,
+    "text": "Once we're trained, we're hoping the model gets better and we deploy it."
+  },
+  {
+    "segment_id": "youtube-0021",
+    "start_seconds": 74.31999969482422,
+    "end_seconds": 79.87999725341797,
+    "text": "I think the thing I want to like hammer home today is that no matter what anyone tells"
+  },
+  {
+    "segment_id": "youtube-0022",
+    "start_seconds": 79.87999725341797,
+    "end_seconds": 83.5,
+    "text": "you, like the train box is like not solved at all."
+  },
+  {
+    "segment_id": "youtube-0023",
+    "start_seconds": 83.5,
+    "end_seconds": 88.62000274658203,
+    "text": "It's really, really, really hard and everything that you do has problems and trade-offs."
+  },
+  {
+    "segment_id": "youtube-0024",
+    "start_seconds": 88.62000274658203,
+    "end_seconds": 93.69999694824219,
+    "text": "And so I guess fair runs context, I'm talking about the continual learning regime."
+  },
+  {
+    "segment_id": "youtube-0025",
+    "start_seconds": 93.69999694824219,
+    "end_seconds": 97.13999938964844,
+    "text": "So if you're going to own your intelligence, like you don't want to just do a one-off SFT"
+  },
+  {
+    "segment_id": "youtube-0026",
+    "start_seconds": 97.13999938964844,
+    "end_seconds": 101.18000030517578,
+    "text": "run or a one-off RL run, you want your model to continue to get better from these traces"
+  },
+  {
+    "segment_id": "youtube-0027",
+    "start_seconds": 101.18000030517578,
+    "end_seconds": 102.18000030517578,
+    "text": "that you're collecting."
+  },
+  {
+    "segment_id": "youtube-0028",
+    "start_seconds": 102.18000030517578,
+    "end_seconds": 105.30000305175781,
+    "text": "Like that's the whole point of having this feedback loop is that it is a loop that you're"
+  },
+  {
+    "segment_id": "youtube-0029",
+    "start_seconds": 105.30000305175781,
+    "end_seconds": 106.30000305175781,
+    "text": "consistently running."
+  },
+  {
+    "segment_id": "youtube-0030",
+    "start_seconds": 106.30000305175781,
+    "end_seconds": 107.66000366210938,
+    "text": "It's not a one-off thing."
+  },
+  {
+    "segment_id": "youtube-0031",
+    "start_seconds": 107.66000366210938,
+    "end_seconds": 112.44000244140625,
+    "text": "So I guess today, like I'm going to talk to you about why you can't just continually SFT."
+  },
+  {
+    "segment_id": "youtube-0032",
+    "start_seconds": 112.44000244140625,
+    "end_seconds": 115.23999786376953,
+    "text": "You can't also just continually RL."
+  },
+  {
+    "segment_id": "youtube-0033",
+    "start_seconds": 115.23999786376953,
+    "end_seconds": 116.23999786376953,
+    "text": "There is no perfect solution."
+  },
+  {
+    "segment_id": "youtube-0034",
+    "start_seconds": 116.23999786376953,
+    "end_seconds": 121.31999969482422,
+    "text": "I'm going to try and like sketch the trade-offs and give you an outline of all the different"
+  },
+  {
+    "segment_id": "youtube-0035",
+    "start_seconds": 121.31999969482422,
+    "end_seconds": 124.4800033569336,
+    "text": "methods that we can use."
+  },
+  {
+    "segment_id": "youtube-0036",
+    "start_seconds": 124.4800033569336,
+    "end_seconds": 130.0399932861328,
+    "text": "So yeah, maybe like a place to start here is like trying to summarize the literature"
+  },
+  {
+    "segment_id": "youtube-0037",
+    "start_seconds": 130.0399932861328,
+    "end_seconds": 134.0399932861328,
+    "text": "around RL, SFT, distillation, et cetera."
+  },
+  {
+    "segment_id": "youtube-0038",
+    "start_seconds": 134.0399932861328,
+    "end_seconds": 141.10000610351562,
+    "text": "So everyone probably has this vague idea of SFT as being able to install new information"
+  },
+  {
+    "segment_id": "youtube-0039",
+    "start_seconds": 141.10000610351562,
+    "end_seconds": 142.10000610351562,
+    "text": "in a model."
+  },
+  {
+    "segment_id": "youtube-0040",
+    "start_seconds": 142.25999450683594,
+    "end_seconds": 149.89999389648438,
+    "text": "I can take a gold trace from, you know, Fable 5.1 and give it to Quen 4B and SFT on that."
+  },
+  {
+    "segment_id": "youtube-0041",
+    "start_seconds": 149.89999389648438,
+    "end_seconds": 153.5399932861328,
+    "text": "And like Quen is going to get new information and it's going to get like, I guess, reasoning"
+  },
+  {
+    "segment_id": "youtube-0042",
+    "start_seconds": 153.5399932861328,
+    "end_seconds": 157.82000732421875,
+    "text": "traces or paths that it never would have sampled by itself."
+  },
+  {
+    "segment_id": "youtube-0043",
+    "start_seconds": 157.82000732421875,
+    "end_seconds": 159.4600067138672,
+    "text": "That's a great thing about SFT."
+  },
+  {
+    "segment_id": "youtube-0044",
+    "start_seconds": 159.4600067138672,
+    "end_seconds": 161.3800048828125,
+    "text": "RL can't really do that."
+  },
+  {
+    "segment_id": "youtube-0045",
+    "start_seconds": 161.3800048828125,
+    "end_seconds": 164.72000122070312,
+    "text": "RL is limited to what we say the support is of the model."
+  },
+  {
+    "segment_id": "youtube-0046",
+    "start_seconds": 164.72000122070312,
+    "end_seconds": 169.3000030517578,
+    "text": "So if a model can sample a particular rollout or reasoning trace, however you want to call"
+  },
+  {
+    "segment_id": "youtube-0047",
+    "start_seconds": 169.3000030517578,
+    "end_seconds": 173.66000366210938,
+    "text": "it, we can up-weight the likelihood of that reasoning trace if it's good."
+  },
+  {
+    "segment_id": "youtube-0048",
+    "start_seconds": 173.66000366210938,
+    "end_seconds": 177.97999572753906,
+    "text": "So RL can only take things which are in the support of the model, SFT can kind of make"
+  },
+  {
+    "segment_id": "youtube-0049",
+    "start_seconds": 177.97999572753906,
+    "end_seconds": 179.97999572753906,
+    "text": "the model do whatever it wants."
+  },
+  {
+    "segment_id": "youtube-0050",
+    "start_seconds": 179.97999572753906,
+    "end_seconds": 184.5800018310547,
+    "text": "Now there's a lot to break down here because from that very brief description, it seems"
+  },
+  {
+    "segment_id": "youtube-0051",
+    "start_seconds": 184.5800018310547,
+    "end_seconds": 187.5399932861328,
+    "text": "like SFT is like exactly the thing that you'd want to do."
+  },
+  {
+    "segment_id": "youtube-0052",
+    "start_seconds": 187.5399932861328,
+    "end_seconds": 193.89999389648438,
+    "text": "Like I can get my Quen 3, 4B to act like Fable 5.1, I just get enough SFT traces."
+  },
+  {
+    "segment_id": "youtube-0053",
+    "start_seconds": 193.89999389648438,
+    "end_seconds": 198.97999572753906,
+    "text": "The problem comes here because SFT is a very off-policy process."
+  },
+  {
+    "segment_id": "youtube-0054",
+    "start_seconds": 199.94000244140625,
+    "end_seconds": 204.4199981689453,
+    "text": "The data that I am learning from, yes, it's got a very dense signal, like every token"
+  },
+  {
+    "segment_id": "youtube-0055",
+    "start_seconds": 204.4199981689453,
+    "end_seconds": 209.02000427246094,
+    "text": "I'm getting a new reward about what the correct next token is according to Fable 5.1, but"
+  },
+  {
+    "segment_id": "youtube-0056",
+    "start_seconds": 209.02000427246094,
+    "end_seconds": 210.6999969482422,
+    "text": "it's very, very off-policy."
+  },
+  {
+    "segment_id": "youtube-0057",
+    "start_seconds": 210.6999969482422,
+    "end_seconds": 216.82000732421875,
+    "text": "So I fine-tune my Quen 3, 4B on this, and then I go deploy it in production and I hit"
+  },
+  {
+    "segment_id": "youtube-0058",
+    "start_seconds": 216.82000732421875,
+    "end_seconds": 220.5,
+    "text": "this production edge case, which isn't even out of distribution, it's just not in the"
+  },
+  {
+    "segment_id": "youtube-0059",
+    "start_seconds": 220.5,
+    "end_seconds": 221.5,
+    "text": "training distribution."
+  },
+  {
+    "segment_id": "youtube-0060",
+    "start_seconds": 221.5,
+    "end_seconds": 224.5,
+    "text": "I haven't seen this exact example before."
+  },
+  {
+    "segment_id": "youtube-0061",
+    "start_seconds": 224.89999389648438,
+    "end_seconds": 230.5,
+    "text": "This off-policyness means Quen 3, 4B is orders of magnitude smaller than Fable 5.1."
+  },
+  {
+    "segment_id": "youtube-0062",
+    "start_seconds": 230.5,
+    "end_seconds": 235.89999389648438,
+    "text": "So let's just say it makes one mistake, one misstep, let's say it's solving a math problem."
+  },
+  {
+    "segment_id": "youtube-0063",
+    "start_seconds": 235.89999389648438,
+    "end_seconds": 240.94000244140625,
+    "text": "The problem with off-policyness is that Quen 3, 4B has never been trained on Quen 3, 4B's"
+  },
+  {
+    "segment_id": "youtube-0064",
+    "start_seconds": 240.94000244140625,
+    "end_seconds": 241.94000244140625,
+    "text": "mistakes."
+  },
+  {
+    "segment_id": "youtube-0065",
+    "start_seconds": 241.94000244140625,
+    "end_seconds": 245.33999633789062,
+    "text": "It's only been trained on Fable 5.1's rollouts."
+  },
+  {
+    "segment_id": "youtube-0066",
+    "start_seconds": 245.33999633789062,
+    "end_seconds": 249.8000030517578,
+    "text": "So that means that as soon as it makes a mistake, it's got nothing in its training data which"
+  },
+  {
+    "segment_id": "youtube-0067",
+    "start_seconds": 249.8000030517578,
+    "end_seconds": 253.13999938964844,
+    "text": "shows it how to get back onto the correct reasoning path."
+  },
+  {
+    "segment_id": "youtube-0068",
+    "start_seconds": 253.13999938964844,
+    "end_seconds": 257.29998779296875,
+    "text": "And this is a big failure mode of SFT, this was first pointed out in the old traditional"
+  },
+  {
+    "segment_id": "youtube-0069",
+    "start_seconds": 257.29998779296875,
+    "end_seconds": 258.29998779296875,
+    "text": "RL literature."
+  },
+  {
+    "segment_id": "youtube-0070",
+    "start_seconds": 258.29998779296875,
+    "end_seconds": 262.05999755859375,
+    "text": "There's a paper called Dagger that I highly recommend people read, it gives a lot of intuitions"
+  },
+  {
+    "segment_id": "youtube-0071",
+    "start_seconds": 262.05999755859375,
+    "end_seconds": 263.17999267578125,
+    "text": "about this."
+  },
+  {
+    "segment_id": "youtube-0072",
+    "start_seconds": 263.17999267578125,
+    "end_seconds": 268.1400146484375,
+    "text": "But it's a reason why we can't just jack up SFT, unless we can literally SFT on everything,"
+  },
+  {
+    "segment_id": "youtube-0073",
+    "start_seconds": 268.1400146484375,
+    "end_seconds": 271.1400146484375,
+    "text": "which is the idea of pre-training."
+  },
+  {
+    "segment_id": "youtube-0074",
+    "start_seconds": 271.1400146484375,
+    "end_seconds": 276.9800109863281,
+    "text": "RL, in the opposite end of the spectrum, is extremely on-policy."
+  },
+  {
+    "segment_id": "youtube-0075",
+    "start_seconds": 276.9800109863281,
+    "end_seconds": 282.6199951171875,
+    "text": "So we're only ever taking samples from the model Quen 3, 4B that we intend on using in"
+  },
+  {
+    "segment_id": "youtube-0076",
+    "start_seconds": 282.6199951171875,
+    "end_seconds": 283.6199951171875,
+    "text": "production."
+  },
+  {
+    "segment_id": "youtube-0077",
+    "start_seconds": 283.6199951171875,
+    "end_seconds": 290.5,
+    "text": "So let's say again we're in this maths environment, we are going to up-weight Quen 3, 4B's probability"
+  },
+  {
+    "segment_id": "youtube-0078",
+    "start_seconds": 290.5,
+    "end_seconds": 295.05999755859375,
+    "text": "of doing good rollouts, so when it gets a positive reward, and then we're going to down-weight"
+  },
+  {
+    "segment_id": "youtube-0079",
+    "start_seconds": 295.05999755859375,
+    "end_seconds": 296.739990234375,
+    "text": "its negative rollouts."
+  },
+  {
+    "segment_id": "youtube-0080",
+    "start_seconds": 296.739990234375,
+    "end_seconds": 299.0199890136719,
+    "text": "But there is a limit here, right?"
+  },
+  {
+    "segment_id": "youtube-0081",
+    "start_seconds": 299.0199890136719,
+    "end_seconds": 304.6199951171875,
+    "text": "Let's say that we're trying to solve an IOI problem from 2026, it's very unlikely that"
+  },
+  {
+    "segment_id": "youtube-0082",
+    "start_seconds": 304.6199951171875,
+    "end_seconds": 307.260009765625,
+    "text": "Quen 3, 4B is going to sample..."
+  },
+  {
+    "segment_id": "youtube-0083",
+    "start_seconds": 307.260009765625,
+    "end_seconds": 311.5799865722656,
+    "text": "I probably shouldn't say that now, because even the 4B models are possible."
+  },
+  {
+    "segment_id": "youtube-0084",
+    "start_seconds": 311.5799865722656,
+    "end_seconds": 315.05999755859375,
+    "text": "It's possible for them to IOI problems, which is kind of crazy."
+  },
+  {
+    "segment_id": "youtube-0085",
+    "start_seconds": 315.05999755859375,
+    "end_seconds": 318.8999938964844,
+    "text": "But if it's a very hard maths problem, it's going to be very unlikely for that small model"
+  },
+  {
+    "segment_id": "youtube-0086",
+    "start_seconds": 318.8999938964844,
+    "end_seconds": 320.3800048828125,
+    "text": "to be able to sample a correct answer."
+  },
+  {
+    "segment_id": "youtube-0087",
+    "start_seconds": 320.3800048828125,
+    "end_seconds": 324.1000061035156,
+    "text": "And if we can never sample a correct answer, we're never going to be able to up-weight"
+  },
+  {
+    "segment_id": "youtube-0088",
+    "start_seconds": 324.1000061035156,
+    "end_seconds": 325.1000061035156,
+    "text": "it."
+  },
+  {
+    "segment_id": "youtube-0089",
+    "start_seconds": 325.1000061035156,
+    "end_seconds": 326.4200134277344,
+    "text": "So there is this trade-off."
+  },
+  {
+    "segment_id": "youtube-0090",
+    "start_seconds": 326.4200134277344,
+    "end_seconds": 330.4200134277344,
+    "text": "It's incredibly on-policy, and we're not damaging the model in this way."
+  },
+  {
+    "segment_id": "youtube-0091",
+    "start_seconds": 330.4200134277344,
+    "end_seconds": 334.17999267578125,
+    "text": "The model is going to know exactly how to recover from wherever at any point in time,"
+  },
+  {
+    "segment_id": "youtube-0092",
+    "start_seconds": 334.739990234375,
+    "end_seconds": 336.3800048828125,
+    "text": "because it's always coming from the model."
+  },
+  {
+    "segment_id": "youtube-0093",
+    "start_seconds": 336.3800048828125,
+    "end_seconds": 340.1000061035156,
+    "text": "But we have this ceiling of we can only up-weight things which are already in the distribution"
+  },
+  {
+    "segment_id": "youtube-0094",
+    "start_seconds": 340.1000061035156,
+    "end_seconds": 341.1000061035156,
+    "text": "of the model."
+  },
+  {
+    "segment_id": "youtube-0095",
+    "start_seconds": 341.1000061035156,
+    "end_seconds": 346.3800048828125,
+    "text": "And so that's a lot of information, but hopefully now I'm starting to instill into you, okay,"
+  },
+  {
+    "segment_id": "youtube-0096",
+    "start_seconds": 346.3800048828125,
+    "end_seconds": 348.1000061035156,
+    "text": "there's a lot of these trade-offs."
+  },
+  {
+    "segment_id": "youtube-0097",
+    "start_seconds": 348.1000061035156,
+    "end_seconds": 352.70001220703125,
+    "text": "I can use RL to improve my model, but that is very, very dependent on where my model"
+  },
+  {
+    "segment_id": "youtube-0098",
+    "start_seconds": 352.70001220703125,
+    "end_seconds": 353.70001220703125,
+    "text": "starts from."
+  },
+  {
+    "segment_id": "youtube-0099",
+    "start_seconds": 353.70001220703125,
+    "end_seconds": 355.1000061035156,
+    "text": "SFT is not really like that."
+  },
+  {
+    "segment_id": "youtube-0100",
+    "start_seconds": 355.1000061035156,
+    "end_seconds": 360.1000061035156,
+    "text": "I can take some really good gold data, and no matter where my model is sitting, training"
+  },
+  {
+    "segment_id": "youtube-0101",
+    "start_seconds": 360.1000061035156,
+    "end_seconds": 364.1000061035156,
+    "text": "the model on that gold data should improve according to the data that I'm training on."
+  },
+  {
+    "segment_id": "youtube-0102",
+    "start_seconds": 364.1000061035156,
+    "end_seconds": 365.739990234375,
+    "text": "But RL is not like that."
+  },
+  {
+    "segment_id": "youtube-0103",
+    "start_seconds": 365.739990234375,
+    "end_seconds": 370.82000732421875,
+    "text": "But of course, SFT has the problems that I just talked about."
+  },
+  {
+    "segment_id": "youtube-0104",
+    "start_seconds": 370.82000732421875,
+    "end_seconds": 374.5400085449219,
+    "text": "So this is the starting point."
+  },
+  {
+    "segment_id": "youtube-0105",
+    "start_seconds": 374.5400085449219,
+    "end_seconds": 380.17999267578125,
+    "text": "I want to talk now a little bit about some of the ways that we've been thinking about"
+  },
+  {
+    "segment_id": "youtube-0106",
+    "start_seconds": 380.17999267578125,
+    "end_seconds": 383.6199951171875,
+    "text": "when to do SFT slash distillation, and when to do RL."
+  },
+  {
+    "segment_id": "youtube-0107",
+    "start_seconds": 383.6199951171875,
+    "end_seconds": 388.2200012207031,
+    "text": "And I think this is a very interesting question in general, because it allows you to predict"
+  },
+  {
+    "segment_id": "youtube-0108",
+    "start_seconds": 388.3399963378906,
+    "end_seconds": 390.739990234375,
+    "text": "what the Chinese open source labs should be doing."
+  },
+  {
+    "segment_id": "youtube-0109",
+    "start_seconds": 390.739990234375,
+    "end_seconds": 394.4599914550781,
+    "text": "How much distillation should an open source lab be doing versus RL?"
+  },
+  {
+    "segment_id": "youtube-0110",
+    "start_seconds": 394.4599914550781,
+    "end_seconds": 398.29998779296875,
+    "text": "And this was one really interesting result, which we replicated in a few different ways."
+  },
+  {
+    "segment_id": "youtube-0111",
+    "start_seconds": 398.29998779296875,
+    "end_seconds": 405.1000061035156,
+    "text": "So as I just told you, you can't use RL if you don't have any probability of sampling"
+  },
+  {
+    "segment_id": "youtube-0112",
+    "start_seconds": 405.1000061035156,
+    "end_seconds": 407.05999755859375,
+    "text": "a good RL in the first place."
+  },
+  {
+    "segment_id": "youtube-0113",
+    "start_seconds": 407.05999755859375,
+    "end_seconds": 412.260009765625,
+    "text": "So what a lot of people do, and what we believe the open source labs to do, is they will take"
+  },
+  {
+    "segment_id": "youtube-0114",
+    "start_seconds": 412.260009765625,
+    "end_seconds": 417.0199890136719,
+    "text": "a model after pre-training that's probably got a very low likelihood of sampling anything"
+  },
+  {
+    "segment_id": "youtube-0115",
+    "start_seconds": 417.0199890136719,
+    "end_seconds": 420.6199951171875,
+    "text": "useful on any of the RL environments that we care about."
+  },
+  {
+    "segment_id": "youtube-0116",
+    "start_seconds": 420.6199951171875,
+    "end_seconds": 425.05999755859375,
+    "text": "So distillation is then used as a way to warm start this model."
+  },
+  {
+    "segment_id": "youtube-0117",
+    "start_seconds": 425.05999755859375,
+    "end_seconds": 428.94000244140625,
+    "text": "So we'll take some reasoning traces and some trajectories from a frontier closed source"
+  },
+  {
+    "segment_id": "youtube-0118",
+    "start_seconds": 428.94000244140625,
+    "end_seconds": 432.3399963378906,
+    "text": "model, and we'll throw those in at the end of pre-training, or in kind of like mid-training"
+  },
+  {
+    "segment_id": "youtube-0119",
+    "start_seconds": 432.3399963378906,
+    "end_seconds": 434.4200134277344,
+    "text": "or continued pre-training."
+  },
+  {
+    "segment_id": "youtube-0120",
+    "start_seconds": 434.4200134277344,
+    "end_seconds": 439.1000061035156,
+    "text": "So the model sees some examples of how to do this task correctly, and this looks exactly"
+  },
+  {
+    "segment_id": "youtube-0121",
+    "start_seconds": 439.1000061035156,
+    "end_seconds": 440.1000061035156,
+    "text": "like SFT."
+  },
+  {
+    "segment_id": "youtube-0122",
+    "start_seconds": 440.1000061035156,
+    "end_seconds": 441.1000061035156,
+    "text": "This is literally just SFT."
+  },
+  {
+    "segment_id": "youtube-0123",
+    "start_seconds": 441.1000061035156,
+    "end_seconds": 444.8999938964844,
+    "text": "We're just doing next token prediction on these traces."
+  },
+  {
+    "segment_id": "youtube-0124",
+    "start_seconds": 444.8999938964844,
+    "end_seconds": 448.260009765625,
+    "text": "That's what we believe distillation is used for at the open source labs."
+  },
+  {
+    "segment_id": "youtube-0125",
+    "start_seconds": 448.260009765625,
+    "end_seconds": 454.5199890136719,
+    "text": "It's a way to get a non-zero parser k for your particular RL environment."
+  },
+  {
+    "segment_id": "youtube-0126",
+    "start_seconds": 454.5199890136719,
+    "end_seconds": 456.8599853515625,
+    "text": "And then you do your RL from there, and you watch your model climb."
+  },
+  {
+    "segment_id": "youtube-0127",
+    "start_seconds": 456.8599853515625,
+    "end_seconds": 459.29998779296875,
+    "text": "And this is typically the process that's used."
+  },
+  {
+    "segment_id": "youtube-0128",
+    "start_seconds": 459.29998779296875,
+    "end_seconds": 461.70001220703125,
+    "text": "And we see many companies going through this process."
+  },
+  {
+    "segment_id": "youtube-0129",
+    "start_seconds": 461.70001220703125,
+    "end_seconds": 467.6199951171875,
+    "text": "So they'll have a bunch of very complex RL environments."
+  },
+  {
+    "segment_id": "youtube-0130",
+    "start_seconds": 467.6199951171875,
+    "end_seconds": 470.0199890136719,
+    "text": "They want their model to get better at them."
+  },
+  {
+    "segment_id": "youtube-0131",
+    "start_seconds": 470.0199890136719,
+    "end_seconds": 473.739990234375,
+    "text": "But the model's starting off at a really, really low parser k, like parser 256 might"
+  },
+  {
+    "segment_id": "youtube-0132",
+    "start_seconds": 473.739990234375,
+    "end_seconds": 475.4599914550781,
+    "text": "be like really, really low."
+  },
+  {
+    "segment_id": "youtube-0133",
+    "start_seconds": 475.4599914550781,
+    "end_seconds": 479.4200134277344,
+    "text": "And they just don't have the compute to be able to run that big of a group size for that"
+  },
+  {
+    "segment_id": "youtube-0134",
+    "start_seconds": 479.4200134277344,
+    "end_seconds": 481.7799987792969,
+    "text": "long to watch the model climb."
+  },
+  {
+    "segment_id": "youtube-0135",
+    "start_seconds": 481.7799987792969,
+    "end_seconds": 488.5,
+    "text": "So they'll do a bit of distillation on some closed source traces, and then do the RL after"
+  },
+  {
+    "segment_id": "youtube-0136",
+    "start_seconds": 488.5,
+    "end_seconds": 489.82000732421875,
+    "text": "that."
+  },
+  {
+    "segment_id": "youtube-0137",
+    "start_seconds": 489.82000732421875,
+    "end_seconds": 493.5799865722656,
+    "text": "To get to the point, I think what this graph is showing, and again, we've replicated this"
+  },
+  {
+    "segment_id": "youtube-0138",
+    "start_seconds": 493.5799865722656,
+    "end_seconds": 499.4200134277344,
+    "text": "in many ways, is that really interestingly, if you do any meaningful amount of distillation"
+  },
+  {
+    "segment_id": "youtube-0139",
+    "start_seconds": 499.4200134277344,
+    "end_seconds": 503.5,
+    "text": "in order to get your warm starting, and then you do RL properly, and you do it until you've"
+  },
+  {
+    "segment_id": "youtube-0140",
+    "start_seconds": 504.260009765625,
+    "end_seconds": 509.2200012207031,
+    "text": "plateaued, basically, you start off much higher, after you've done distillation, obviously,"
+  },
+  {
+    "segment_id": "youtube-0141",
+    "start_seconds": 509.2200012207031,
+    "end_seconds": 510.9800109863281,
+    "text": "that's the whole point of doing it."
+  },
+  {
+    "segment_id": "youtube-0142",
+    "start_seconds": 510.9800109863281,
+    "end_seconds": 515.9400024414062,
+    "text": "But RLing on a model that hasn't been distilled at all, ends up getting much better."
+  },
+  {
+    "segment_id": "youtube-0143",
+    "start_seconds": 515.9400024414062,
+    "end_seconds": 519.97998046875,
+    "text": "So you have this kind of curve where the distillation curve starts higher, but it plateaus much"
+  },
+  {
+    "segment_id": "youtube-0144",
+    "start_seconds": 519.97998046875,
+    "end_seconds": 522.5800170898438,
+    "text": "lower than the model that's been RLed."
+  },
+  {
+    "segment_id": "youtube-0145",
+    "start_seconds": 522.5800170898438,
+    "end_seconds": 523.5800170898438,
+    "text": "And this was a little bit surprising."
+  },
+  {
+    "segment_id": "youtube-0146",
+    "start_seconds": 523.5800170898438,
+    "end_seconds": 527.2999877929688,
+    "text": "We thought this was a quirk of the initial setup that we'd done."
+  },
+  {
+    "segment_id": "youtube-0147",
+    "start_seconds": 527.2999877929688,
+    "end_seconds": 530.5800170898438,
+    "text": "But this turned out to hold across a lot of things."
+  },
+  {
+    "segment_id": "youtube-0148",
+    "start_seconds": 530.5800170898438,
+    "end_seconds": 533.47998046875,
+    "text": "And it's very dependent on the type of tasks that you're learning as well."
+  },
+  {
+    "segment_id": "youtube-0149",
+    "start_seconds": 533.47998046875,
+    "end_seconds": 538.4400024414062,
+    "text": "So it seems like the RL models reach a much higher ceiling in calculation or maths-based"
+  },
+  {
+    "segment_id": "youtube-0150",
+    "start_seconds": 538.4400024414062,
+    "end_seconds": 544.0,
+    "text": "tasks, purely because I think, basically, distillation is constraining the entropy,"
+  },
+  {
+    "segment_id": "youtube-0151",
+    "start_seconds": 544.0,
+    "end_seconds": 546.0800170898438,
+    "text": "you can think of, of the model."
+  },
+  {
+    "segment_id": "youtube-0152",
+    "start_seconds": 546.0800170898438,
+    "end_seconds": 552.0800170898438,
+    "text": "So we've kind of tried to apply this in, we train a lot of models for customers."
+  },
+  {
+    "segment_id": "youtube-0153",
+    "start_seconds": 552.0800170898438,
+    "end_seconds": 556.9199829101562,
+    "text": "Now we're actually really thinking about carefully about whether we do any distillation at all,"
+  },
+  {
+    "segment_id": "youtube-0154",
+    "start_seconds": 556.9199829101562,
+    "end_seconds": 558.0,
+    "text": "to start off with."
+  },
+  {
+    "segment_id": "youtube-0155",
+    "start_seconds": 558.0,
+    "end_seconds": 562.8400268554688,
+    "text": "Now we're much more pillared on, if we have the compute, we're going to RL all the way."
+  },
+  {
+    "segment_id": "youtube-0156",
+    "start_seconds": 562.8400268554688,
+    "end_seconds": 565.52001953125,
+    "text": "It means you have to care about different things, like, for instance, you have to care"
+  },
+  {
+    "segment_id": "youtube-0157",
+    "start_seconds": 565.52001953125,
+    "end_seconds": 568.0800170898438,
+    "text": "about the curriculum of your RL tasks."
+  },
+  {
+    "segment_id": "youtube-0158",
+    "start_seconds": 568.0800170898438,
+    "end_seconds": 572.239990234375,
+    "text": "If you've got some tasks that you have a good pass at K at, some tasks where pass at K is"
+  },
+  {
+    "segment_id": "youtube-0159",
+    "start_seconds": 572.239990234375,
+    "end_seconds": 575.239990234375,
+    "text": "basically zero, you kind of have to order this curriculum, it's another thing you have"
+  },
+  {
+    "segment_id": "youtube-0160",
+    "start_seconds": 575.239990234375,
+    "end_seconds": 576.4000244140625,
+    "text": "to care about."
+  },
+  {
+    "segment_id": "youtube-0161",
+    "start_seconds": 576.4000244140625,
+    "end_seconds": 580.280029296875,
+    "text": "But if you get to a higher point at the end of the day, then it probably is worth caring"
+  },
+  {
+    "segment_id": "youtube-0162",
+    "start_seconds": 580.280029296875,
+    "end_seconds": 583.7999877929688,
+    "text": "about it."
+  },
+  {
+    "segment_id": "youtube-0163",
+    "start_seconds": 583.7999877929688,
+    "end_seconds": 588.4000244140625,
+    "text": "Another thing that I kind of want to talk about, in terms of results that we've seen"
+  },
+  {
+    "segment_id": "youtube-0164",
+    "start_seconds": 588.4000244140625,
+    "end_seconds": 593.47998046875,
+    "text": "recently, is this idea of continual learning."
+  },
+  {
+    "segment_id": "youtube-0165",
+    "start_seconds": 593.47998046875,
+    "end_seconds": 601.239990234375,
+    "text": "So right at the start, I mentioned that, basically, if you're doing a one-off, big training run,"
+  },
+  {
+    "segment_id": "youtube-0166",
+    "start_seconds": 601.239990234375,
+    "end_seconds": 602.9000244140625,
+    "text": "these things are kind of solved."
+  },
+  {
+    "segment_id": "youtube-0167",
+    "start_seconds": 602.9000244140625,
+    "end_seconds": 606.9400024414062,
+    "text": "You can use SFT, your model is going to get better, yes, there'll be things outside the"
+  },
+  {
+    "segment_id": "youtube-0168",
+    "start_seconds": 606.9400024414062,
+    "end_seconds": 613.0399780273438,
+    "text": "distribution that it won't go well on, but you've got a big example of Fable 5.1 tasks,"
+  },
+  {
+    "segment_id": "youtube-0169",
+    "start_seconds": 613.0399780273438,
+    "end_seconds": 616.52001953125,
+    "text": "or rollouts, your quen model is going to get better."
+  },
+  {
+    "segment_id": "youtube-0170",
+    "start_seconds": 616.52001953125,
+    "end_seconds": 621.4000244140625,
+    "text": "Same with RL, you collect a bunch of environments, you do the RL, the model hill climbs, you've"
+  },
+  {
+    "segment_id": "youtube-0171",
+    "start_seconds": 621.4000244140625,
+    "end_seconds": 622.5599975585938,
+    "text": "got a better model."
+  },
+  {
+    "segment_id": "youtube-0172",
+    "start_seconds": 622.5599975585938,
+    "end_seconds": 626.3200073242188,
+    "text": "I think what's really interesting to me is the continual learning regime, where you're"
+  },
+  {
+    "segment_id": "youtube-0173",
+    "start_seconds": 626.3200073242188,
+    "end_seconds": 632.6400146484375,
+    "text": "doing this process not once and not 10 times, but probably hundreds, if not tens of thousands"
+  },
+  {
+    "segment_id": "youtube-0174",
+    "start_seconds": 632.6400146484375,
+    "end_seconds": 634.280029296875,
+    "text": "of times."
+  },
+  {
+    "segment_id": "youtube-0175",
+    "start_seconds": 634.280029296875,
+    "end_seconds": 638.719970703125,
+    "text": "Your actual weight update is happening at least multiple times a week."
+  },
+  {
+    "segment_id": "youtube-0176",
+    "start_seconds": 638.719970703125,
+    "end_seconds": 642.6400146484375,
+    "text": "I think this is the most interesting world to live in, and I think it's the world that"
+  },
+  {
+    "segment_id": "youtube-0177",
+    "start_seconds": 642.6400146484375,
+    "end_seconds": 646.4400024414062,
+    "text": "a lot of companies are going to have to shoot towards, because they need some sort of motor"
+  },
+  {
+    "segment_id": "youtube-0178",
+    "start_seconds": 646.4400024414062,
+    "end_seconds": 648.719970703125,
+    "text": "against Anthropic or OpenAI."
+  },
+  {
+    "segment_id": "youtube-0179",
+    "start_seconds": 648.719970703125,
+    "end_seconds": 653.239990234375,
+    "text": "And the thing that breaks down here is, well, it's a few things."
+  },
+  {
+    "segment_id": "youtube-0180",
+    "start_seconds": 653.239990234375,
+    "end_seconds": 659.9199829101562,
+    "text": "So the first thing is, if I keep SFTing on, let's say I have this LLM that's a legal associate,"
+  },
+  {
+    "segment_id": "youtube-0181",
+    "start_seconds": 659.9199829101562,
+    "end_seconds": 664.6400146484375,
+    "text": "and I'm trying to train this legal associate on all the new information it's seeing."
+  },
+  {
+    "segment_id": "youtube-0182",
+    "start_seconds": 664.6400146484375,
+    "end_seconds": 667.9199829101562,
+    "text": "It's learned new things about this case, and it's learned that this person has joined as"
+  },
+  {
+    "segment_id": "youtube-0183",
+    "start_seconds": 667.9199829101562,
+    "end_seconds": 672.239990234375,
+    "text": "a paralegal, and it's learned that this information is stored here in this firm, and so on."
+  },
+  {
+    "segment_id": "youtube-0184",
+    "start_seconds": 672.239990234375,
+    "end_seconds": 678.0,
+    "text": "So again, I can kind of do a big fine-tune with SFT, so we use something called self-study."
+  },
+  {
+    "segment_id": "youtube-0185",
+    "start_seconds": 678.0,
+    "end_seconds": 681.9199829101562,
+    "text": "If we want to learn knowledge, do a big fine-tune once, that's fine."
+  },
+  {
+    "segment_id": "youtube-0186",
+    "start_seconds": 681.9199829101562,
+    "end_seconds": 686.47998046875,
+    "text": "If I repeat that process over and over and over again, I find that multiple things happen."
+  },
+  {
+    "segment_id": "youtube-0187",
+    "start_seconds": 686.47998046875,
+    "end_seconds": 690.8800048828125,
+    "text": "The first thing is, I forget things in my base distribution, which are useful to the"
+  },
+  {
+    "segment_id": "youtube-0188",
+    "start_seconds": 690.8800048828125,
+    "end_seconds": 692.0800170898438,
+    "text": "task that I'm currently doing."
+  },
+  {
+    "segment_id": "youtube-0189",
+    "start_seconds": 692.0800170898438,
+    "end_seconds": 695.2000122070312,
+    "text": "So this is called catastrophic forgetting, most people have heard about this."
+  },
+  {
+    "segment_id": "youtube-0190",
+    "start_seconds": 695.2000122070312,
+    "end_seconds": 699.760009765625,
+    "text": "I will forget not only English literature from the 17th century, but I will actually"
+  },
+  {
+    "segment_id": "youtube-0191",
+    "start_seconds": 699.760009765625,
+    "end_seconds": 703.0399780273438,
+    "text": "start forgetting law stuff as well at some point, even though that law stuff is supposedly"
+  },
+  {
+    "segment_id": "youtube-0192",
+    "start_seconds": 703.0399780273438,
+    "end_seconds": 705.8400268554688,
+    "text": "helpful to me and my legal associate agent."
+  },
+  {
+    "segment_id": "youtube-0193",
+    "start_seconds": 705.8400268554688,
+    "end_seconds": 710.239990234375,
+    "text": "The second thing is, I will forget stuff that I've learned after pre-training."
+  },
+  {
+    "segment_id": "youtube-0194",
+    "start_seconds": 710.239990234375,
+    "end_seconds": 717.0399780273438,
+    "text": "Like, let's say the first day I've fine-tuned on this particular case, and then 100 updates"
+  },
+  {
+    "segment_id": "youtube-0195",
+    "start_seconds": 717.0399780273438,
+    "end_seconds": 719.280029296875,
+    "text": "later I fine-tune on a completely different case."
+  },
+  {
+    "segment_id": "youtube-0196",
+    "start_seconds": 719.280029296875,
+    "end_seconds": 723.5999755859375,
+    "text": "What we find is that the model will forget the earlier cases, and at a much faster rate"
+  },
+  {
+    "segment_id": "youtube-0197",
+    "start_seconds": 723.5999755859375,
+    "end_seconds": 725.760009765625,
+    "text": "than catastrophic forgetting happens in the model in general."
+  },
+  {
+    "segment_id": "youtube-0198",
+    "start_seconds": 726.47998046875,
+    "end_seconds": 727.4400024414062,
+    "text": "That's really interesting."
+  },
+  {
+    "segment_id": "youtube-0199",
+    "start_seconds": 727.4400024414062,
+    "end_seconds": 731.52001953125,
+    "text": "The third really bad thing is that the model's general capabilities will degrade."
+  },
+  {
+    "segment_id": "youtube-0200",
+    "start_seconds": 731.52001953125,
+    "end_seconds": 737.2000122070312,
+    "text": "So if you start testing it on instruction following, maths, reasoning, all these general"
+  },
+  {
+    "segment_id": "youtube-0201",
+    "start_seconds": 737.2000122070312,
+    "end_seconds": 741.2000122070312,
+    "text": "tasks, we see that this really fails in the iterative regime."
+  },
+  {
+    "segment_id": "youtube-0202",
+    "start_seconds": 741.2000122070312,
+    "end_seconds": 747.3599853515625,
+    "text": "So it's clear that self-study plus SFT is not this silver bullet to continual learning."
+  },
+  {
+    "segment_id": "youtube-0203",
+    "start_seconds": 747.3599853515625,
+    "end_seconds": 751.280029296875,
+    "text": "And it doesn't work when you have this very, very broad task."
+  },
+  {
+    "segment_id": "youtube-0204",
+    "start_seconds": 751.280029296875,
+    "end_seconds": 756.8800048828125,
+    "text": "I will caveat this with saying that this does work when we have a very constrained"
+  },
+  {
+    "segment_id": "youtube-0205",
+    "start_seconds": 756.8800048828125,
+    "end_seconds": 760.0800170898438,
+    "text": "task with a stationary distribution that's not changing."
+  },
+  {
+    "segment_id": "youtube-0206",
+    "start_seconds": 760.0800170898438,
+    "end_seconds": 764.0,
+    "text": "I can keep fine-tuning on that, I can keep generating goal tracers on that, and my model"
+  },
+  {
+    "segment_id": "youtube-0207",
+    "start_seconds": 764.0,
+    "end_seconds": 765.1199951171875,
+    "text": "will keep getting better."
+  },
+  {
+    "segment_id": "youtube-0208",
+    "start_seconds": 765.1199951171875,
+    "end_seconds": 769.9199829101562,
+    "text": "But for very, very general tasks that are non-stationary, like new information's coming"
+  },
+  {
+    "segment_id": "youtube-0209",
+    "start_seconds": 769.9199829101562,
+    "end_seconds": 774.8800048828125,
+    "text": "in as well as new capabilities, SFT on the self-study stuff doesn't really seem to work."
+  },
+  {
+    "segment_id": "youtube-0210",
+    "start_seconds": 775.4400024414062,
+    "end_seconds": 776.8800048828125,
+    "text": "So you might say, okay, what about RL?"
+  },
+  {
+    "segment_id": "youtube-0211",
+    "start_seconds": 777.52001953125,
+    "end_seconds": 782.6400146484375,
+    "text": "RL, I will say, doesn't mess with the model in the same way that SFT does."
+  },
+  {
+    "segment_id": "youtube-0212",
+    "start_seconds": 782.6400146484375,
+    "end_seconds": 787.6799926757812,
+    "text": "So we don't see that much catastrophic forgetting with RL, we don't see degradation of general"
+  },
+  {
+    "segment_id": "youtube-0213",
+    "start_seconds": 787.6799926757812,
+    "end_seconds": 792.5599975585938,
+    "text": "abilities, and we see little interference between tasks that we're RLing on."
+  },
+  {
+    "segment_id": "youtube-0214",
+    "start_seconds": 793.3599853515625,
+    "end_seconds": 797.0399780273438,
+    "text": "Basically, the reason for this, you can read all the literature about it, boils down to"
+  },
+  {
+    "segment_id": "youtube-0215",
+    "start_seconds": 797.5999755859375,
+    "end_seconds": 802.5599975585938,
+    "text": "the fact that the model has, no matter what RL method you use, basically this implicit"
+  },
+  {
+    "segment_id": "youtube-0216",
+    "start_seconds": 802.5599975585938,
+    "end_seconds": 803.6799926757812,
+    "text": "KL penalty."
+  },
+  {
+    "segment_id": "youtube-0217",
+    "start_seconds": 803.6799926757812,
+    "end_seconds": 806.5599975585938,
+    "text": "It's tying it very closely to the original base model."
+  },
+  {
+    "segment_id": "youtube-0218",
+    "start_seconds": 806.7999877929688,
+    "end_seconds": 809.760009765625,
+    "text": "When we RL, we just make very, very small nudges to the model."
+  },
+  {
+    "segment_id": "youtube-0219",
+    "start_seconds": 810.3200073242188,
+    "end_seconds": 815.0399780273438,
+    "text": "But the problem with RL is it's very hard to, one, bake in knowledge."
+  },
+  {
+    "segment_id": "youtube-0220",
+    "start_seconds": 816.1599731445312,
+    "end_seconds": 820.4000244140625,
+    "text": "Again, as I said, we can only change the behavior of a model in RL if the model is likely to"
+  },
+  {
+    "segment_id": "youtube-0221",
+    "start_seconds": 820.4000244140625,
+    "end_seconds": 821.1199951171875,
+    "text": "sample something."
+  },
+  {
+    "segment_id": "youtube-0222",
+    "start_seconds": 821.8400268554688,
+    "end_seconds": 828.47998046875,
+    "text": "The model is very unlikely to sample something like Jenny has joined as a paralegal in team"
+  },
+  {
+    "segment_id": "youtube-0223",
+    "start_seconds": 828.47998046875,
+    "end_seconds": 829.0399780273438,
+    "text": "XYZ."
+  },
+  {
+    "segment_id": "youtube-0224",
+    "start_seconds": 829.8400268554688,
+    "end_seconds": 833.760009765625,
+    "text": "Some very, very specific knowledge is very hard to engineer RL environments to bake in"
+  },
+  {
+    "segment_id": "youtube-0225",
+    "start_seconds": 833.760009765625,
+    "end_seconds": 834.5599975585938,
+    "text": "knowledge."
+  },
+  {
+    "segment_id": "youtube-0226",
+    "start_seconds": 834.719970703125,
+    "end_seconds": 839.9199829101562,
+    "text": "Secondly, it's very hard to induce that in any way through any sort of efficiency penalty."
+  },
+  {
+    "segment_id": "youtube-0227",
+    "start_seconds": 839.9199829101562,
+    "end_seconds": 844.239990234375,
+    "text": "So you might imagine if you had the world's best efficiency penalty, you could incentivize"
+  },
+  {
+    "segment_id": "youtube-0228",
+    "start_seconds": 844.239990234375,
+    "end_seconds": 848.1599731445312,
+    "text": "the model to learn some behavior instead of having to search for it each time."
+  },
+  {
+    "segment_id": "youtube-0229",
+    "start_seconds": 848.1599731445312,
+    "end_seconds": 850.0800170898438,
+    "text": "But we've never seen this happen with RL."
+  },
+  {
+    "segment_id": "youtube-0230",
+    "start_seconds": 850.0800170898438,
+    "end_seconds": 853.6799926757812,
+    "text": "The model will get better at searching, it'll get better at graphing and everything, but"
+  },
+  {
+    "segment_id": "youtube-0231",
+    "start_seconds": 853.6799926757812,
+    "end_seconds": 857.9199829101562,
+    "text": "it will never be incentivized enough, even with the highest efficiency penalties, to"
+  },
+  {
+    "segment_id": "youtube-0232",
+    "start_seconds": 857.9199829101562,
+    "end_seconds": 861.5999755859375,
+    "text": "say, okay, I'm going to remember this information for next time, simply because of the mechanism"
+  },
+  {
+    "segment_id": "youtube-0233",
+    "start_seconds": 861.5999755859375,
+    "end_seconds": 862.9600219726562,
+    "text": "of how RL works."
+  },
+  {
+    "segment_id": "youtube-0234",
+    "start_seconds": 862.9600219726562,
+    "end_seconds": 865.8400268554688,
+    "text": "So I think that's the main thing that you should take away from this."
+  },
+  {
+    "segment_id": "youtube-0235",
+    "start_seconds": 866.7999877929688,
+    "end_seconds": 871.280029296875,
+    "text": "Basically, in the iterative regime, a lot of these things break down, and RL is not"
+  },
+  {
+    "segment_id": "youtube-0236",
+    "start_seconds": 871.280029296875,
+    "end_seconds": 875.3599853515625,
+    "text": "enough of a general solution to bake in our continual learner."
+  },
+  {
+    "segment_id": "youtube-0237",
+    "start_seconds": 875.3599853515625,
+    "end_seconds": 882.0800170898438,
+    "text": "There's been a lot of approaches like Echo and even Cursor recently with Composer."
+  },
+  {
+    "segment_id": "youtube-0238",
+    "start_seconds": 882.6400146484375,
+    "end_seconds": 888.7999877929688,
+    "text": "They tried this thing where they adapted on-policy self-distillation to essentially provide dense"
+  },
+  {
+    "segment_id": "youtube-0239",
+    "start_seconds": 888.7999877929688,
+    "end_seconds": 893.5999755859375,
+    "text": "level hints to the model doing RL at rollout time."
+  },
+  {
+    "segment_id": "youtube-0240",
+    "start_seconds": 894.719970703125,
+    "end_seconds": 898.47998046875,
+    "text": "They're trying to combine the best of both worlds here, essentially, where they go, okay,"
+  },
+  {
+    "segment_id": "youtube-0241",
+    "start_seconds": 898.47998046875,
+    "end_seconds": 902.239990234375,
+    "text": "we're going to have an RL reward, we're going to have a self-distillation reward where we're"
+  },
+  {
+    "segment_id": "youtube-0242",
+    "start_seconds": 902.239990234375,
+    "end_seconds": 903.9199829101562,
+    "text": "actually trying to provide new information to the model."
+  },
+  {
+    "segment_id": "youtube-0243",
+    "start_seconds": 905.1199951171875,
+    "end_seconds": 909.52001953125,
+    "text": "I think the general take with self-distillation even is very, very hard to get to work because"
+  },
+  {
+    "segment_id": "youtube-0244",
+    "start_seconds": 909.52001953125,
+    "end_seconds": 914.1599731445312,
+    "text": "it naturally introduces bias into your RL algorithm, and LLMs by the time you get to"
+  },
+  {
+    "segment_id": "youtube-0245",
+    "start_seconds": 914.1599731445312,
+    "end_seconds": 916.5599975585938,
+    "text": "RL are very, very anti-bias."
+  },
+  {
+    "segment_id": "youtube-0246",
+    "start_seconds": 916.5599975585938,
+    "end_seconds": 920.5599975585938,
+    "text": "Any sort of bias will mess with them, but I'm happy to talk to people about that later."
+  },
+  {
+    "segment_id": "youtube-0247",
+    "start_seconds": 924.0,
+    "end_seconds": 930.8800048828125,
+    "text": "To take away, I've dumped a bunch of stuff on everyone."
+  },
+  {
+    "segment_id": "youtube-0248",
+    "start_seconds": 931.6799926757812,
+    "end_seconds": 936.1599731445312,
+    "text": "What does this really mean when you have this particular task that you're doing with"
+  },
+  {
+    "segment_id": "youtube-0249",
+    "start_seconds": 936.719970703125,
+    "end_seconds": 940.8800048828125,
+    "text": "some form of LLM or agent, and you want to own this continual learning loop?"
+  },
+  {
+    "segment_id": "youtube-0250",
+    "start_seconds": 941.2000122070312,
+    "end_seconds": 947.8400268554688,
+    "text": "So I think everyone's aware that if you have one task and it's extremely narrow,"
+  },
+  {
+    "segment_id": "youtube-0251",
+    "start_seconds": 948.4000244140625,
+    "end_seconds": 950.8800048828125,
+    "text": "then you're sailing, you're really happy."
+  },
+  {
+    "segment_id": "youtube-0252",
+    "start_seconds": 952.0800170898438,
+    "end_seconds": 957.1199951171875,
+    "text": "If it's writing clinical notes, so I'm dumping in a transcript and expecting some clinical"
+  },
+  {
+    "segment_id": "youtube-0253",
+    "start_seconds": 957.1199951171875,
+    "end_seconds": 964.0800170898438,
+    "text": "notes with a particular prompt structure out, or I'm doing voice extraction, so I've got"
+  },
+  {
+    "segment_id": "youtube-0254",
+    "start_seconds": 965.2000122070312,
+    "end_seconds": 968.7999877929688,
+    "text": "speech-to-text LLM, text-to-speech setup."
+  },
+  {
+    "segment_id": "youtube-0255",
+    "start_seconds": 968.7999877929688,
+    "end_seconds": 971.0399780273438,
+    "text": "I've got these phone-calling customer service agents."
+  },
+  {
+    "segment_id": "youtube-0256",
+    "start_seconds": 971.760009765625,
+    "end_seconds": 977.280029296875,
+    "text": "That's another example of a task that is really narrow, and theoretically, my rules and"
+  },
+  {
+    "segment_id": "youtube-0257",
+    "start_seconds": 977.280029296875,
+    "end_seconds": 979.6799926757812,
+    "text": "distribution in general is very stationary."
+  },
+  {
+    "segment_id": "youtube-0258",
+    "start_seconds": 979.6799926757812,
+    "end_seconds": 984.9600219726562,
+    "text": "So the best thing to do probably here, and don't quote me on this, is take the best model"
+  },
+  {
+    "segment_id": "youtube-0259",
+    "start_seconds": 984.9600219726562,
+    "end_seconds": 990.239990234375,
+    "text": "you can find, ignore the terms of service, and generate hundreds of thousands, if not"
+  },
+  {
+    "segment_id": "youtube-0260",
+    "start_seconds": 990.239990234375,
+    "end_seconds": 991.9199829101562,
+    "text": "millions, of traces and SFT on that."
+  },
+  {
+    "segment_id": "youtube-0261",
+    "start_seconds": 993.3599853515625,
+    "end_seconds": 994.5599975585938,
+    "text": "Again, don't quote me on that."
+  },
+  {
+    "segment_id": "youtube-0262",
+    "start_seconds": 994.5599975585938,
+    "end_seconds": 996.7999877929688,
+    "text": "That wasn't legal advice or anything."
+  },
+  {
+    "segment_id": "youtube-0263",
+    "start_seconds": 996.7999877929688,
+    "end_seconds": 1002.47998046875,
+    "text": "But the idea there is that you can just take these gold SFT traces and SFT on them, and"
+  },
+  {
+    "segment_id": "youtube-0264",
+    "start_seconds": 1002.47998046875,
+    "end_seconds": 1005.52001953125,
+    "text": "you're going to asymptote towards that gold distribution."
+  },
+  {
+    "segment_id": "youtube-0265",
+    "start_seconds": 1005.52001953125,
+    "end_seconds": 1008.0800170898438,
+    "text": "And in the infinite data regime, you're going to get there."
+  },
+  {
+    "segment_id": "youtube-0266",
+    "start_seconds": 1009.8400268554688,
+    "end_seconds": 1010.3200073242188,
+    "text": "That's great."
+  },
+  {
+    "segment_id": "youtube-0267",
+    "start_seconds": 1011.1199951171875,
+    "end_seconds": 1013.6799926757812,
+    "text": "Then the world got more agentic."
+  },
+  {
+    "segment_id": "youtube-0268",
+    "start_seconds": 1013.6799926757812,
+    "end_seconds": 1015.6799926757812,
+    "text": "Someone decided to give LLMs tools."
+  },
+  {
+    "segment_id": "youtube-0269",
+    "start_seconds": 1016.47998046875,
+    "end_seconds": 1021.2000122070312,
+    "text": "We started to let them roam free a little bit more until basically every LLM harness"
+  },
+  {
+    "segment_id": "youtube-0270",
+    "start_seconds": 1021.2000122070312,
+    "end_seconds": 1026.6400146484375,
+    "text": "was this universal Turing LLM machine that allowed them to do whatever they want on"
+  },
+  {
+    "segment_id": "youtube-0271",
+    "start_seconds": 1026.6400146484375,
+    "end_seconds": 1027.8399658203125,
+    "text": "whatever sandbox they wanted."
+  },
+  {
+    "segment_id": "youtube-0272",
+    "start_seconds": 1028.4000244140625,
+    "end_seconds": 1031.199951171875,
+    "text": "And so in this case, things are a lot harder."
+  },
+  {
+    "segment_id": "youtube-0273",
+    "start_seconds": 1032.1600341796875,
+    "end_seconds": 1036.719970703125,
+    "text": "As an example, people that have tried to own their own intelligence at this layer have"
+  },
+  {
+    "segment_id": "youtube-0274",
+    "start_seconds": 1036.719970703125,
+    "end_seconds": 1043.43994140625,
+    "text": "been Cursor, Notion, Harvey, Lovable, a bunch of these companies that are realizing that"
+  },
+  {
+    "segment_id": "youtube-0275",
+    "start_seconds": 1043.43994140625,
+    "end_seconds": 1047.52001953125,
+    "text": "when your task is general enough, you basically have to turn into a frontier lab in order"
+  },
+  {
+    "segment_id": "youtube-0276",
+    "start_seconds": 1047.52001953125,
+    "end_seconds": 1049.1199951171875,
+    "text": "to own your intelligence."
+  },
+  {
+    "segment_id": "youtube-0277",
+    "start_seconds": 1049.1199951171875,
+    "end_seconds": 1055.1199951171875,
+    "text": "So this means post-training on a bunch of environments that you yourself create, as"
+  },
+  {
+    "segment_id": "youtube-0278",
+    "start_seconds": 1055.1199951171875,
+    "end_seconds": 1060.47998046875,
+    "text": "we've talked about before, but also doing the earlier stages as well, the mid-training,"
+  },
+  {
+    "segment_id": "youtube-0279",
+    "start_seconds": 1061.0400390625,
+    "end_seconds": 1062.4000244140625,
+    "text": "which again looks like SFT."
+  },
+  {
+    "segment_id": "youtube-0280",
+    "start_seconds": 1062.9599609375,
+    "end_seconds": 1066.8800048828125,
+    "text": "So from that perspective, yes, it's doable, but it's very, very hard."
+  },
+  {
+    "segment_id": "youtube-0281",
+    "start_seconds": 1067.43994140625,
+    "end_seconds": 1074.3199462890625,
+    "text": "I think the last thing I want to convey is this continual learning loop we've already"
+  },
+  {
+    "segment_id": "youtube-0282",
+    "start_seconds": 1074.3199462890625,
+    "end_seconds": 1075.280029296875,
+    "text": "solved."
+  },
+  {
+    "segment_id": "youtube-0283",
+    "start_seconds": 1075.280029296875,
+    "end_seconds": 1078.6400146484375,
+    "text": "It kind of sounds like I've said that we haven't solved it."
+  },
+  {
+    "segment_id": "youtube-0284",
+    "start_seconds": 1078.6400146484375,
+    "end_seconds": 1082.0799560546875,
+    "text": "I mean, we haven't solved it at a really granular level when you're updating your"
+  },
+  {
+    "segment_id": "youtube-0285",
+    "start_seconds": 1082.0799560546875,
+    "end_seconds": 1084.3199462890625,
+    "text": "model multiple times a day."
+  },
+  {
+    "segment_id": "youtube-0286",
+    "start_seconds": 1084.3199462890625,
+    "end_seconds": 1087.9200439453125,
+    "text": "I think if you look at what the frontier labs are doing, they are running a continual"
+  },
+  {
+    "segment_id": "youtube-0287",
+    "start_seconds": 1087.9200439453125,
+    "end_seconds": 1090.47998046875,
+    "text": "learning loop, just on a very slow cadence."
+  },
+  {
+    "segment_id": "youtube-0288",
+    "start_seconds": 1090.47998046875,
+    "end_seconds": 1092.719970703125,
+    "text": "So they train a model, release it to the world."
+  },
+  {
+    "segment_id": "youtube-0289",
+    "start_seconds": 1093.760009765625,
+    "end_seconds": 1095.280029296875,
+    "text": "Some will look at the exact user data."
+  },
+  {
+    "segment_id": "youtube-0290",
+    "start_seconds": 1095.280029296875,
+    "end_seconds": 1097.0400390625,
+    "text": "Some will ask for user feedback."
+  },
+  {
+    "segment_id": "youtube-0291",
+    "start_seconds": 1097.0400390625,
+    "end_seconds": 1099.760009765625,
+    "text": "They aggregate all this and look at all the things the model can't do."
+  },
+  {
+    "segment_id": "youtube-0292",
+    "start_seconds": 1099.760009765625,
+    "end_seconds": 1100.0,
+    "text": "Great."
+  },
+  {
+    "segment_id": "youtube-0293",
+    "start_seconds": 1100.0,
+    "end_seconds": 1101.43994140625,
+    "text": "We'll turn that into RL environments."
+  },
+  {
+    "segment_id": "youtube-0294",
+    "start_seconds": 1102.719970703125,
+    "end_seconds": 1106.8800048828125,
+    "text": "If we get zero on those RL environments, we're going to use privilege information or some"
+  },
+  {
+    "segment_id": "youtube-0295",
+    "start_seconds": 1106.8800048828125,
+    "end_seconds": 1108.8800048828125,
+    "text": "way to construct these great trajectories."
+  },
+  {
+    "segment_id": "youtube-0296",
+    "start_seconds": 1108.8800048828125,
+    "end_seconds": 1110.4000244140625,
+    "text": "We're going to mid-train on them."
+  },
+  {
+    "segment_id": "youtube-0297",
+    "start_seconds": 1110.4000244140625,
+    "end_seconds": 1113.1199951171875,
+    "text": "And then we're going to do RL from there and warm up from there."
+  },
+  {
+    "segment_id": "youtube-0298",
+    "start_seconds": 1113.1199951171875,
+    "end_seconds": 1118.47998046875,
+    "text": "So I think if you look at this loop, it's already running and involves both SFT and"
+  },
+  {
+    "segment_id": "youtube-0299",
+    "start_seconds": 1118.47998046875,
+    "end_seconds": 1119.0400390625,
+    "text": "RL."
+  },
+  {
+    "segment_id": "youtube-0300",
+    "start_seconds": 1119.0400390625,
+    "end_seconds": 1122.800048828125,
+    "text": "It's just at that scale, we don't have to worry about catastrophic forgetting, like"
+  },
+  {
+    "segment_id": "youtube-0301",
+    "start_seconds": 1122.800048828125,
+    "end_seconds": 1125.8399658203125,
+    "text": "general capability degradation, all the things that I mentioned earlier, the breakdown."
+  },
+  {
+    "segment_id": "youtube-0302",
+    "start_seconds": 1126.719970703125,
+    "end_seconds": 1127.0400390625,
+    "text": "Yeah."
+  },
+  {
+    "segment_id": "youtube-0303",
+    "start_seconds": 1127.0400390625,
+    "end_seconds": 1128.8800048828125,
+    "text": "I think that's the last thing I wanted to convey."
+  },
+  {
+    "segment_id": "youtube-0304",
+    "start_seconds": 1128.8800048828125,
+    "end_seconds": 1134.3199462890625,
+    "text": "But yeah, most of the people in this room will live kind of in the middle."
+  },
+  {
+    "segment_id": "youtube-0305",
+    "start_seconds": 1135.0400390625,
+    "end_seconds": 1140.1600341796875,
+    "text": "You have a task that is not quite narrow, but also not quite cursor."
+  },
+  {
+    "segment_id": "youtube-0306",
+    "start_seconds": 1140.6400146484375,
+    "end_seconds": 1146.8800048828125,
+    "text": "And you will be able to come up with some way to bake both the knowledge and the capabilities"
+  },
+  {
+    "segment_id": "youtube-0307",
+    "start_seconds": 1146.8800048828125,
+    "end_seconds": 1149.43994140625,
+    "text": "that you want to continually get better at into that model."
+  },
+  {
+    "segment_id": "youtube-0308",
+    "start_seconds": 1149.43994140625,
+    "end_seconds": 1155.199951171875,
+    "text": "You just need to be very smart about the ratio of SFT slash distillation to RL that you do."
+  },
+  {
+    "segment_id": "youtube-0309",
+    "start_seconds": 1155.199951171875,
+    "end_seconds": 1157.8399658203125,
+    "text": "I think that's the most important place to start thinking about this loop."
+  },
+  {
+    "segment_id": "youtube-0310",
+    "start_seconds": 1158.719970703125,
+    "end_seconds": 1163.52001953125,
+    "text": "And so technical teams, post-training teams, et cetera, that's the place to start looking"
+  },
+  {
+    "segment_id": "youtube-0311",
+    "start_seconds": 1163.52001953125,
+    "end_seconds": 1165.3599853515625,
+    "text": "and thinking about where on that spectrum you sit."
+  },
+  {
+    "segment_id": "youtube-0312",
+    "start_seconds": 1166.47998046875,
+    "end_seconds": 1167.1199951171875,
+    "text": "Cool."
+  },
+  {
+    "segment_id": "youtube-0313",
+    "start_seconds": 1167.1199951171875,
+    "end_seconds": 1167.6800537109375,
+    "text": "Thanks, guys."
+  }
+]

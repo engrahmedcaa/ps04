@@ -1,0 +1,3 @@
+# Article writing instructions
+
+Write for AI application developers at small teams. Develop the reviewed brief into a 600–900 word Substack article, excluding references. Make one distinct argument, give practical context, and explain what a reader should inspect or test. Keep article claims aligned with its companion script. Preserve claim IDs during drafting and resolve them to reader-usable source links and exact passages in the publication. Distinguish verified facts, source/vendor claims, and our interpretation. Describe uncertainty and a meaningful counterargument or limitation. Never fabricate sources, quotations, dates, benchmark results, compatibility, or causal conclusions. Do not call a tool production-ready based on a demo alone.

@@ -1,0 +1,16 @@
+{
+  "stage": "run",
+  "status": "failed",
+  "input_count": 0,
+  "output_count": 1,
+  "started_at": "2026-10-18T05:12:02.965Z",
+  "finished_at": "2026-10-18T05:18:32.552Z",
+  "tools_or_models": [
+    "Python standard library"
+  ],
+  "cost_usd": null,
+  "cost_estimate": false,
+  "errors": [
+    "AI/content stage failed: Brief 02 contains a text quote that does not exactly match feed:https://openai.com/index/stack-overflow-chatgpt-plugin"
+  ]
+}

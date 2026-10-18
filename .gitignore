@@ -1,0 +1,8 @@
+.env
+.env.*
+key.txt
+*.key
+__pycache__/
+*.py[cod]
+data/media/
+*.mp4

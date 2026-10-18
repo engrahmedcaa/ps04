@@ -1,0 +1,25 @@
+{
+  "stage": "run",
+  "status": "failed",
+  "input_count": 0,
+  "output_count": 1,
+  "started_at": "2026-10-18T03:17:36.149Z",
+  "finished_at": "2026-10-18T03:21:18.062Z",
+  "tools_or_models": [
+    "Python standard library"
+  ],
+  "cost_usd": null,
+  "cost_estimate": false,
+  "errors": [
+    "Extraction failed for feed:https://openai.com/index/stack-overflow-chatgpt-plugin (https://openai.com/index/stack-overflow-chatgpt-plugin): HTTPError: HTTP Error 403: Forbidden",
+    "Transcription failed for podcast:https://www.latent.space/p/dyna (https://api.substack.com/feed/podcast/220234130/4bb8b18059bcaca59f50b3f1f69eaf8f.mp3): RuntimeError: OPENAI_API_KEY is required for audio transcription",
+    "Transcription failed for podcast:https://www.latent.space/p/lab-in-the-loop-at-compute-speed (https://api.substack.com/feed/podcast/220316507/1d6b651c13311431fbd1537315902da6.mp3): RuntimeError: OPENAI_API_KEY is required for audio transcription",
+    "Transcription failed for podcast:https://share.transistor.fm/s/f2fcb677 (https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/f2fcb677/ee0419b3.mp3): RuntimeError: OPENAI_API_KEY is required for audio transcription",
+    "Transcription failed for podcast:https://share.transistor.fm/s/4f81adfa (https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/4f81adfa/85758bdc.mp3): RuntimeError: OPENAI_API_KEY is required for audio transcription",
+    "Transcription failed for youtube:Jh6mgf9M06M (https://www.youtube.com/watch?v=Jh6mgf9M06M): RuntimeError: OPENAI_API_KEY is required for audio transcription",
+    "Transcription failed for youtube:nSwmcs37Jd4 (https://www.youtube.com/watch?v=nSwmcs37Jd4): RuntimeError: OPENAI_API_KEY is required for audio transcription",
+    "Transcription failed for youtube:rduH9wnXto8 (https://www.youtube.com/watch?v=rduH9wnXto8): RuntimeError: OPENAI_API_KEY is required for audio transcription",
+    "Transcription failed for youtube:whnDiwcL4HE (https://www.youtube.com/watch?v=whnDiwcL4HE): RuntimeError: OPENAI_API_KEY is required for audio transcription",
+    "Evidence minimum not met: 8/12 eligible, 6/6 publishers, input counts {'feed': 6, 'youtube': 1, 'podcast': 1} (need at least two per kind). Not creating unsupported content."
+  ]
+}

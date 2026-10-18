@@ -1,0 +1,50 @@
+{
+  "run_id": "run-20261018T013504Z-696f",
+  "status": "failed",
+  "counts": {
+    "discovered": 3,
+    "extracted": 3,
+    "new": 0,
+    "changed": 0,
+    "unchanged": 3,
+    "eligible": 3,
+    "excluded": 0,
+    "accepted": 0,
+    "rejected": 0,
+    "deferred": 0,
+    "articles": 0,
+    "video_scripts": 0
+  },
+  "source_coverage": {
+    "by_kind": {
+      "feed": 1,
+      "youtube": 1,
+      "podcast": 1
+    },
+    "independent_publishers": [
+      "fictional-lab",
+      "fictional-practitioner",
+      "fictional-vendor"
+    ]
+  },
+  "failed_or_incomplete_stages": [
+    "Evidence minimum not met: 3/12 eligible, 3/6 publishers, input counts {'feed': 1, 'youtube': 1, 'podcast': 1} (need at least two per kind). Not creating unsupported content."
+  ],
+  "elapsed_seconds": 0.182011,
+  "tools_or_models": [
+    "Python standard library"
+  ],
+  "cost_usd": null,
+  "cost_note": "Unknown until a provider is configured and reports usage.",
+  "manual_actions": [
+    "Verify sources, claims, and independence",
+    "Inspect editorial decisions; revise policy",
+    "Complete human approval",
+    "Expand and edit drafts to assignment length",
+    "Render videos in Google Vids or HeyGen",
+    "Publish on Substack and YouTube",
+    "Record technical demonstration",
+    "Complete a second live run on another date"
+  ],
+  "publication_links": null
+}

@@ -1,0 +1,49 @@
+{
+  "run_id": "run-20261018T003647Z-ccf6",
+  "status": "failed",
+  "counts": {
+    "discovered": 3,
+    "extracted": 3,
+    "new": 3,
+    "changed": 0,
+    "unchanged": 0,
+    "eligible": 3,
+    "excluded": 0,
+    "accepted": 0,
+    "rejected": 0,
+    "deferred": 0,
+    "articles": 0,
+    "video_scripts": 0
+  },
+  "source_coverage": {
+    "by_kind": {
+      "feed": 1,
+      "youtube": 1,
+      "podcast": 1
+    },
+    "independent_publishers": [
+      "fictional-lab",
+      "fictional-vendor",
+      "fictional-practitioner"
+    ]
+  },
+  "failed_or_incomplete_stages": [
+    "Only 3 eligible items; cannot responsibly produce three source-grounded briefs."
+  ],
+  "elapsed_seconds": 0.137,
+  "tools_or_models": [
+    "Node.js built-ins"
+  ],
+  "cost_usd": null,
+  "cost_note": "Unknown until provider usage is configured and reported.",
+  "manual_actions": [
+    "Human source and claim verification",
+    "Human review and approval.json",
+    "Expand drafts to required lengths",
+    "Produce three videos using Google Vids or HeyGen",
+    "Publish three Substack articles and three YouTube videos",
+    "Record separate technical demonstration",
+    "Run a second live run on a different date"
+  ],
+  "publication_links": null
+}

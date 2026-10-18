@@ -1,0 +1,16 @@
+{
+  "stage": "run",
+  "status": "failed",
+  "input_count": 0,
+  "output_count": 1,
+  "started_at": "2026-10-18T00:37:39.151Z",
+  "finished_at": "2026-10-18T00:37:39.270Z",
+  "tools_or_models": [
+    "Node.js built-ins"
+  ],
+  "cost_usd": null,
+  "cost_estimate": false,
+  "errors": [
+    "Evidence minimum not met: 3/12 eligible items, 3/6 independent publishers, coverage {\"feed\":1,\"youtube\":1,\"podcast\":1} (need at least two of each input type)."
+  ]
+}
